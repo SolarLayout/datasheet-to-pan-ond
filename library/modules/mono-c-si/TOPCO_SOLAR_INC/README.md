@@ -1,0 +1,36 @@
+# TOPCO SOLAR INC - mono-c-si
+
+[Up](../README.md) - 30 files.
+
+| Model | Pnom W | Cells | Voc V | Isc A | Pmax %/K | Flags | Files |
+|---|---:|---|---:|---:|---:|---|---|
+| TPM6-NH120-355/M | 355 | 60 | 40.4 | 11.14 | -0.3335 |  | [PAN](TPM6-NH120-355_M.PAN) / [spec](TPM6-NH120-355_M.yaml) |
+| TPM6-NH120-360/M | 360 | 60 | 40.6 | 11.24 | -0.3335 |  | [PAN](TPM6-NH120-360_M.PAN) / [spec](TPM6-NH120-360_M.yaml) |
+| TPM6-NH120-365/M | 365 | 60 | 40.8 | 11.33 | -0.3335 |  | [PAN](TPM6-NH120-365_M.PAN) / [spec](TPM6-NH120-365_M.yaml) |
+| TPM6-NH120-370/M | 370 | 60 | 41 | 11.42 | -0.3335 |  | [PAN](TPM6-NH120-370_M.PAN) / [spec](TPM6-NH120-370_M.yaml) |
+| TPM6-NH120-375/M | 375 | 60 | 41.2 | 11.51 | -0.3335 |  | [PAN](TPM6-NH120-375_M.PAN) / [spec](TPM6-NH120-375_M.yaml) |
+| TPM7-SH108-390/M | 390 | 54 | 36.7 | 13.56 | -0.4016 |  | [PAN](TPM7-SH108-390_M.PAN) / [spec](TPM7-SH108-390_M.yaml) |
+| TP108H-395MB | 395 | 54 | 36.98 | 13.7 | -0.3526 |  | [PAN](TP108H-395MB.PAN) / [spec](TP108H-395MB.yaml) |
+| TP108H-400MB | 400 | 54 | 37.04 | 13.79 | -0.3526 |  | [PAN](TP108H-400MB.PAN) / [spec](TP108H-400MB.yaml) |
+| TPM7-SH108-400/M | 400 | 54 | 37.1 | 13.7 | -0.4016 |  | [PAN](TPM7-SH108-400_M.PAN) / [spec](TPM7-SH108-400_M.yaml) |
+| TP108H-405MB | 405 | 54 | 37.23 | 13.87 | -0.3526 |  | [PAN](TP108H-405MB.PAN) / [spec](TP108H-405MB.yaml) |
+| TPM7-SH108-405/M | 405 | 54 | 37.3 | 13.77 | -0.4016 |  | [PAN](TPM7-SH108-405_M.PAN) / [spec](TPM7-SH108-405_M.yaml) |
+| TP108H-410MB | 410 | 54 | 37.32 | 13.95 | -0.3526 |  | [PAN](TP108H-410MB.PAN) / [spec](TP108H-410MB.yaml) |
+| TPM7-SH108-410/M | 410 | 54 | 37.5 | 13.84 | -0.4016 |  | [PAN](TPM7-SH108-410_M.PAN) / [spec](TPM7-SH108-410_M.yaml) |
+| TPM6-NH144-430/M | 430 | 72 | 49.5 | 11.19 | -0.3317 |  | [PAN](TPM6-NH144-430_M.PAN) / [spec](TPM6-NH144-430_M.yaml) |
+| TP120H-435MB | 435 | 60 | 40.95 | 13.67 | -0.3526 |  | [PAN](TP120H-435MB.PAN) / [spec](TP120H-435MB.yaml) |
+| TPM6-NH144-435/M | 435 | 72 | 49.7 | 11.26 | -0.3317 |  | [PAN](TPM6-NH144-435_M.PAN) / [spec](TPM6-NH144-435_M.yaml) |
+| TP120H-440MB | 440 | 60 | 41.02 | 13.73 | -0.3526 |  | [PAN](TP120H-440MB.PAN) / [spec](TP120H-440MB.yaml) |
+| TPM6-NH144-440/M | 440 | 72 | 49.9 | 11.33 | -0.3317 |  | [PAN](TPM6-NH144-440_M.PAN) / [spec](TPM6-NH144-440_M.yaml) |
+| TP120H-445MB | 445 | 60 | 41.1 | 13.79 | -0.3526 |  | [PAN](TP120H-445MB.PAN) / [spec](TP120H-445MB.yaml) |
+| TPM6-NH144-445/M | 445 | 72 | 50.1 | 11.4 | -0.3317 |  | [PAN](TPM6-NH144-445_M.PAN) / [spec](TPM6-NH144-445_M.yaml) |
+| TP120H-450MB | 450 | 60 | 41.18 | 13.85 | -0.3526 |  | [PAN](TP120H-450MB.PAN) / [spec](TP120H-450MB.yaml) |
+| TPM6-NH144-450/M | 450 | 72 | 50.3 | 11.46 | -0.3317 |  | [PAN](TPM6-NH144-450_M.PAN) / [spec](TPM6-NH144-450_M.yaml) |
+| TP120H-455MB | 455 | 60 | 41.33 | 13.93 | -0.3526 |  | [PAN](TP120H-455MB.PAN) / [spec](TP120H-455MB.yaml) |
+| TPM7-SHDB144-520/M | 520 | 72 | 49 | 13.53 | -0.3197 |  | [PAN](TPM7-SHDB144-520_M.PAN) / [spec](TPM7-SHDB144-520_M.yaml) |
+| TPM7-SHDB144-525/M | 525 | 72 | 49.2 | 13.59 | -0.3197 |  | [PAN](TPM7-SHDB144-525_M.PAN) / [spec](TPM7-SHDB144-525_M.yaml) |
+| TPM7-SHDB144-530/M | 530 | 72 | 49.4 | 13.65 | -0.3197 |  | [PAN](TPM7-SHDB144-530_M.PAN) / [spec](TPM7-SHDB144-530_M.yaml) |
+| TPM7-SHDB144-535/M | 535 | 72 | 49.6 | 13.71 | -0.3197 |  | [PAN](TPM7-SHDB144-535_M.PAN) / [spec](TPM7-SHDB144-535_M.yaml) |
+| TPM7-SHDB144-540/M | 540 | 72 | 49.8 | 13.77 | -0.3197 |  | [PAN](TPM7-SHDB144-540_M.PAN) / [spec](TPM7-SHDB144-540_M.yaml) |
+| TPM7-SHDB144-545/M | 545 | 72 | 50 | 13.83 | -0.3197 |  | [PAN](TPM7-SHDB144-545_M.PAN) / [spec](TPM7-SHDB144-545_M.yaml) |
+| TPM7-SHDB144-550/M | 550 | 72 | 50.2 | 13.89 | -0.3197 |  | [PAN](TPM7-SHDB144-550_M.PAN) / [spec](TPM7-SHDB144-550_M.yaml) |

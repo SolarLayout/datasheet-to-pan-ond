@@ -1,0 +1,7 @@
+Name,Vac,Pso,Paco,Pdco,Vdco,C0,C1,C2,C3,Pnt,Vdcmax,Idcmax,Mppt_low,Mppt_high,CEC_Date,CEC_hybrid
+Units,V,W,W,W,V,1/W,1/V,1/V,1/V,W,V,A,V,V,,
+[0],inv_snl_ac_voltage,inv_snl_pso,inv_snl_paco,inv_snl_pdco,inv_snl_vdco,inv_snl_c0,inv_snl_c1,inv_snl_c2,inv_snl_c3,inv_snl_pnt,inv_snl_vdcmax,inv_snl_idcmax,inv_snl_mppt_low,inv_snl_mppt_hi,inv_cec_date,inv_cec_hybrid
+ABB: PVI-30-OUTD-S-US-A {208V},208,18.1674,3000,3142.3,310,-8.03947e-06,-1.10257e-05,0.000998581,-0.000287238,0.1,480.0,10.1365,100.0,480.0,2018-10-15,N
+SMA America: STP 20-US-50 {480V},480,75.5632,20000,20397,688,-2.89567e-07,-2.96292e-05,-0.00119914,-0.000510433,4.7,800.0,29.6468,350.0,800.0,2023-11-01,N
+SMA America: SB70-1SP-US-41 {240V},240,27.4872,7000,7259.79,365,-2.9657e-06,-2.57007e-05,0.00215599,0.000238822,5.1,480.0,19.8898,245.0,480.0,2020-01-21,N
+Guangzhou Sanjing Electric Co Ltd: H2-114K-LS4-US {208V},208,87.2927,9881,10201.6,380,-1.85632e-06,-3.99605e-05,0.000404971,-0.000733843,NaN,510.0,26.8463,190.0,510.0,NaN,Y

@@ -1,0 +1,72 @@
+# LOF SOLAR CORP - mono-c-si
+
+[Up](../README.md) - 66 files.
+
+| Model | Pnom W | Cells | Voc V | Isc A | Pmax %/K | Flags | Files |
+|---|---:|---|---:|---:|---:|---|---|
+| LOF-MG31-C285 | 285 | 60 | 39.35 | 9.78 | -0.427 |  | [PAN](LOF-MG31-C285.PAN) / [spec](LOF-MG31-C285.yaml) |
+| LOF-MG31-C290 | 290 | 60 | 39.5 | 9.85 | -0.427 |  | [PAN](LOF-MG31-C290.PAN) / [spec](LOF-MG31-C290.yaml) |
+| LOF-MG31-C295 | 295 | 60 | 39.65 | 9.91 | -0.427 |  | [PAN](LOF-MG31-C295.PAN) / [spec](LOF-MG31-C295.yaml) |
+| LOF-MG31-C300 | 300 | 60 | 39.8 | 9.98 | -0.427 |  | [PAN](LOF-MG31-C300.PAN) / [spec](LOF-MG31-C300.yaml) |
+| LOF-MG31-C305 | 305 | 60 | 39.95 | 10.04 | -0.427 |  | [PAN](LOF-MG31-C305.PAN) / [spec](LOF-MG31-C305.yaml) |
+| LOF-MG31-C310 | 310 | 60 | 40.1 | 10.11 | -0.427 |  | [PAN](LOF-MG31-C310.PAN) / [spec](LOF-MG31-C310.yaml) |
+| LOF-MG31-C315 | 315 | 60 | 40.25 | 10.18 | -0.427 |  | [PAN](LOF-MG31-C315.PAN) / [spec](LOF-MG31-C315.yaml) |
+| LOF-MG61-C315 | 315 | 66 | 43.2 | 9.64 | -0.427 |  | [PAN](LOF-MG61-C315.PAN) / [spec](LOF-MG61-C315.yaml) |
+| LOF-MG31-C320 | 320 | 60 | 40.4 | 10.25 | -0.427 |  | [PAN](LOF-MG31-C320.PAN) / [spec](LOF-MG31-C320.yaml) |
+| LOF-MG61-C320 | 320 | 66 | 43.4 | 9.71 | -0.427 |  | [PAN](LOF-MG61-C320.PAN) / [spec](LOF-MG61-C320.yaml) |
+| LOF-MG31-C325 | 325 | 60 | 40.55 | 10.32 | -0.427 |  | [PAN](LOF-MG31-C325.PAN) / [spec](LOF-MG31-C325.yaml) |
+| LOF-MG61-C325 | 325 | 66 | 43.6 | 9.78 | -0.427 |  | [PAN](LOF-MG61-C325.PAN) / [spec](LOF-MG61-C325.yaml) |
+| LOF-MG31-C330 | 330 | 60 | 40.7 | 10.39 | -0.427 |  | [PAN](LOF-MG31-C330.PAN) / [spec](LOF-MG31-C330.yaml) |
+| LOF-MG61-C330 | 330 | 66 | 43.8 | 9.85 | -0.427 |  | [PAN](LOF-MG61-C330.PAN) / [spec](LOF-MG61-C330.yaml) |
+| LOF-MH62-C330 | 330 | 60 | 39.5 | 10.47 | -0.397 |  | [PAN](LOF-MH62-C330.PAN) / [spec](LOF-MH62-C330.yaml) |
+| LOF-MH62-C335 | 335 | 60 | 39.65 | 10.56 | -0.397 |  | [PAN](LOF-MH62-C335.PAN) / [spec](LOF-MH62-C335.yaml) |
+| LOF-MG61-C340 | 340 | 66 | 44.2 | 10 | -0.427 |  | [PAN](LOF-MG61-C340.PAN) / [spec](LOF-MG61-C340.yaml) |
+| LOF-MH62-C340 | 340 | 60 | 39.8 | 10.65 | -0.397 |  | [PAN](LOF-MH62-C340.PAN) / [spec](LOF-MH62-C340.yaml) |
+| LOF-MG61-C345 | 345 | 66 | 44.4 | 10.07 | -0.427 |  | [PAN](LOF-MG61-C345.PAN) / [spec](LOF-MG61-C345.yaml) |
+| LOF-MG81-C345 | 345 | 72 | 47.2 | 9.62 | -0.427 |  | [PAN](LOF-MG81-C345.PAN) / [spec](LOF-MG81-C345.yaml) |
+| LOF-MH62-C345 | 345 | 60 | 39.95 | 10.74 | -0.397 |  | [PAN](LOF-MH62-C345.PAN) / [spec](LOF-MH62-C345.yaml) |
+| LOF-MG61-C350 | 350 | 66 | 44.6 | 10.13 | -0.427 |  | [PAN](LOF-MG61-C350.PAN) / [spec](LOF-MG61-C350.yaml) |
+| LOF-MG81-C350 | 350 | 72 | 47.4 | 9.7 | -0.427 |  | [PAN](LOF-MG81-C350.PAN) / [spec](LOF-MG81-C350.yaml) |
+| LOF-MH62-C350 | 350 | 60 | 40.1 | 10.83 | -0.397 |  | [PAN](LOF-MH62-C350.PAN) / [spec](LOF-MH62-C350.yaml) |
+| LOF-MG81-C355 | 355 | 72 | 47.6 | 9.78 | -0.427 |  | [PAN](LOF-MG81-C355.PAN) / [spec](LOF-MG81-C355.yaml) |
+| LOF-MH62-C355 | 355 | 60 | 40.25 | 10.92 | -0.397 |  | [PAN](LOF-MH62-C355.PAN) / [spec](LOF-MH62-C355.yaml) |
+| LOF-MG81-C360 | 360 | 72 | 47.8 | 9.85 | -0.427 |  | [PAN](LOF-MG81-C360.PAN) / [spec](LOF-MG81-C360.yaml) |
+| LOF-MH62-C360 | 360 | 60 | 40.4 | 11.01 | -0.397 |  | [PAN](LOF-MH62-C360.PAN) / [spec](LOF-MH62-C360.yaml) |
+| LOF-MH82-C360 | 360 | 66 | 43.4 | 10.36 | -0.397 |  | [PAN](LOF-MH82-C360.PAN) / [spec](LOF-MH82-C360.yaml) |
+| LOF-MG81-C365 | 365 | 72 | 48 | 9.93 | -0.427 |  | [PAN](LOF-MG81-C365.PAN) / [spec](LOF-MG81-C365.yaml) |
+| LOF-MH62-C365 | 365 | 60 | 40.55 | 11.1 | -0.397 |  | [PAN](LOF-MH62-C365.PAN) / [spec](LOF-MH62-C365.yaml) |
+| LOF-MH82-C365 | 365 | 66 | 43.55 | 10.45 | -0.397 |  | [PAN](LOF-MH82-C365.PAN) / [spec](LOF-MH82-C365.yaml) |
+| LOF-MG81-C370 | 370 | 72 | 48.2 | 10 | -0.427 |  | [PAN](LOF-MG81-C370.PAN) / [spec](LOF-MG81-C370.yaml) |
+| LOF-MH62-C370 | 370 | 60 | 40.7 | 11.19 | -0.397 |  | [PAN](LOF-MH62-C370.PAN) / [spec](LOF-MH62-C370.yaml) |
+| LOF-MH82-C370 | 370 | 66 | 43.7 | 10.54 | -0.397 |  | [PAN](LOF-MH82-C370.PAN) / [spec](LOF-MH82-C370.yaml) |
+| LOF-MG81-C375 | 375 | 72 | 48.4 | 10.08 | -0.427 |  | [PAN](LOF-MG81-C375.PAN) / [spec](LOF-MG81-C375.yaml) |
+| LOF-MH62-C375 | 375 | 60 | 40.85 | 11.28 | -0.397 |  | [PAN](LOF-MH62-C375.PAN) / [spec](LOF-MH62-C375.yaml) |
+| LOF-MH82-C375 | 375 | 66 | 43.85 | 10.63 | -0.397 |  | [PAN](LOF-MH82-C375.PAN) / [spec](LOF-MH82-C375.yaml) |
+| LOF-MG81-C380 | 380 | 72 | 48.6 | 10.14 | -0.427 |  | [PAN](LOF-MG81-C380.PAN) / [spec](LOF-MG81-C380.yaml) |
+| LOF-MH62-C380 | 380 | 60 | 41 | 11.37 | -0.397 |  | [PAN](LOF-MH62-C380.PAN) / [spec](LOF-MH62-C380.yaml) |
+| LOF-MH82-C380 | 380 | 66 | 44 | 10.72 | -0.397 |  | [PAN](LOF-MH82-C380.PAN) / [spec](LOF-MH82-C380.yaml) |
+| LOF-MG81-C385 | 385 | 72 | 48.8 | 10.2 | -0.427 |  | [PAN](LOF-MG81-C385.PAN) / [spec](LOF-MG81-C385.yaml) |
+| LOF-MH82-C385 | 385 | 66 | 44.15 | 10.81 | -0.397 |  | [PAN](LOF-MH82-C385.PAN) / [spec](LOF-MH82-C385.yaml) |
+| LOF-MG81-C390 | 390 | 72 | 49 | 10.27 | -0.427 |  | [PAN](LOF-MG81-C390.PAN) / [spec](LOF-MG81-C390.yaml) |
+| LOF-MH82-C390 | 390 | 66 | 44.3 | 10.9 | -0.397 |  | [PAN](LOF-MH82-C390.PAN) / [spec](LOF-MH82-C390.yaml) |
+| LOF-MG81-C395 | 395 | 72 | 49.2 | 10.34 | -0.427 |  | [PAN](LOF-MG81-C395.PAN) / [spec](LOF-MG81-C395.yaml) |
+| LOF-MH82-C395 | 395 | 66 | 44.45 | 10.99 | -0.397 |  | [PAN](LOF-MH82-C395.PAN) / [spec](LOF-MH82-C395.yaml) |
+| LOF-MG81-C400 | 400 | 72 | 49.4 | 10.41 | -0.427 |  | [PAN](LOF-MG81-C400.PAN) / [spec](LOF-MG81-C400.yaml) |
+| LOF-MH82-C400 | 400 | 66 | 44.6 | 11.08 | -0.397 |  | [PAN](LOF-MH82-C400.PAN) / [spec](LOF-MH82-C400.yaml) |
+| LOF-MH92-C400 | 400 | 72 | 48.24 | 10.28 | -0.397 |  | [PAN](LOF-MH92-C400.PAN) / [spec](LOF-MH92-C400.yaml) |
+| LOF-MH82-C405 | 405 | 66 | 44.75 | 11.17 | -0.397 |  | [PAN](LOF-MH82-C405.PAN) / [spec](LOF-MH82-C405.yaml) |
+| LOF-MH92-C405 | 405 | 72 | 48.29 | 10.32 | -0.397 |  | [PAN](LOF-MH92-C405.PAN) / [spec](LOF-MH92-C405.yaml) |
+| LOF-MH82-C410 | 410 | 66 | 44.9 | 11.26 | -0.397 |  | [PAN](LOF-MH82-C410.PAN) / [spec](LOF-MH82-C410.yaml) |
+| LOF-MH92-C410 | 410 | 72 | 48.32 | 10.45 | -0.397 |  | [PAN](LOF-MH92-C410.PAN) / [spec](LOF-MH92-C410.yaml) |
+| LOF-MH82-C415 | 415 | 66 | 45.05 | 11.35 | -0.397 |  | [PAN](LOF-MH82-C415.PAN) / [spec](LOF-MH82-C415.yaml) |
+| LOF-MH92-C415 | 415 | 72 | 48.35 | 10.64 | -0.397 |  | [PAN](LOF-MH92-C415.PAN) / [spec](LOF-MH92-C415.yaml) |
+| LOF-MH82-C420 | 420 | 66 | 45.2 | 11.44 | -0.397 |  | [PAN](LOF-MH82-C420.PAN) / [spec](LOF-MH82-C420.yaml) |
+| LOF-MH92-C420 | 420 | 72 | 48.39 | 10.81 | -0.397 |  | [PAN](LOF-MH92-C420.PAN) / [spec](LOF-MH92-C420.yaml) |
+| LOF-MH92-C425 | 425 | 72 | 48.45 | 10.84 | -0.397 |  | [PAN](LOF-MH92-C425.PAN) / [spec](LOF-MH92-C425.yaml) |
+| LOF-MH92-C430 | 430 | 72 | 48.6 | 10.91 | -0.397 |  | [PAN](LOF-MH92-C430.PAN) / [spec](LOF-MH92-C430.yaml) |
+| LOF-MH92-C435 | 435 | 72 | 48.75 | 11 | -0.397 |  | [PAN](LOF-MH92-C435.PAN) / [spec](LOF-MH92-C435.yaml) |
+| LOF-MH92-C440 | 440 | 72 | 48.9 | 11.09 | -0.397 |  | [PAN](LOF-MH92-C440.PAN) / [spec](LOF-MH92-C440.yaml) |
+| LOF-MH92-C445 | 445 | 72 | 49.05 | 11.18 | -0.397 |  | [PAN](LOF-MH92-C445.PAN) / [spec](LOF-MH92-C445.yaml) |
+| LOF-MH92-C450 | 450 | 72 | 49.2 | 11.27 | -0.397 |  | [PAN](LOF-MH92-C450.PAN) / [spec](LOF-MH92-C450.yaml) |
+| LOF-MH92-C455 | 455 | 72 | 49.35 | 11.36 | -0.397 |  | [PAN](LOF-MH92-C455.PAN) / [spec](LOF-MH92-C455.yaml) |
+| LOF-MH92-C460 | 460 | 72 | 49.5 | 11.45 | -0.397 |  | [PAN](LOF-MH92-C460.PAN) / [spec](LOF-MH92-C460.yaml) |

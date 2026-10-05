@@ -1,0 +1,94 @@
+# GoodWe Technologies Co Ltd - string
+
+[Up](../README.md) - 88 files.
+
+| Model | AC kW | V AC | Phases | MPPT V | V DC max | Euro % | CEC % | Flags | Files |
+|---|---:|---:|---|---|---:|---:|---:|---|---|
+| GEP50-1-US30 208V | 4.339 | 208 | three | 143-500 | 500 | 95.72 | 96.13 |  | [OND](GEP50-1-US30_208V.OND) / [spec](GEP50-1-US30_208V.yaml) |
+| GW5000-MS-US30 208V | 4.339 | 208 | three | 143-500 | 500 | 95.72 | 96.13 |  | [OND](GW5000-MS-US30_208V.OND) / [spec](GW5000-MS-US30_208V.yaml) |
+| GEP50-1-US30 240V | 4.968 | 240 | single | 165-500 | 500 | 96.10 | 96.57 |  | [OND](GEP50-1-US30_240V.OND) / [spec](GEP50-1-US30_240V.yaml) |
+| GW5000-MS-US30 240V | 4.968 | 240 | single | 165-500 | 500 | 96.10 | 96.57 |  | [OND](GW5000-MS-US30_240V.OND) / [spec](GW5000-MS-US30_240V.yaml) |
+| GEC50-1U-US20 240V | 4.983 | 240 | single | 105-495 | 495 | 95.73 | 96.00 |  | [OND](GEC50-1U-US20_240V.OND) / [spec](GEC50-1U-US20_240V.yaml) |
+| GW5000-SBP-US20 240V | 4.983 | 240 | single | 105-495 | 495 | 95.73 | 96.00 |  | [OND](GW5000-SBP-US20_240V.OND) / [spec](GW5000-SBP-US20_240V.yaml) |
+| GW5000H-ES 240V | 4.989 | 240 | single | 300-480 | 480 | 94.32 | 95.30 | hybrid | [OND](GW5000H-ES_240V.OND) / [spec](GW5000H-ES_240V.yaml) |
+| GEH50-1U-US20 240V | 5.005 | 240 | single | 235-500 | 500 | 96.90 | 97.21 | hybrid | [OND](GEH50-1U-US20_240V.OND) / [spec](GEH50-1U-US20_240V.yaml) |
+| GW5000-ES-US20 240V | 5.005 | 240 | single | 235-500 | 500 | 96.90 | 97.21 | hybrid | [OND](GW5000-ES-US20_240V.OND) / [spec](GW5000-ES-US20_240V.yaml) |
+| GEC50-1U-US10 240V | 5.031 | 240 | single | 200-495 | 495 | 95.98 | 96.50 |  | [OND](GEC50-1U-US10_240V.OND) / [spec](GEC50-1U-US10_240V.yaml) |
+| GW5000A-BP 240V | 5.031 | 240 | single | 200-495 | 495 | 95.98 | 96.50 |  | [OND](GW5000A-BP_240V.OND) / [spec](GW5000A-BP_240V.yaml) |
+| GEH50-1U-US10 240V | 5.067 | 240 | single | 300-480 | 480 | 96.97 | 97.32 | hybrid | [OND](GEH50-1U-US10_240V.OND) / [spec](GEH50-1U-US10_240V.yaml) |
+| GW5000A-ES 240V | 5.067 | 240 | single | 300-480 | 480 | 96.97 | 97.32 | hybrid | [OND](GW5000A-ES_240V.OND) / [spec](GW5000A-ES_240V.yaml) |
+| GW5000A-MS 240V | 5.067 | 240 | single | 300-480 | 480 | 96.97 | 97.32 |  | [OND](GW5000A-MS_240V.OND) / [spec](GW5000A-MS_240V.yaml) |
+| GW5000A-MS 208V | 5.133 | 208 | three | 300-480 | 480 | 96.67 | 96.97 |  | [OND](GW5000A-MS_208V.OND) / [spec](GW5000A-MS_208V.yaml) |
+| GEP60-1-US30 208V | 5.208 | 208 | three | 171-500 | 500 | 95.88 | 96.20 |  | [OND](GEP60-1-US30_208V.OND) / [spec](GEP60-1-US30_208V.yaml) |
+| GW6000-MS-US30 208V | 5.208 | 208 | three | 171-500 | 500 | 95.88 | 96.20 |  | [OND](GW6000-MS-US30_208V.OND) / [spec](GW6000-MS-US30_208V.yaml) |
+| GEH60-1U-US20 240V | 5.997 | 240 | single | 285-500 | 500 | 96.77 | 97.07 | hybrid | [OND](GEH60-1U-US20_240V.OND) / [spec](GEH60-1U-US20_240V.yaml) |
+| GW6000-ES-US20 240V | 5.997 | 240 | single | 285-500 | 500 | 96.77 | 97.07 | hybrid | [OND](GW6000-ES-US20_240V.OND) / [spec](GW6000-ES-US20_240V.yaml) |
+| GEP60-1-US30 240V | 5.998 | 240 | single | 198-500 | 500 | 96.46 | 96.74 |  | [OND](GEP60-1-US30_240V.OND) / [spec](GEP60-1-US30_240V.yaml) |
+| GW6000-MS-US30 240V | 5.998 | 240 | single | 198-500 | 500 | 96.46 | 96.74 |  | [OND](GW6000-MS-US30_240V.OND) / [spec](GW6000-MS-US30_240V.yaml) |
+| GEC60-1U-US20 240V | 6.010 | 240 | single | 125-495 | 495 | 95.82 | 96.03 |  | [OND](GEC60-1U-US20_240V.OND) / [spec](GEC60-1U-US20_240V.yaml) |
+| GW6000-SBP-US20 240V | 6.010 | 240 | single | 125-495 | 495 | 95.82 | 96.03 |  | [OND](GW6000-SBP-US20_240V.OND) / [spec](GW6000-SBP-US20_240V.yaml) |
+| GEC60-1U-US10 240V | 6.030 | 240 | single | 200-495 | 495 | 96.18 | 96.56 |  | [OND](GEC60-1U-US10_240V.OND) / [spec](GEC60-1U-US10_240V.yaml) |
+| GW6000A-BP 240V | 6.030 | 240 | single | 200-495 | 495 | 96.18 | 96.56 |  | [OND](GW6000A-BP_240V.OND) / [spec](GW6000A-BP_240V.yaml) |
+| GEH60-1U-US10 240V | 6.109 | 240 | single | 360-480 | 480 | 97.13 | 97.37 | hybrid | [OND](GEH60-1U-US10_240V.OND) / [spec](GEH60-1U-US10_240V.yaml) |
+| GW6000A-ES 240V | 6.109 | 240 | single | 360-480 | 480 | 97.13 | 97.37 | hybrid | [OND](GW6000A-ES_240V.OND) / [spec](GW6000A-ES_240V.yaml) |
+| GW6000A-MS 240V | 6.109 | 240 | single | 360-480 | 480 | 97.13 | 97.37 |  | [OND](GW6000A-MS_240V.OND) / [spec](GW6000A-MS_240V.yaml) |
+| GW6000A-MS 208V | 6.138 | 208 | three | 360-480 | 480 | 96.81 | 97.00 |  | [OND](GW6000A-MS_208V.OND) / [spec](GW6000A-MS_208V.yaml) |
+| GEP76-1-US30 208V | 6.589 | 208 | three | 217-500 | 500 | 96.21 | 96.41 |  | [OND](GEP76-1-US30_208V.OND) / [spec](GEP76-1-US30_208V.yaml) |
+| GW7600-MS-US30 208V | 6.589 | 208 | three | 217-500 | 500 | 96.21 | 96.41 |  | [OND](GW7600-MS-US30_208V.OND) / [spec](GW7600-MS-US30_208V.yaml) |
+| GEP77-1-US30 208V | 6.630 | 208 | three | 150-500 | 500 | 96.76 | 96.82 |  | [OND](GEP77-1-US30_208V.OND) / [spec](GEP77-1-US30_208V.yaml) |
+| GW7700-MS-US30 208V | 6.630 | 208 | three | 150-500 | 500 | 96.76 | 96.82 |  | [OND](GW7700-MS-US30_208V.OND) / [spec](GW7700-MS-US30_208V.yaml) |
+| GW7000A-MS 208V | 7.007 | 208 | three | 210-480 | 480 | 96.62 | 96.80 |  | [OND](GW7000A-MS_208V.OND) / [spec](GW7000A-MS_208V.yaml) |
+| GEH70-1U-US10 240V | 7.057 | 240 | single | 210-480 | 480 | 97.00 | 97.24 | hybrid | [OND](GEH70-1U-US10_240V.OND) / [spec](GEH70-1U-US10_240V.yaml) |
+| GW7000A-ES 240V | 7.057 | 240 | single | 210-480 | 480 | 97.00 | 97.24 | hybrid | [OND](GW7000A-ES_240V.OND) / [spec](GW7000A-ES_240V.yaml) |
+| GW7000A-MS 240V | 7.057 | 240 | single | 210-480 | 480 | 97.00 | 97.24 |  | [OND](GW7000A-MS_240V.OND) / [spec](GW7000A-MS_240V.yaml) |
+| GEC70-1U-US10 240V | 7.059 | 240 | single | 200-495 | 495 | 96.22 | 96.53 |  | [OND](GEC70-1U-US10_240V.OND) / [spec](GEC70-1U-US10_240V.yaml) |
+| GW7000A-BP 240V | 7.059 | 240 | single | 200-495 | 495 | 96.22 | 96.53 |  | [OND](GW7000A-BP_240V.OND) / [spec](GW7000A-BP_240V.yaml) |
+| GEC76-1U-US20 240V | 7.585 | 240 | single | 158-495 | 495 | 95.74 | 95.99 |  | [OND](GEC76-1U-US20_240V.OND) / [spec](GEC76-1U-US20_240V.yaml) |
+| GW7600-SBP-US20 240V | 7.585 | 240 | single | 158-495 | 495 | 95.74 | 95.99 |  | [OND](GW7600-SBP-US20_240V.OND) / [spec](GW7600-SBP-US20_240V.yaml) |
+| GEH76-1U-US20 240V | 7.588 | 240 | single | 180-500 | 500 | 96.93 | 97.12 | hybrid | [OND](GEH76-1U-US20_240V.OND) / [spec](GEH76-1U-US20_240V.yaml) |
+| GW7600-ES-US20 240V | 7.588 | 240 | single | 180-500 | 500 | 96.93 | 97.12 | hybrid | [OND](GW7600-ES-US20_240V.OND) / [spec](GW7600-ES-US20_240V.yaml) |
+| GEP76-1-US30 240V | 7.589 | 240 | single | 250-500 | 500 | 96.60 | 96.77 |  | [OND](GEP76-1-US30_240V.OND) / [spec](GEP76-1-US30_240V.yaml) |
+| GW7600-MS-US30 240V | 7.589 | 240 | single | 250-500 | 500 | 96.60 | 96.77 |  | [OND](GW7600-MS-US30_240V.OND) / [spec](GW7600-MS-US30_240V.yaml) |
+| GW7600A-MS 208V | 7.610 | 208 | three | 230-480 | 480 | 96.64 | 96.78 |  | [OND](GW7600A-MS_208V.OND) / [spec](GW7600A-MS_208V.yaml) |
+| GEH76-1U-US10 240V | 7.644 | 240 | single | 230-480 | 480 | 97.03 | 97.22 | hybrid | [OND](GEH76-1U-US10_240V.OND) / [spec](GEH76-1U-US10_240V.yaml) |
+| GW7600A-ES 240V | 7.644 | 240 | single | 230-480 | 480 | 97.03 | 97.22 | hybrid | [OND](GW7600A-ES_240V.OND) / [spec](GW7600A-ES_240V.yaml) |
+| GW7600A-MS 240V | 7.644 | 240 | single | 230-480 | 480 | 97.03 | 97.22 |  | [OND](GW7600A-MS_240V.OND) / [spec](GW7600A-MS_240V.yaml) |
+| GEC76-1U-US10 240V | 7.648 | 240 | single | 200-495 | 495 | 96.21 | 96.47 |  | [OND](GEC76-1U-US10_240V.OND) / [spec](GEC76-1U-US10_240V.yaml) |
+| GW7600A-BP 240V | 7.648 | 240 | single | 200-495 | 495 | 96.21 | 96.47 |  | [OND](GW7600A-BP_240V.OND) / [spec](GW7600A-BP_240V.yaml) |
+| GEP77-1-US30 240V | 7.678 | 240 | single | 170-500 | 500 | 96.86 | 97.06 |  | [OND](GEP77-1-US30_240V.OND) / [spec](GEP77-1-US30_240V.yaml) |
+| GW7700-MS-US30 240V | 7.678 | 240 | single | 170-500 | 500 | 96.86 | 97.06 |  | [OND](GW7700-MS-US30_240V.OND) / [spec](GW7700-MS-US30_240V.yaml) |
+| GEP96-1-US30 208V | 8.301 | 208 | three | 182-500 | 500 | 96.14 | 96.43 |  | [OND](GEP96-1-US30_208V.OND) / [spec](GEP96-1-US30_208V.yaml) |
+| GW9600-MS-US30 208V | 8.301 | 208 | three | 182-500 | 500 | 96.14 | 96.43 |  | [OND](GW9600-MS-US30_208V.OND) / [spec](GW9600-MS-US30_208V.yaml) |
+| GW8600A-MS 208V | 8.612 | 208 | three | 260-480 | 480 | 96.64 | 96.72 |  | [OND](GW8600A-MS_208V.OND) / [spec](GW8600A-MS_208V.yaml) |
+| GEH86-1U-US10 240V | 8.614 | 240 | single | 260-480 | 480 | 97.05 | 97.18 | hybrid | [OND](GEH86-1U-US10_240V.OND) / [spec](GEH86-1U-US10_240V.yaml) |
+| GW8600A-ES 240V | 8.614 | 240 | single | 260-480 | 480 | 97.05 | 97.18 | hybrid | [OND](GW8600A-ES_240V.OND) / [spec](GW8600A-ES_240V.yaml) |
+| GW8600A-MS 240V | 8.614 | 240 | single | 260-480 | 480 | 97.05 | 97.18 |  | [OND](GW8600A-MS_240V.OND) / [spec](GW8600A-MS_240V.yaml) |
+| GEC86-1U-US10 240V | 8.680 | 240 | single | 200-495 | 495 | 96.31 | 96.49 |  | [OND](GEC86-1U-US10_240V.OND) / [spec](GEC86-1U-US10_240V.yaml) |
+| GW8600A-BP 240V | 8.680 | 240 | single | 200-495 | 495 | 96.31 | 96.49 |  | [OND](GW8600A-BP_240V.OND) / [spec](GW8600A-BP_240V.yaml) |
+| GEP96-1-US30 240V | 9.566 | 240 | single | 210-500 | 500 | 96.76 | 96.99 |  | [OND](GEP96-1-US30_240V.OND) / [spec](GEP96-1-US30_240V.yaml) |
+| GW9600-MS-US30 240V | 9.566 | 240 | single | 210-500 | 500 | 96.76 | 96.99 |  | [OND](GW9600-MS-US30_240V.OND) / [spec](GW9600-MS-US30_240V.yaml) |
+| GEH96-1U-US20 240V | 9.586 | 240 | single | 225-500 | 500 | 96.94 | 97.07 | hybrid | [OND](GEH96-1U-US20_240V.OND) / [spec](GEH96-1U-US20_240V.yaml) |
+| GW9600-ES-US20 240V | 9.586 | 240 | single | 225-500 | 500 | 96.94 | 97.07 | hybrid | [OND](GW9600-ES-US20_240V.OND) / [spec](GW9600-ES-US20_240V.yaml) |
+| GEC96-1U-US20 240V | 9.603 | 240 | single | 200-495 | 495 | 95.84 | 96.10 |  | [OND](GEC96-1U-US20_240V.OND) / [spec](GEC96-1U-US20_240V.yaml) |
+| GW9600-SBP-US20 240V | 9.603 | 240 | single | 200-495 | 495 | 95.84 | 96.10 |  | [OND](GW9600-SBP-US20_240V.OND) / [spec](GW9600-SBP-US20_240V.yaml) |
+| GEC96-1U-US10 240V | 9.616 | 240 | single | 200-495 | 495 | 96.29 | 96.43 |  | [OND](GEC96-1U-US10_240V.OND) / [spec](GEC96-1U-US10_240V.yaml) |
+| GW9600A-BP 240V | 9.616 | 240 | single | 200-495 | 495 | 96.29 | 96.43 |  | [OND](GW9600A-BP_240V.OND) / [spec](GW9600A-BP_240V.yaml) |
+| GEH96-1U-US10 240V | 9.628 | 240 | single | 300-480 | 480 | 97.07 | 97.14 | hybrid | [OND](GEH96-1U-US10_240V.OND) / [spec](GEH96-1U-US10_240V.yaml) |
+| GW9600A-ES 240V | 9.628 | 240 | single | 300-480 | 480 | 97.07 | 97.14 | hybrid | [OND](GW9600A-ES_240V.OND) / [spec](GW9600A-ES_240V.yaml) |
+| GW9600A-MS 208V | 9.628 | 208 | three | 300-480 | 480 | 96.61 | 96.63 |  | [OND](GW9600A-MS_208V.OND) / [spec](GW9600A-MS_208V.yaml) |
+| GW9600A-MS 240V | 9.628 | 240 | single | 300-480 | 480 | 97.07 | 97.14 |  | [OND](GW9600A-MS_240V.OND) / [spec](GW9600A-MS_240V.yaml) |
+| GW9600H-ES 240V | 9.628 | 240 | single | 300-480 | 480 | 95.15 | 95.45 | hybrid | [OND](GW9600H-ES_240V.OND) / [spec](GW9600H-ES_240V.yaml) |
+| GEP114-1-US30 208V | 9.881 | 208 | three | 217-500 | 500 | 96.28 | 96.42 |  | [OND](GEP114-1-US30_208V.OND) / [spec](GEP114-1-US30_208V.yaml) |
+| GW11K4-MS-US30 208V | 9.881 | 208 | three | 217-500 | 500 | 96.28 | 96.42 |  | [OND](GW11K4-MS-US30_208V.OND) / [spec](GW11K4-MS-US30_208V.yaml) |
+| GEH114-1U-US20 240V | 11.379 | 240 | single | 270-500 | 500 | 96.93 | 97.03 | hybrid | [OND](GEH114-1U-US20_240V.OND) / [spec](GEH114-1U-US20_240V.yaml) |
+| GW11K4-ES-US20 240V | 11.379 | 240 | single | 270-500 | 500 | 96.93 | 97.03 | hybrid | [OND](GW11K4-ES-US20_240V.OND) / [spec](GW11K4-ES-US20_240V.yaml) |
+| GEC114-1U-US20 240V | 11.392 | 240 | single | 235-495 | 495 | 95.84 | 96.01 |  | [OND](GEC114-1U-US20_240V.OND) / [spec](GEC114-1U-US20_240V.yaml) |
+| GW11K4-SBP-US20 240V | 11.392 | 240 | single | 235-495 | 495 | 95.84 | 96.01 |  | [OND](GW11K4-SBP-US20_240V.OND) / [spec](GW11K4-SBP-US20_240V.yaml) |
+| GEP114-1-US30 240V | 11.397 | 240 | single | 250-500 | 500 | 96.71 | 96.94 |  | [OND](GEP114-1-US30_240V.OND) / [spec](GEP114-1-US30_240V.yaml) |
+| GW11K4-MS-US30 240V | 11.397 | 240 | single | 250-500 | 500 | 96.71 | 96.94 |  | [OND](GW11K4-MS-US30_240V.OND) / [spec](GW11K4-MS-US30_240V.yaml) |
+| GW22KLV-SMT-US 208V | 22.159 | 208 | three | 350-750 | 750 | 96.57 | 96.67 |  | [OND](GW22KLV-SMT-US_208V.OND) / [spec](GW22KLV-SMT-US_208V.yaml) |
+| GW22KLV-SMT-US 240V | 25.002 | 240 | single | 350-750 | 750 | 96.58 | 96.71 |  | [OND](GW22KLV-SMT-US_240V.OND) / [spec](GW22KLV-SMT-US_240V.yaml) |
+| GW28KLV-SMT-US 208V | 28.187 | 208 | three | 350-750 | 750 | 96.94 | 97.04 |  | [OND](GW28KLV-SMT-US_208V.OND) / [spec](GW28KLV-SMT-US_208V.yaml) |
+| GW28KLV-SMT-US 240V | 32.145 | 240 | single | 350-750 | 750 | 96.92 | 96.98 |  | [OND](GW28KLV-SMT-US_240V.OND) / [spec](GW28KLV-SMT-US_240V.yaml) |
+| GW50K-SMT-US 480V | 51.252 | 480 | three | 550-850 | 850 | 97.97 | 98.20 |  | [OND](GW50K-SMT-US_480V.OND) / [spec](GW50K-SMT-US_480V.yaml) |
+| GW60K-SMT-US 480V | 61.469 | 480 | three | 550-850 | 850 | 98.07 | 98.22 |  | [OND](GW60K-SMT-US_480V.OND) / [spec](GW60K-SMT-US_480V.yaml) |

@@ -1,0 +1,27 @@
+# WYONE TRADING INC - mono-c-si
+
+[Up](../README.md) - 21 files.
+
+| Model | Pnom W | Cells | Voc V | Isc A | Pmax %/K | Flags | Files |
+|---|---:|---|---:|---:|---:|---|---|
+| SM355-M660NH-BB | 355 | 60 | 40.4 | 11.14 | -0.3335 |  | [PAN](SM355-M660NH-BB.PAN) / [spec](SM355-M660NH-BB.yaml) |
+| SM360-M660NH-BB | 360 | 60 | 40.6 | 11.24 | -0.3335 |  | [PAN](SM360-M660NH-BB.PAN) / [spec](SM360-M660NH-BB.yaml) |
+| SM365-M660NH-BB | 365 | 60 | 40.8 | 11.33 | -0.3335 |  | [PAN](SM365-M660NH-BB.PAN) / [spec](SM365-M660NH-BB.yaml) |
+| SM370-M660NH-BB | 370 | 60 | 41 | 11.42 | -0.3335 |  | [PAN](SM370-M660NH-BB.PAN) / [spec](SM370-M660NH-BB.yaml) |
+| SM375-M660NH-BB | 375 | 60 | 41.2 | 11.51 | -0.3335 |  | [PAN](SM375-M660NH-BB.PAN) / [spec](SM375-M660NH-BB.yaml) |
+| SM390-M754SH-BB | 390 | 54 | 36.7 | 13.56 | -0.4016 |  | [PAN](SM390-M754SH-BB.PAN) / [spec](SM390-M754SH-BB.yaml) |
+| SM400-M754SH-BB | 400 | 54 | 37.1 | 13.7 | -0.4016 |  | [PAN](SM400-M754SH-BB.PAN) / [spec](SM400-M754SH-BB.yaml) |
+| SM405-M754SH-BB | 405 | 54 | 37.3 | 13.77 | -0.4016 |  | [PAN](SM405-M754SH-BB.PAN) / [spec](SM405-M754SH-BB.yaml) |
+| SM410-M754SH-BB | 410 | 54 | 37.5 | 13.84 | -0.4016 |  | [PAN](SM410-M754SH-BB.PAN) / [spec](SM410-M754SH-BB.yaml) |
+| SM430-M672NH-WB | 430 | 72 | 49.5 | 11.19 | -0.3317 |  | [PAN](SM430-M672NH-WB.PAN) / [spec](SM430-M672NH-WB.yaml) |
+| SM435-M672NH-WB | 435 | 72 | 49.7 | 11.26 | -0.3317 |  | [PAN](SM435-M672NH-WB.PAN) / [spec](SM435-M672NH-WB.yaml) |
+| SM440-M672NH-WB | 440 | 72 | 49.9 | 11.33 | -0.3317 |  | [PAN](SM440-M672NH-WB.PAN) / [spec](SM440-M672NH-WB.yaml) |
+| SM445-M672NH-WB | 445 | 72 | 50.1 | 11.4 | -0.3317 |  | [PAN](SM445-M672NH-WB.PAN) / [spec](SM445-M672NH-WB.yaml) |
+| SM450-M672NH-WB | 450 | 72 | 50.3 | 11.46 | -0.3317 |  | [PAN](SM450-M672NH-WB.PAN) / [spec](SM450-M672NH-WB.yaml) |
+| SM520-M772SH-TB | 520 | 72 | 49 | 13.53 | -0.3197 |  | [PAN](SM520-M772SH-TB.PAN) / [spec](SM520-M772SH-TB.yaml) |
+| SM525-M772SH-TB | 525 | 72 | 49.2 | 13.59 | -0.3197 |  | [PAN](SM525-M772SH-TB.PAN) / [spec](SM525-M772SH-TB.yaml) |
+| SM530-M772SH-TB | 530 | 72 | 49.4 | 13.65 | -0.3197 |  | [PAN](SM530-M772SH-TB.PAN) / [spec](SM530-M772SH-TB.yaml) |
+| SM535-M772SH-TB | 535 | 72 | 49.6 | 13.71 | -0.3197 |  | [PAN](SM535-M772SH-TB.PAN) / [spec](SM535-M772SH-TB.yaml) |
+| SM540-M772SH-TB | 540 | 72 | 49.8 | 13.77 | -0.3197 |  | [PAN](SM540-M772SH-TB.PAN) / [spec](SM540-M772SH-TB.yaml) |
+| SM545-M772SH-TB | 545 | 72 | 50 | 13.83 | -0.3197 |  | [PAN](SM545-M772SH-TB.PAN) / [spec](SM545-M772SH-TB.yaml) |
+| SM550-M772SH-TB | 550 | 72 | 50.2 | 13.89 | -0.3197 |  | [PAN](SM550-M772SH-TB.PAN) / [spec](SM550-M772SH-TB.yaml) |

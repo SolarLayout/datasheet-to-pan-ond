@@ -1,0 +1,83 @@
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+wheels/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# Virtual environments (uv creates .venv; uv.lock IS committed)
+.venv/
+venv/
+env/
+ENV/
+
+# ---------------------------------------------------------------------------
+# Test, lint and type-check caches / reports
+# ---------------------------------------------------------------------------
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+*.cover
+
+# ---------------------------------------------------------------------------
+# Project-specific
+# ---------------------------------------------------------------------------
+# Scratch output from ad-hoc CLI runs (the curated library lives in library/)
+out/
+specs/
+
+# Resumable build state of the generated library (not part of the library)
+library/.build/
+
+# Interrupted atomic writes
+*.tmp
+*.part
+
+# Local data / downloads (CEC CSVs are cached in ~/.cache, not in the repo)
+*.csv.gz
+/data/
+!tests/data/
+
+# Secrets / local config
+.env
+.env.*
+!.env.example
+
+# ---------------------------------------------------------------------------
+# OS and editors
+# ---------------------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*~
+*.swp
+*.swo
+.idea/
+.vscode/
+*.code-workspace
+.ipynb_checkpoints/

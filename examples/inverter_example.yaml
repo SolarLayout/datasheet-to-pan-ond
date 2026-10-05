@@ -1,0 +1,47 @@
+# Example string inverter datasheet (fictional manufacturer, realistic values).
+manufacturer: Example Power
+model: EXP-100K-HV
+data_source: Manufacturer datasheet rev. B
+year: 2026
+
+p_nom_ac_kw: 100
+p_max_ac_kw: 110
+v_ac: 400
+phases: three
+power_factor_min: 0.8
+transformer: false
+
+p_max_dc_kw: 150
+v_mpp_min: 200
+v_mpp_max: 1000
+v_dc_max: 1100
+i_max_dc: 300        # total over all MPPTs
+n_mppt: 10
+n_inputs: 20
+
+eff_max_pct: 98.8
+eff_euro_pct: 98.5
+eff_cec_pct: 98.6
+
+# Optional: efficiency at three DC voltages (min / nominal / max), when the
+# datasheet shows efficiency curves per voltage.
+efficiency_by_voltage:
+  - {v_dc: 450, eff_max_pct: 98.6, eff_euro_pct: 98.2}
+  - {v_dc: 600, eff_max_pct: 98.8, eff_euro_pct: 98.5}
+  - {v_dc: 850, eff_max_pct: 98.7, eff_euro_pct: 98.3}
+
+night_loss_w: 2.0
+
+temperature_derating:
+  t_p_nom_c: 45
+  t_p_max_c: 40
+  t_lim1_c: 50
+  p_lim1_kw: 90
+  t_lim_abs_c: 60
+  p_lim_abs_kw: 0
+
+dimensions:
+  width_m: 1.035
+  height_m: 0.700
+  depth_m: 0.365
+  weight_kg: 84.0

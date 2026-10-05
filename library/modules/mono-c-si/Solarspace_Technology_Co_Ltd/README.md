@@ -1,0 +1,72 @@
+# Solarspace Technology Co Ltd - mono-c-si
+
+[Up](../README.md) - 66 files.
+
+| Model | Pnom W | Cells | Voc V | Isc A | Pmax %/K | Flags | Files |
+|---|---:|---|---:|---:|---:|---|---|
+| SS8-54HSB-395M | 395 | 54 | 36.98 | 13.7 | -0.32 |  | [PAN](SS8-54HSB-395M.PAN) / [spec](SS8-54HSB-395M.yaml) |
+| SS8-54HSB-400M | 400 | 54 | 37.07 | 13.79 | -0.32 |  | [PAN](SS8-54HSB-400M.PAN) / [spec](SS8-54HSB-400M.yaml) |
+| SS8-54HSB-405M | 405 | 54 | 37.23 | 13.87 | -0.32 |  | [PAN](SS8-54HSB-405M.PAN) / [spec](SS8-54HSB-405M.yaml) |
+| SS8-54HDB-415N | 415 | 54 | 37.7 | 13.91 | -0.288 |  | [PAN](SS8-54HDB-415N.PAN) / [spec](SS8-54HDB-415N.yaml) |
+| SS8-54HDB-420N | 420 | 54 | 37.89 | 13.99 | -0.288 |  | [PAN](SS8-54HDB-420N.PAN) / [spec](SS8-54HDB-420N.yaml) |
+| SS8-54HDB-425N | 425 | 54 | 38.08 | 14.07 | -0.288 |  | [PAN](SS8-54HDB-425N.PAN) / [spec](SS8-54HDB-425N.yaml) |
+| SS8-54HDB-430N | 430 | 54 | 38.27 | 14.13 | -0.288 |  | [PAN](SS8-54HDB-430N.PAN) / [spec](SS8-54HDB-430N.yaml) |
+| SS8-54HDB-435N | 435 | 54 | 38.46 | 14.21 | -0.288 |  | [PAN](SS8-54HDB-435N.PAN) / [spec](SS8-54HDB-435N.yaml) |
+| SS8-54HDB-440N | 440 | 54 | 38.65 | 14.29 | -0.288 |  | [PAN](SS8-54HDB-440N.PAN) / [spec](SS8-54HDB-440N.yaml) |
+| SS8-54HDB-445N | 445 | 54 | 38.84 | 14.37 | -0.288 |  | [PAN](SS8-54HDB-445N.PAN) / [spec](SS8-54HDB-445N.yaml) |
+| SS8-54HDB-450N | 450 | 54 | 39.03 | 14.45 | -0.288 |  | [PAN](SS8-54HDB-450N.PAN) / [spec](SS8-54HDB-450N.yaml) |
+| SS8-60HD-470N | 470 | 60 | 42.35 | 14.16 | -0.275 |  | [PAN](SS8-60HD-470N.PAN) / [spec](SS8-60HD-470N.yaml) |
+| SS8-60HD-475N | 475 | 60 | 42.51 | 14.24 | -0.275 |  | [PAN](SS8-60HD-475N.PAN) / [spec](SS8-60HD-475N.yaml) |
+| SS8-60HD-480N | 480 | 60 | 42.68 | 14.32 | -0.275 |  | [PAN](SS8-60HD-480N.PAN) / [spec](SS8-60HD-480N.yaml) |
+| SS8-60HD-485N | 485 | 60 | 42.85 | 14.4 | -0.275 |  | [PAN](SS8-60HD-485N.PAN) / [spec](SS8-60HD-485N.yaml) |
+| SS8-72HD-525M | 525 | 72 | 49.14 | 13.64 | -0.329 |  | [PAN](SS8-72HD-525M.PAN) / [spec](SS8-72HD-525M.yaml) |
+| SS8-72HD-530M | 530 | 72 | 49.31 | 13.73 | -0.329 |  | [PAN](SS8-72HD-530M.PAN) / [spec](SS8-72HD-530M.yaml) |
+| SS8-72HD-535M | 535 | 72 | 49.44 | 13.78 | -0.329 |  | [PAN](SS8-72HD-535M.PAN) / [spec](SS8-72HD-535M.yaml) |
+| SS8-72HD-540M | 540 | 72 | 49.61 | 13.85 | -0.329 |  | [PAN](SS8-72HD-540M.PAN) / [spec](SS8-72HD-540M.yaml) |
+| SS8-72HD-545M | 545 | 72 | 49.76 | 13.92 | -0.329 |  | [PAN](SS8-72HD-545M.PAN) / [spec](SS8-72HD-545M.yaml) |
+| SS8-72HD-550M | 550 | 72 | 49.91 | 14.02 | -0.329 |  | [PAN](SS8-72HD-550M.PAN) / [spec](SS8-72HD-550M.yaml) |
+| SS8-72HD-555M | 555 | 72 | 50.03 | 14.07 | -0.329 |  | [PAN](SS8-72HD-555M.PAN) / [spec](SS8-72HD-555M.yaml) |
+| SS8-72HD-555N | 555 | 72 | 50.48 | 14.06 | -0.293 |  | [PAN](SS8-72HD-555N.PAN) / [spec](SS8-72HD-555N.yaml) |
+| SH8-72HD-560N | 560 | 72 | 53.01 | 13.51 | -0.3271 |  | [PAN](SH8-72HD-560N.PAN) / [spec](SH8-72HD-560N.yaml) |
+| SS8-72HD-560N | 560 | 72 | 50.68 | 14.12 | -0.293 |  | [PAN](SS8-72HD-560N.PAN) / [spec](SS8-72HD-560N.yaml) |
+| SH8-72HD-565N | 565 | 72 | 53.28 | 13.56 | -0.3271 |  | [PAN](SH8-72HD-565N.PAN) / [spec](SH8-72HD-565N.yaml) |
+| SS8-72HD-565N | 565 | 72 | 50.88 | 14.18 | -0.293 |  | [PAN](SS8-72HD-565N.PAN) / [spec](SS8-72HD-565N.yaml) |
+| SH8-72HD-570N | 570 | 72 | 53.55 | 13.61 | -0.3271 |  | [PAN](SH8-72HD-570N.PAN) / [spec](SH8-72HD-570N.yaml) |
+| SS8-72HD-570N | 570 | 72 | 51.08 | 14.24 | -0.293 |  | [PAN](SS8-72HD-570N.PAN) / [spec](SS8-72HD-570N.yaml) |
+| SH8-72HD-575N | 575 | 72 | 53.82 | 13.66 | -0.3271 |  | [PAN](SH8-72HD-575N.PAN) / [spec](SH8-72HD-575N.yaml) |
+| SS8-72HD-575N | 575 | 72 | 51.28 | 14.3 | -0.293 |  | [PAN](SS8-72HD-575N.PAN) / [spec](SS8-72HD-575N.yaml) |
+| SH8-72HD-580N | 580 | 72 | 54.09 | 13.71 | -0.3271 |  | [PAN](SH8-72HD-580N.PAN) / [spec](SH8-72HD-580N.yaml) |
+| SS8-72HD-580N | 580 | 72 | 51.48 | 14.36 | -0.293 |  | [PAN](SS8-72HD-580N.PAN) / [spec](SS8-72HD-580N.yaml) |
+| SH8-72HD-585N | 585 | 72 | 54.36 | 13.76 | -0.3271 |  | [PAN](SH8-72HD-585N.PAN) / [spec](SH8-72HD-585N.yaml) |
+| SS8-72HD-585N | 585 | 72 | 51.68 | 14.42 | -0.293 |  | [PAN](SS8-72HD-585N.PAN) / [spec](SS8-72HD-585N.yaml) |
+| SH8-72HD-590N | 590 | 72 | 54.63 | 13.81 | -0.3271 |  | [PAN](SH8-72HD-590N.PAN) / [spec](SH8-72HD-590N.yaml) |
+| SHA-66HD-590N | 590 | 66 | 48.18 | 15.62 | -0.34 |  | [PAN](SHA-66HD-590N.PAN) / [spec](SHA-66HD-590N.yaml) |
+| SS8-72HD-590N | 590 | 72 | 51.88 | 14.48 | -0.293 |  | [PAN](SS8-72HD-590N.PAN) / [spec](SS8-72HD-590N.yaml) |
+| SSA-66HD-590N | 590 | 66 | 48.18 | 15.62 | -0.287 |  | [PAN](SSA-66HD-590N.PAN) / [spec](SSA-66HD-590N.yaml) |
+| SH8-72HD-595N | 595 | 72 | 54.9 | 13.86 | -0.3271 |  | [PAN](SH8-72HD-595N.PAN) / [spec](SH8-72HD-595N.yaml) |
+| SHA-66HD-595N | 595 | 66 | 48.38 | 15.68 | -0.34 |  | [PAN](SHA-66HD-595N.PAN) / [spec](SHA-66HD-595N.yaml) |
+| SS8-72HD-595N | 595 | 72 | 52.08 | 14.54 | -0.293 |  | [PAN](SS8-72HD-595N.PAN) / [spec](SS8-72HD-595N.yaml) |
+| SSA-66HD-595N | 595 | 66 | 48.38 | 15.68 | -0.287 |  | [PAN](SSA-66HD-595N.PAN) / [spec](SSA-66HD-595N.yaml) |
+| SH8-72HD-600N | 600 | 72 | 55.17 | 13.91 | -0.3271 |  | [PAN](SH8-72HD-600N.PAN) / [spec](SH8-72HD-600N.yaml) |
+| SHA-66HD-600N | 600 | 66 | 48.58 | 15.74 | -0.34 |  | [PAN](SHA-66HD-600N.PAN) / [spec](SHA-66HD-600N.yaml) |
+| SS8-72HD-600N | 600 | 72 | 52.28 | 14.6 | -0.293 |  | [PAN](SS8-72HD-600N.PAN) / [spec](SS8-72HD-600N.yaml) |
+| SSA-66HD-600N | 600 | 66 | 48.58 | 15.74 | -0.287 |  | [PAN](SSA-66HD-600N.PAN) / [spec](SSA-66HD-600N.yaml) |
+| SH8-72HD-605N | 605 | 72 | 55.44 | 13.96 | -0.3271 |  | [PAN](SH8-72HD-605N.PAN) / [spec](SH8-72HD-605N.yaml) |
+| SHA-66HD-605N | 605 | 66 | 48.78 | 15.8 | -0.34 |  | [PAN](SHA-66HD-605N.PAN) / [spec](SHA-66HD-605N.yaml) |
+| SSA-66HD-605N | 605 | 66 | 48.78 | 15.8 | -0.287 |  | [PAN](SSA-66HD-605N.PAN) / [spec](SSA-66HD-605N.yaml) |
+| SHA-66HD-610N | 610 | 66 | 48.98 | 15.86 | -0.34 |  | [PAN](SHA-66HD-610N.PAN) / [spec](SHA-66HD-610N.yaml) |
+| SSA-66HD-610N | 610 | 66 | 48.98 | 15.86 | -0.287 |  | [PAN](SSA-66HD-610N.PAN) / [spec](SSA-66HD-610N.yaml) |
+| SHA-66HD-615N | 615 | 66 | 49.18 | 15.92 | -0.34 |  | [PAN](SHA-66HD-615N.PAN) / [spec](SHA-66HD-615N.yaml) |
+| SSA-66HD-615N | 615 | 66 | 49.18 | 15.92 | -0.287 |  | [PAN](SSA-66HD-615N.PAN) / [spec](SSA-66HD-615N.yaml) |
+| SHA-66HD-620N | 620 | 66 | 49.38 | 15.98 | -0.34 |  | [PAN](SHA-66HD-620N.PAN) / [spec](SHA-66HD-620N.yaml) |
+| SSA-66HD-620N | 620 | 66 | 49.38 | 15.98 | -0.287 |  | [PAN](SSA-66HD-620N.PAN) / [spec](SSA-66HD-620N.yaml) |
+| SHA-66HD-625N | 625 | 66 | 49.58 | 16.04 | -0.34 |  | [PAN](SHA-66HD-625N.PAN) / [spec](SHA-66HD-625N.yaml) |
+| SS9-66HD-675N | 675 | 66 | 47.3 | 18.13 | -0.284 |  | [PAN](SS9-66HD-675N.PAN) / [spec](SS9-66HD-675N.yaml) |
+| SS9-66HD-680N | 680 | 66 | 47.5 | 18.17 | -0.284 |  | [PAN](SS9-66HD-680N.PAN) / [spec](SS9-66HD-680N.yaml) |
+| SS9-66HD-685N | 685 | 66 | 47.6 | 18.2 | -0.284 |  | [PAN](SS9-66HD-685N.PAN) / [spec](SS9-66HD-685N.yaml) |
+| SS9-66HD-690N | 690 | 66 | 47.8 | 18.24 | -0.284 |  | [PAN](SS9-66HD-690N.PAN) / [spec](SS9-66HD-690N.yaml) |
+| SS9-66HD-695N | 695 | 66 | 48 | 18.28 | -0.284 |  | [PAN](SS9-66HD-695N.PAN) / [spec](SS9-66HD-695N.yaml) |
+| SS9-66HD-700N | 700 | 66 | 48.2 | 18.32 | -0.284 |  | [PAN](SS9-66HD-700N.PAN) / [spec](SS9-66HD-700N.yaml) |
+| SS9-66HD-705N | 705 | 66 | 48.4 | 18.36 | -0.284 |  | [PAN](SS9-66HD-705N.PAN) / [spec](SS9-66HD-705N.yaml) |
+| SS9-66HD-710N | 710 | 66 | 48.6 | 18.4 | -0.284 |  | [PAN](SS9-66HD-710N.PAN) / [spec](SS9-66HD-710N.yaml) |
+| SS9-66HD-715N | 715 | 66 | 48.8 | 18.44 | -0.284 |  | [PAN](SS9-66HD-715N.PAN) / [spec](SS9-66HD-715N.yaml) |

@@ -1,0 +1,220 @@
+# ZNSHINE PV-TECH Co Ltd - mono-c-si
+
+[Up](../README.md) - 214 files.
+
+| Model | Pnom W | Cells | Voc V | Isc A | Pmax %/K | Flags | Files |
+|---|---:|---|---:|---:|---:|---|---|
+| ZXP6-60-220/P | 220 | 60 | 36.87 | 8.13 | -0.44 |  | [PAN](ZXP6-60-220_P.PAN) / [spec](ZXP6-60-220_P.yaml) |
+| ZXM6-60-225/M | 225 | 60 | 37 | 8.07 | -0.517 |  | [PAN](ZXM6-60-225_M.PAN) / [spec](ZXM6-60-225_M.yaml) |
+| ZXP6-60-225/P | 225 | 60 | 37.04 | 8.22 | -0.44 |  | [PAN](ZXP6-60-225_P.PAN) / [spec](ZXP6-60-225_P.yaml) |
+| ZXM6-60-230/M | 230 | 60 | 37.1 | 8.22 | -0.517 |  | [PAN](ZXM6-60-230_M.PAN) / [spec](ZXM6-60-230_M.yaml) |
+| ZXP6-60-230/P | 230 | 60 | 37.21 | 8.31 | -0.44 |  | [PAN](ZXP6-60-230_P.PAN) / [spec](ZXP6-60-230_P.yaml) |
+| ZXM6-60-235/M | 235 | 60 | 37.8 | 8.25 | -0.517 |  | [PAN](ZXM6-60-235_M.PAN) / [spec](ZXM6-60-235_M.yaml) |
+| ZXP6-60-235/P | 235 | 60 | 37.38 | 8.39 | -0.44 |  | [PAN](ZXP6-60-235_P.PAN) / [spec](ZXP6-60-235_P.yaml) |
+| ZXP6-D60-235/P | 235 | 60 | 37.33 | 8.3 | -0.45 |  | [PAN](ZXP6-D60-235_P.PAN) / [spec](ZXP6-D60-235_P.yaml) |
+| ZXM6-60-240/M | 240 | 60 | 37.9 | 8.4 | -0.517 |  | [PAN](ZXM6-60-240_M.PAN) / [spec](ZXM6-60-240_M.yaml) |
+| ZXM6-D60-240/M | 240 | 60 | 37.52 | 8.46 | -0.448 |  | [PAN](ZXM6-D60-240_M.PAN) / [spec](ZXM6-D60-240_M.yaml) |
+| ZXP6-60-240/P | 240 | 60 | 37.55 | 8.47 | -0.44 |  | [PAN](ZXP6-60-240_P.PAN) / [spec](ZXP6-60-240_P.yaml) |
+| ZXP6-D60-240/P | 240 | 60 | 37.5 | 8.42 | -0.45 |  | [PAN](ZXP6-D60-240_P.PAN) / [spec](ZXP6-D60-240_P.yaml) |
+| ZXM6-60-245/M | 245 | 60 | 38.1 | 8.59 | -0.517 |  | [PAN](ZXM6-60-245_M.PAN) / [spec](ZXM6-60-245_M.yaml) |
+| ZXM6-D60-245/M | 245 | 60 | 37.62 | 8.61 | -0.448 |  | [PAN](ZXM6-D60-245_M.PAN) / [spec](ZXM6-D60-245_M.yaml) |
+| ZXP6-60-245/P | 245 | 60 | 37.72 | 8.53 | -0.44 |  | [PAN](ZXP6-60-245_P.PAN) / [spec](ZXP6-60-245_P.yaml) |
+| ZXP6-D60-245/P | 245 | 60 | 37.64 | 8.52 | -0.45 |  | [PAN](ZXP6-D60-245_P.PAN) / [spec](ZXP6-D60-245_P.yaml) |
+| ZXM6-60-250/M | 250 | 60 | 38.2 | 8.71 | -0.517 |  | [PAN](ZXM6-60-250_M.PAN) / [spec](ZXM6-60-250_M.yaml) |
+| ZXM6-D60-250/M | 250 | 60 | 37.72 | 8.75 | -0.448 |  | [PAN](ZXM6-D60-250_M.PAN) / [spec](ZXM6-D60-250_M.yaml) |
+| ZXM6-60-255/M | 255 | 60 | 38.3 | 8.83 | -0.517 |  | [PAN](ZXM6-60-255_M.PAN) / [spec](ZXM6-60-255_M.yaml) |
+| ZXM6-D60-255/M | 255 | 60 | 37.83 | 8.88 | -0.448 |  | [PAN](ZXM6-D60-255_M.PAN) / [spec](ZXM6-D60-255_M.yaml) |
+| ZXM6-60-260/M | 260 | 60 | 38.4 | 8.95 | -0.453 |  | [PAN](ZXM6-60-260_M.PAN) / [spec](ZXM6-60-260_M.yaml) |
+| ZXM6-D60-260/M | 260 | 60 | 37.91 | 8.99 | -0.448 |  | [PAN](ZXM6-D60-260_M.PAN) / [spec](ZXM6-D60-260_M.yaml) |
+| ZXM6-60-265/M | 265 | 60 | 38.5 | 9.07 | -0.453 |  | [PAN](ZXM6-60-265_M.PAN) / [spec](ZXM6-60-265_M.yaml) |
+| ZXP6-72-265/P | 265 | 72 | 44.33 | 8.18 | -0.44 |  | [PAN](ZXP6-72-265_P.PAN) / [spec](ZXP6-72-265_P.yaml) |
+| ZXM6-60-270/M | 270 | 60 | 38.6 | 9.17 | -0.453 |  | [PAN](ZXM6-60-270_M.PAN) / [spec](ZXM6-60-270_M.yaml) |
+| ZXP6-72-270/P | 270 | 72 | 44.42 | 8.27 | -0.44 |  | [PAN](ZXP6-72-270_P.PAN) / [spec](ZXP6-72-270_P.yaml) |
+| ZXP6-72-275/P | 275 | 72 | 44.42 | 8.37 | -0.44 |  | [PAN](ZXP6-72-275_P.PAN) / [spec](ZXP6-72-275_P.yaml) |
+| ZXP6-72-280/P | 280 | 72 | 44.5 | 8.42 | -0.44 |  | [PAN](ZXP6-72-280_P.PAN) / [spec](ZXP6-72-280_P.yaml) |
+| ZXM6-60-285/M | 285 | 60 | 38.59 | 9.59 | -0.3632 |  | [PAN](ZXM6-60-285_M.PAN) / [spec](ZXM6-60-285_M.yaml) |
+| ZXM6-72-285/M | 285 | 72 | 45.38 | 8.56 | -0.524 |  | [PAN](ZXM6-72-285_M.PAN) / [spec](ZXM6-72-285_M.yaml) |
+| ZXP6-72-285/P | 285 | 72 | 44.5 | 8.48 | -0.44 |  | [PAN](ZXP6-72-285_P.PAN) / [spec](ZXP6-72-285_P.yaml) |
+| ZXM6-60-290/M | 290 | 60 | 38.86 | 9.66 | -0.3632 |  | [PAN](ZXM6-60-290_M.PAN) / [spec](ZXM6-60-290_M.yaml) |
+| ZXM6-72-290/M | 290 | 72 | 45.77 | 8.59 | -0.524 |  | [PAN](ZXM6-72-290_M.PAN) / [spec](ZXM6-72-290_M.yaml) |
+| ZXP6-72-290/P | 290 | 72 | 44.6 | 8.52 | -0.44 |  | [PAN](ZXP6-72-290_P.PAN) / [spec](ZXP6-72-290_P.yaml) |
+| ZXM6-60-295/M | 295 | 60 | 39.5 | 9.65 | -0.3559 |  | [PAN](ZXM6-60-295_M.PAN) / [spec](ZXM6-60-295_M.yaml) |
+| ZXM6-72-295/M | 295 | 72 | 46 | 8.62 | -0.524 |  | [PAN](ZXM6-72-295_M.PAN) / [spec](ZXM6-72-295_M.yaml) |
+| ZXP6-72-295/P | 295 | 72 | 44.82 | 8.55 | -0.44 |  | [PAN](ZXP6-72-295_P.PAN) / [spec](ZXP6-72-295_P.yaml) |
+| ZXM6-60-300/M | 300 | 60 | 39.7 | 9.75 | -0.3559 |  | [PAN](ZXM6-60-300_M.PAN) / [spec](ZXM6-60-300_M.yaml) |
+| ZXM6-72-300/M | 300 | 72 | 46.19 | 8.66 | -0.524 |  | [PAN](ZXM6-72-300_M.PAN) / [spec](ZXM6-72-300_M.yaml) |
+| ZXP6-72-300/P | 300 | 72 | 44.95 | 8.64 | -0.476 |  | [PAN](ZXP6-72-300_P.PAN) / [spec](ZXP6-72-300_P.yaml) |
+| ZXM6-60-305/M | 305 | 60 | 39.9 | 9.85 | -0.3559 |  | [PAN](ZXM6-60-305_M.PAN) / [spec](ZXM6-60-305_M.yaml) |
+| ZXM6-72-305/M | 305 | 72 | 46.26 | 8.73 | -0.524 |  | [PAN](ZXM6-72-305_M.PAN) / [spec](ZXM6-72-305_M.yaml) |
+| ZXP6-72-305/P | 305 | 72 | 45.04 | 8.74 | -0.476 |  | [PAN](ZXP6-72-305_P.PAN) / [spec](ZXP6-72-305_P.yaml) |
+| ZXM6-60-310/M | 310 | 60 | 40.1 | 9.95 | -0.3559 |  | [PAN](ZXM6-60-310_M.PAN) / [spec](ZXM6-60-310_M.yaml) |
+| ZXM6-72-310/M | 310 | 72 | 46.36 | 8.82 | -0.453 |  | [PAN](ZXM6-72-310_M.PAN) / [spec](ZXM6-72-310_M.yaml) |
+| ZXP6-72-310/P | 310 | 72 | 45.13 | 8.84 | -0.476 |  | [PAN](ZXP6-72-310_P.PAN) / [spec](ZXP6-72-310_P.yaml) |
+| ZXM6-60-315/M | 315 | 60 | 40.3 | 10.05 | -0.3559 |  | [PAN](ZXM6-60-315_M.PAN) / [spec](ZXM6-60-315_M.yaml) |
+| ZXM6-72-315/M | 315 | 72 | 46.45 | 8.91 | -0.453 |  | [PAN](ZXM6-72-315_M.PAN) / [spec](ZXM6-72-315_M.yaml) |
+| ZXP6-72-315/P | 315 | 72 | 45.22 | 8.95 | -0.476 |  | [PAN](ZXP6-72-315_P.PAN) / [spec](ZXP6-72-315_P.yaml) |
+| ZXM6-60-320/M | 320 | 60 | 40.5 | 10.15 | -0.3559 |  | [PAN](ZXM6-60-320_M.PAN) / [spec](ZXM6-60-320_M.yaml) |
+| ZXM6-72-320/M | 320 | 72 | 46.54 | 8.99 | -0.453 |  | [PAN](ZXM6-72-320_M.PAN) / [spec](ZXM6-72-320_M.yaml) |
+| ZXM6-60-325/M | 325 | 60 | 40.7 | 10.25 | -0.3559 |  | [PAN](ZXM6-60-325_M.PAN) / [spec](ZXM6-60-325_M.yaml) |
+| ZXM6-72-325/M | 325 | 72 | 46.63 | 9.09 | -0.453 |  | [PAN](ZXM6-72-325_M.PAN) / [spec](ZXM6-72-325_M.yaml) |
+| ZXM6-60-330/M | 330 | 60 | 40.9 | 10.35 | -0.3559 |  | [PAN](ZXM6-60-330_M.PAN) / [spec](ZXM6-60-330_M.yaml) |
+| ZXM6-72-330/M | 330 | 72 | 46.72 | 9.19 | -0.453 |  | [PAN](ZXM6-72-330_M.PAN) / [spec](ZXM6-72-330_M.yaml) |
+| ZXM6-72-340/M | 340 | 72 | 46.3 | 9.42 | -0.3473 |  | [PAN](ZXM6-72-340_M.PAN) / [spec](ZXM6-72-340_M.yaml) |
+| ZXM6-72-345/M | 345 | 72 | 46.5 | 9.51 | -0.3473 |  | [PAN](ZXM6-72-345_M.PAN) / [spec](ZXM6-72-345_M.yaml) |
+| ZXM6-72-350/M | 350 | 72 | 46.65 | 9.61 | -0.3473 |  | [PAN](ZXM6-72-350_M.PAN) / [spec](ZXM6-72-350_M.yaml) |
+| ZXM6-NH120-350/M | 350 | 60 | 40.2 | 11.04 | -0.3335 |  | [PAN](ZXM6-NH120-350_M.PAN) / [spec](ZXM6-NH120-350_M.yaml) |
+| ZXM6-72-355/M | 355 | 72 | 47.6 | 9.66 | -0.3698 |  | [PAN](ZXM6-72-355_M.PAN) / [spec](ZXM6-72-355_M.yaml) |
+| ZXM6-NH120-355/M | 355 | 60 | 40.4 | 11.14 | -0.3335 |  | [PAN](ZXM6-NH120-355_M.PAN) / [spec](ZXM6-NH120-355_M.yaml) |
+| ZXM6-72-360/M | 360 | 72 | 47.7 | 9.8 | -0.3698 |  | [PAN](ZXM6-72-360_M.PAN) / [spec](ZXM6-72-360_M.yaml) |
+| ZXM6-NH120-360/M | 360 | 60 | 40.6 | 11.24 | -0.3335 |  | [PAN](ZXM6-NH120-360_M.PAN) / [spec](ZXM6-NH120-360_M.yaml) |
+| ZXM6-72-365/M | 365 | 72 | 48 | 9.84 | -0.3698 |  | [PAN](ZXM6-72-365_M.PAN) / [spec](ZXM6-72-365_M.yaml) |
+| ZXM6-NH120-365/M | 365 | 60 | 40.8 | 11.33 | -0.3335 |  | [PAN](ZXM6-NH120-365_M.PAN) / [spec](ZXM6-NH120-365_M.yaml) |
+| ZXM6-72-370/M | 370 | 72 | 48.2 | 9.91 | -0.3698 |  | [PAN](ZXM6-72-370_M.PAN) / [spec](ZXM6-72-370_M.yaml) |
+| ZXM6-NH120-370/M | 370 | 60 | 41 | 11.42 | -0.3335 |  | [PAN](ZXM6-NH120-370_M.PAN) / [spec](ZXM6-NH120-370_M.yaml) |
+| ZXM6-72-375/M | 375 | 72 | 48.4 | 9.98 | -0.3698 |  | [PAN](ZXM6-72-375_M.PAN) / [spec](ZXM6-72-375_M.yaml) |
+| ZXM6-NH120-375/M | 375 | 60 | 41.2 | 11.51 | -0.3335 |  | [PAN](ZXM6-NH120-375_M.PAN) / [spec](ZXM6-NH120-375_M.yaml) |
+| ZXM6-72-380/M | 380 | 72 | 48.6 | 10.03 | -0.3698 |  | [PAN](ZXM6-72-380_M.PAN) / [spec](ZXM6-72-380_M.yaml) |
+| ZXM6-72-385/M | 385 | 72 | 48.8 | 10.09 | -0.3698 |  | [PAN](ZXM6-72-385_M.PAN) / [spec](ZXM6-72-385_M.yaml) |
+| ZXM6-LDD72-385/M | 385 | 72 | 48.5 | 10.05 | -0.3473 | bifacial | [PAN](ZXM6-LDD72-385_M.PAN) / [spec](ZXM6-LDD72-385_M.yaml) |
+| ZXM6-NHLDD144-385/M | 385 | 72 | 48.4 | 10.08 | -0.3083 | bifacial | [PAN](ZXM6-NHLDD144-385_M.PAN) / [spec](ZXM6-NHLDD144-385_M.yaml) |
+| ZXM6-72-390/M | 390 | 72 | 49 | 10.16 | -0.3698 |  | [PAN](ZXM6-72-390_M.PAN) / [spec](ZXM6-72-390_M.yaml) |
+| ZXM6-LDD72-390/M | 390 | 72 | 48.7 | 10.14 | -0.3473 | bifacial | [PAN](ZXM6-LDD72-390_M.PAN) / [spec](ZXM6-LDD72-390_M.yaml) |
+| ZXM6-NH144-390/M | 390 | 72 | 48.7 | 10.1 | -0.3454 |  | [PAN](ZXM6-NH144-390_M.PAN) / [spec](ZXM6-NH144-390_M.yaml) |
+| ZXM6-NHLDD144-390/M | 390 | 72 | 48.6 | 10.15 | -0.3083 | bifacial | [PAN](ZXM6-NHLDD144-390_M.PAN) / [spec](ZXM6-NHLDD144-390_M.yaml) |
+| ZXM7-SH108-390/M | 390 | 54 | 36.7 | 13.56 | -0.4016 |  | [PAN](ZXM7-SH108-390_M.PAN) / [spec](ZXM7-SH108-390_M.yaml) |
+| ZXM7-SHLDD108-390/M | 390 | 54 | 36.7 | 13.54 | -0.32263 | bifacial | [PAN](ZXM7-SHLDD108-390_M.PAN) / [spec](ZXM7-SHLDD108-390_M.yaml) |
+| ZXM6-72-395/M | 395 | 72 | 49.2 | 10.22 | -0.3698 |  | [PAN](ZXM6-72-395_M.PAN) / [spec](ZXM6-72-395_M.yaml) |
+| ZXM6-LDD72-395/M | 395 | 72 | 48.9 | 10.23 | -0.3473 | bifacial | [PAN](ZXM6-LDD72-395_M.PAN) / [spec](ZXM6-LDD72-395_M.yaml) |
+| ZXM6-NH144-395/M | 395 | 72 | 48.9 | 10.16 | -0.3454 |  | [PAN](ZXM6-NH144-395_M.PAN) / [spec](ZXM6-NH144-395_M.yaml) |
+| ZXM6-NHLDD144-395/M | 395 | 72 | 48.8 | 10.23 | -0.3083 | bifacial | [PAN](ZXM6-NHLDD144-395_M.PAN) / [spec](ZXM6-NHLDD144-395_M.yaml) |
+| ZXM7-SHLDD108-395/M | 395 | 54 | 36.9 | 13.62 | -0.32263 | bifacial | [PAN](ZXM7-SHLDD108-395_M.PAN) / [spec](ZXM7-SHLDD108-395_M.yaml) |
+| ZXM6-72-400/M | 400 | 72 | 49.4 | 10.28 | -0.3698 |  | [PAN](ZXM6-72-400_M.PAN) / [spec](ZXM6-72-400_M.yaml) |
+| ZXM6-LDD72-400/M | 400 | 72 | 49.1 | 10.31 | -0.3473 | bifacial | [PAN](ZXM6-LDD72-400_M.PAN) / [spec](ZXM6-LDD72-400_M.yaml) |
+| ZXM6-NH144-400/M | 400 | 72 | 49.1 | 10.22 | -0.3454 |  | [PAN](ZXM6-NH144-400_M.PAN) / [spec](ZXM6-NH144-400_M.yaml) |
+| ZXM6-NHLDD144-400/M | 400 | 72 | 49 | 10.29 | -0.3083 | bifacial | [PAN](ZXM6-NHLDD144-400_M.PAN) / [spec](ZXM6-NHLDD144-400_M.yaml) |
+| ZXM7-SH108-400/M | 400 | 54 | 37.1 | 13.7 | -0.4016 |  | [PAN](ZXM7-SH108-400_M.PAN) / [spec](ZXM7-SH108-400_M.yaml) |
+| ZXM7-SHLDD108-400/M | 400 | 54 | 37.1 | 13.7 | -0.32263 | bifacial | [PAN](ZXM7-SHLDD108-400_M.PAN) / [spec](ZXM7-SHLDD108-400_M.yaml) |
+| ZXM6-NH144-405/M | 405 | 72 | 49.3 | 10.28 | -0.3454 |  | [PAN](ZXM6-NH144-405_M.PAN) / [spec](ZXM6-NH144-405_M.yaml) |
+| ZXM6-NHLDD144-405/M | 405 | 72 | 49.2 | 10.35 | -0.3083 | bifacial | [PAN](ZXM6-NHLDD144-405_M.PAN) / [spec](ZXM6-NHLDD144-405_M.yaml) |
+| ZXM7-SH108-405/M | 405 | 54 | 37.3 | 13.77 | -0.4016 |  | [PAN](ZXM7-SH108-405_M.PAN) / [spec](ZXM7-SH108-405_M.yaml) |
+| ZXM7-SHLDD108-405/M | 405 | 54 | 37.3 | 13.78 | -0.32263 | bifacial | [PAN](ZXM7-SHLDD108-405_M.PAN) / [spec](ZXM7-SHLDD108-405_M.yaml) |
+| ZXM7-UHLDD108-405/N | 405 | 54 | 37.4 | 13.9 | -0.29154 |  | [PAN](ZXM7-UHLDD108-405_N.PAN) / [spec](ZXM7-UHLDD108-405_N.yaml) |
+| ZXM6-NH144-410/M | 410 | 72 | 49.5 | 10.34 | -0.3454 |  | [PAN](ZXM6-NH144-410_M.PAN) / [spec](ZXM6-NH144-410_M.yaml) |
+| ZXM6-NHLDD144-410/M | 410 | 72 | 49.4 | 10.41 | -0.3083 | bifacial | [PAN](ZXM6-NHLDD144-410_M.PAN) / [spec](ZXM6-NHLDD144-410_M.yaml) |
+| ZXM7-SH108-410/M | 410 | 54 | 37.5 | 13.84 | -0.4016 |  | [PAN](ZXM7-SH108-410_M.PAN) / [spec](ZXM7-SH108-410_M.yaml) |
+| ZXM7-SHLDD108-410/M | 410 | 54 | 37.5 | 13.86 | -0.32263 | bifacial | [PAN](ZXM7-SHLDD108-410_M.PAN) / [spec](ZXM7-SHLDD108-410_M.yaml) |
+| ZXM7-UHLDD108-410/N | 410 | 54 | 37.6 | 13.97 | -0.29154 |  | [PAN](ZXM7-UHLDD108-410_N.PAN) / [spec](ZXM7-UHLDD108-410_N.yaml) |
+| ZXM7-SHLDD108-415/M | 415 | 54 | 37.7 | 13.94 | -0.32263 | bifacial | [PAN](ZXM7-SHLDD108-415_M.PAN) / [spec](ZXM7-SHLDD108-415_M.yaml) |
+| ZXM7-UHLDD108-415/N | 415 | 54 | 37.8 | 14.04 | -0.29154 |  | [PAN](ZXM7-UHLDD108-415_N.PAN) / [spec](ZXM7-UHLDD108-415_N.yaml) |
+| ZXM6-NH144-420/M {Blk} | 420 | 72 | 49.1 | 11.04 | -0.3265 |  | [PAN](ZXM6-NH144-420_M_Blk.PAN) / [spec](ZXM6-NH144-420_M_Blk.yaml) |
+| ZXM6-NH144-420/M {Wht} | 420 | 72 | 49.1 | 11.04 | -0.3317 |  | [PAN](ZXM6-NH144-420_M_Wht.PAN) / [spec](ZXM6-NH144-420_M_Wht.yaml) |
+| ZXM6-NHDB144-420/M | 420 | 72 | 49.3 | 11.16 | -0.3209 | bifacial | [PAN](ZXM6-NHDB144-420_M.PAN) / [spec](ZXM6-NHDB144-420_M.yaml) |
+| ZXM7-SHLDD108-420/M | 420 | 54 | 37.9 | 14.02 | -0.32263 | bifacial | [PAN](ZXM7-SHLDD108-420_M.PAN) / [spec](ZXM7-SHLDD108-420_M.yaml) |
+| ZXM7-UHLDD108-420/N | 420 | 54 | 38 | 14.11 | -0.29154 |  | [PAN](ZXM7-UHLDD108-420_N.PAN) / [spec](ZXM7-UHLDD108-420_N.yaml) |
+| ZXM6-NH144-425/M {Blk} | 425 | 72 | 49.3 | 11.11 | -0.3265 |  | [PAN](ZXM6-NH144-425_M_Blk.PAN) / [spec](ZXM6-NH144-425_M_Blk.yaml) |
+| ZXM6-NH144-425/M {Wht} | 425 | 72 | 49.3 | 11.11 | -0.3317 |  | [PAN](ZXM6-NH144-425_M_Wht.PAN) / [spec](ZXM6-NH144-425_M_Wht.yaml) |
+| ZXM6-NHDB144-425/M | 425 | 72 | 49.5 | 11.23 | -0.3209 | bifacial | [PAN](ZXM6-NHDB144-425_M.PAN) / [spec](ZXM6-NHDB144-425_M.yaml) |
+| ZXM7-UHLDD108-425/N | 425 | 54 | 38.2 | 14.18 | -0.29154 |  | [PAN](ZXM7-UHLDD108-425_N.PAN) / [spec](ZXM7-UHLDD108-425_N.yaml) |
+| ZXM6-NH144-430/M {Blk} | 430 | 72 | 49.5 | 11.19 | -0.3265 |  | [PAN](ZXM6-NH144-430_M_Blk.PAN) / [spec](ZXM6-NH144-430_M_Blk.yaml) |
+| ZXM6-NH144-430/M {Wht} | 430 | 72 | 49.5 | 11.19 | -0.3317 |  | [PAN](ZXM6-NH144-430_M_Wht.PAN) / [spec](ZXM6-NH144-430_M_Wht.yaml) |
+| ZXM6-NHDB144-430/M | 430 | 72 | 49.7 | 11.3 | -0.3209 | bifacial | [PAN](ZXM6-NHDB144-430_M.PAN) / [spec](ZXM6-NHDB144-430_M.yaml) |
+| ZXM6-NHLDD144-430/M | 430 | 72 | 49.7 | 11.07 | -0.3307 |  | [PAN](ZXM6-NHLDD144-430_M.PAN) / [spec](ZXM6-NHLDD144-430_M.yaml) |
+| ZXM7-UHLDD108-430/N | 430 | 54 | 38.4 | 14.25 | -0.29154 |  | [PAN](ZXM7-UHLDD108-430_N.PAN) / [spec](ZXM7-UHLDD108-430_N.yaml) |
+| ZXM6-NH144-435/M {Blk} | 435 | 72 | 49.7 | 11.26 | -0.3265 |  | [PAN](ZXM6-NH144-435_M_Blk.PAN) / [spec](ZXM6-NH144-435_M_Blk.yaml) |
+| ZXM6-NH144-435/M {Wht} | 435 | 72 | 49.7 | 11.26 | -0.3317 |  | [PAN](ZXM6-NH144-435_M_Wht.PAN) / [spec](ZXM6-NH144-435_M_Wht.yaml) |
+| ZXM6-NHDB144-435/M | 435 | 72 | 49.9 | 11.37 | -0.3209 | bifacial | [PAN](ZXM6-NHDB144-435_M.PAN) / [spec](ZXM6-NHDB144-435_M.yaml) |
+| ZXM6-NHLDD144-435/M | 435 | 72 | 49.9 | 11.14 | -0.3307 |  | [PAN](ZXM6-NHLDD144-435_M.PAN) / [spec](ZXM6-NHLDD144-435_M.yaml) |
+| ZXM7-SHDB120-435/M | 435 | 60 | 40.9 | 13.55 | -0.3359 |  | [PAN](ZXM7-SHDB120-435_M.PAN) / [spec](ZXM7-SHDB120-435_M.yaml) |
+| ZXM7-SHLDD120-435/M | 435 | 60 | 40.9 | 13.55 | -0.3511 | bifacial | [PAN](ZXM7-SHLDD120-435_M.PAN) / [spec](ZXM7-SHLDD120-435_M.yaml) |
+| ZXM7-UHLDD108-435/N | 435 | 54 | 38.6 | 14.32 | -0.29154 |  | [PAN](ZXM7-UHLDD108-435_N.PAN) / [spec](ZXM7-UHLDD108-435_N.yaml) |
+| ZXM6-NH144-440/M {Blk} | 440 | 72 | 49.9 | 11.33 | -0.3265 |  | [PAN](ZXM6-NH144-440_M_Blk.PAN) / [spec](ZXM6-NH144-440_M_Blk.yaml) |
+| ZXM6-NH144-440/M {Wht} | 440 | 72 | 49.9 | 11.33 | -0.3317 |  | [PAN](ZXM6-NH144-440_M_Wht.PAN) / [spec](ZXM6-NH144-440_M_Wht.yaml) |
+| ZXM6-NHDB144-440/M | 440 | 72 | 50.1 | 11.44 | -0.3209 | bifacial | [PAN](ZXM6-NHDB144-440_M.PAN) / [spec](ZXM6-NHDB144-440_M.yaml) |
+| ZXM6-NHLDD144-440/M | 440 | 72 | 50.1 | 11.21 | -0.3307 |  | [PAN](ZXM6-NHLDD144-440_M.PAN) / [spec](ZXM6-NHLDD144-440_M.yaml) |
+| ZXM7-SHDB120-440/M | 440 | 60 | 41.1 | 13.62 | -0.3359 |  | [PAN](ZXM7-SHDB120-440_M.PAN) / [spec](ZXM7-SHDB120-440_M.yaml) |
+| ZXM7-SHLDD120-440/M | 440 | 60 | 41.1 | 13.62 | -0.3511 | bifacial | [PAN](ZXM7-SHLDD120-440_M.PAN) / [spec](ZXM7-SHLDD120-440_M.yaml) |
+| ZXM7-UHLDD108-440/N | 440 | 54 | 38.8 | 14.39 | -0.29154 |  | [PAN](ZXM7-UHLDD108-440_N.PAN) / [spec](ZXM7-UHLDD108-440_N.yaml) |
+| ZXM6-NH144-445/M {Blk} | 445 | 72 | 50.1 | 11.4 | -0.3265 |  | [PAN](ZXM6-NH144-445_M_Blk.PAN) / [spec](ZXM6-NH144-445_M_Blk.yaml) |
+| ZXM6-NH144-445/M {Wht} | 445 | 72 | 50.1 | 11.4 | -0.3317 |  | [PAN](ZXM6-NH144-445_M_Wht.PAN) / [spec](ZXM6-NH144-445_M_Wht.yaml) |
+| ZXM6-NHDB144-445/M | 445 | 72 | 50.3 | 11.51 | -0.3209 | bifacial | [PAN](ZXM6-NHDB144-445_M.PAN) / [spec](ZXM6-NHDB144-445_M.yaml) |
+| ZXM6-NHLDD144-445/M | 445 | 72 | 50.3 | 11.28 | -0.3307 |  | [PAN](ZXM6-NHLDD144-445_M.PAN) / [spec](ZXM6-NHLDD144-445_M.yaml) |
+| ZXM7-SHDB120-445/M | 445 | 60 | 41.3 | 13.69 | -0.3359 |  | [PAN](ZXM7-SHDB120-445_M.PAN) / [spec](ZXM7-SHDB120-445_M.yaml) |
+| ZXM7-SHLDD120-445/M | 445 | 60 | 41.3 | 13.69 | -0.3511 | bifacial | [PAN](ZXM7-SHLDD120-445_M.PAN) / [spec](ZXM7-SHLDD120-445_M.yaml) |
+| ZXM7-UHLDD108-445/N | 445 | 54 | 39 | 14.46 | -0.29154 |  | [PAN](ZXM7-UHLDD108-445_N.PAN) / [spec](ZXM7-UHLDD108-445_N.yaml) |
+| ZXM6-NH144-450/M {Blk} | 450 | 72 | 50.3 | 11.46 | -0.3265 |  | [PAN](ZXM6-NH144-450_M_Blk.PAN) / [spec](ZXM6-NH144-450_M_Blk.yaml) |
+| ZXM6-NH144-450/M {Wht} | 450 | 72 | 50.3 | 11.46 | -0.3317 |  | [PAN](ZXM6-NH144-450_M_Wht.PAN) / [spec](ZXM6-NH144-450_M_Wht.yaml) |
+| ZXM6-NHDB144-450/M | 450 | 72 | 50.5 | 11.58 | -0.3209 | bifacial | [PAN](ZXM6-NHDB144-450_M.PAN) / [spec](ZXM6-NHDB144-450_M.yaml) |
+| ZXM6-NHLDD144-450/M | 450 | 72 | 50.5 | 11.34 | -0.3307 |  | [PAN](ZXM6-NHLDD144-450_M.PAN) / [spec](ZXM6-NHLDD144-450_M.yaml) |
+| ZXM7-SHDB120-450/M | 450 | 60 | 41.5 | 13.76 | -0.3359 |  | [PAN](ZXM7-SHDB120-450_M.PAN) / [spec](ZXM7-SHDB120-450_M.yaml) |
+| ZXM7-SHLDD120-450/M | 450 | 60 | 41.5 | 13.76 | -0.3511 | bifacial | [PAN](ZXM7-SHLDD120-450_M.PAN) / [spec](ZXM7-SHLDD120-450_M.yaml) |
+| ZXM7-UHLDD108-450/N | 450 | 54 | 39.2 | 14.53 | -0.29154 |  | [PAN](ZXM7-UHLDD108-450_N.PAN) / [spec](ZXM7-UHLDD108-450_N.yaml) |
+| ZXM6-NHDB144-455/M | 455 | 72 | 50.7 | 11.65 | -0.3209 | bifacial | [PAN](ZXM6-NHDB144-455_M.PAN) / [spec](ZXM6-NHDB144-455_M.yaml) |
+| ZXM7-SHDB120-455/M | 455 | 60 | 41.7 | 13.83 | -0.3359 |  | [PAN](ZXM7-SHDB120-455_M.PAN) / [spec](ZXM7-SHDB120-455_M.yaml) |
+| ZXM7-SHLDD120-455/M | 455 | 60 | 41.7 | 13.83 | -0.3511 | bifacial | [PAN](ZXM7-SHLDD120-455_M.PAN) / [spec](ZXM7-SHLDD120-455_M.yaml) |
+| ZXM7-SHDB120-460/M | 460 | 60 | 41.9 | 13.9 | -0.3359 |  | [PAN](ZXM7-SHDB120-460_M.PAN) / [spec](ZXM7-SHDB120-460_M.yaml) |
+| ZXM7-SHLDD120-460/M | 460 | 60 | 41.9 | 13.9 | -0.3511 | bifacial | [PAN](ZXM7-SHLDD120-460_M.PAN) / [spec](ZXM7-SHLDD120-460_M.yaml) |
+| ZXM7-SHDB120-465/M | 465 | 60 | 42.1 | 13.97 | -0.3359 |  | [PAN](ZXM7-SHDB120-465_M.PAN) / [spec](ZXM7-SHDB120-465_M.yaml) |
+| ZXM7-SHLDD120-465/M | 465 | 60 | 42.1 | 13.97 | -0.3511 | bifacial | [PAN](ZXM7-SHLDD120-465_M.PAN) / [spec](ZXM7-SHLDD120-465_M.yaml) |
+| ZXM7-SHDB120-470/M | 470 | 60 | 42.3 | 14.04 | -0.3359 |  | [PAN](ZXM7-SHDB120-470_M.PAN) / [spec](ZXM7-SHDB120-470_M.yaml) |
+| ZXM7-SHLDD120-470/M | 470 | 60 | 42.3 | 14.04 | -0.3511 | bifacial | [PAN](ZXM7-SHLDD120-470_M.PAN) / [spec](ZXM7-SHLDD120-470_M.yaml) |
+| ZXM7-SHDB144-520/M | 520 | 72 | 49 | 13.53 | -0.3197 |  | [PAN](ZXM7-SHDB144-520_M.PAN) / [spec](ZXM7-SHDB144-520_M.yaml) |
+| ZXM7-SHLDD144-520/M | 520 | 72 | 49 | 13.53 | -0.3287 | bifacial | [PAN](ZXM7-SHLDD144-520_M.PAN) / [spec](ZXM7-SHLDD144-520_M.yaml) |
+| ZXM7-SHDB144-525/M | 525 | 72 | 49.2 | 13.59 | -0.3197 |  | [PAN](ZXM7-SHDB144-525_M.PAN) / [spec](ZXM7-SHDB144-525_M.yaml) |
+| ZXM7-SHLDD144-525/M | 525 | 72 | 49.2 | 13.59 | -0.3287 | bifacial | [PAN](ZXM7-SHLDD144-525_M.PAN) / [spec](ZXM7-SHLDD144-525_M.yaml) |
+| ZXM7-SHDB144-530/M | 530 | 72 | 49.4 | 13.65 | -0.3197 |  | [PAN](ZXM7-SHDB144-530_M.PAN) / [spec](ZXM7-SHDB144-530_M.yaml) |
+| ZXM7-SHLDD144-530/M | 530 | 72 | 49.4 | 13.65 | -0.3287 | bifacial | [PAN](ZXM7-SHLDD144-530_M.PAN) / [spec](ZXM7-SHLDD144-530_M.yaml) |
+| ZXM7-SHDB144-535/M | 535 | 72 | 49.6 | 13.71 | -0.3197 |  | [PAN](ZXM7-SHDB144-535_M.PAN) / [spec](ZXM7-SHDB144-535_M.yaml) |
+| ZXM7-SHLDD144-535/M | 535 | 72 | 49.6 | 13.71 | -0.3287 | bifacial | [PAN](ZXM7-SHLDD144-535_M.PAN) / [spec](ZXM7-SHLDD144-535_M.yaml) |
+| ZXM7-SHDB144-540/M | 540 | 72 | 49.8 | 13.77 | -0.3197 |  | [PAN](ZXM7-SHDB144-540_M.PAN) / [spec](ZXM7-SHDB144-540_M.yaml) |
+| ZXM7-SHLDD144-540/M | 540 | 72 | 49.8 | 13.77 | -0.3287 | bifacial | [PAN](ZXM7-SHLDD144-540_M.PAN) / [spec](ZXM7-SHLDD144-540_M.yaml) |
+| ZXM7-UHLDD144-540/N | 540 | 72 | 49.9 | 13.87 | -0.30236 |  | [PAN](ZXM7-UHLDD144-540_N.PAN) / [spec](ZXM7-UHLDD144-540_N.yaml) |
+| ZXM7-SHDB144-545/M | 545 | 72 | 50 | 13.83 | -0.3197 |  | [PAN](ZXM7-SHDB144-545_M.PAN) / [spec](ZXM7-SHDB144-545_M.yaml) |
+| ZXM7-SHLDD144-545/M | 545 | 72 | 50 | 13.83 | -0.333 | bifacial | [PAN](ZXM7-SHLDD144-545_M.PAN) / [spec](ZXM7-SHLDD144-545_M.yaml) |
+| ZXM7-UHLDD144-545/N | 545 | 72 | 50.1 | 13.93 | -0.30236 |  | [PAN](ZXM7-UHLDD144-545_N.PAN) / [spec](ZXM7-UHLDD144-545_N.yaml) |
+| ZXM7-SHDB144-550/M | 550 | 72 | 50.2 | 13.89 | -0.3197 |  | [PAN](ZXM7-SHDB144-550_M.PAN) / [spec](ZXM7-SHDB144-550_M.yaml) |
+| ZXM7-SHLDD144-550/M | 550 | 72 | 50.2 | 13.89 | -0.3287 | bifacial | [PAN](ZXM7-SHLDD144-550_M.PAN) / [spec](ZXM7-SHLDD144-550_M.yaml) |
+| ZXM7-UHLDD144-550/N | 550 | 72 | 50.3 | 13.99 | -0.30236 |  | [PAN](ZXM7-UHLDD144-550_N.PAN) / [spec](ZXM7-UHLDD144-550_N.yaml) |
+| ZXM7-SHDB144-555/M | 555 | 72 | 50.4 | 13.95 | -0.3197 |  | [PAN](ZXM7-SHDB144-555_M.PAN) / [spec](ZXM7-SHDB144-555_M.yaml) |
+| ZXM7-SHLDD144-555/M | 555 | 72 | 50.4 | 13.95 | -0.3287 | bifacial | [PAN](ZXM7-SHLDD144-555_M.PAN) / [spec](ZXM7-SHLDD144-555_M.yaml) |
+| ZXM7-UHLDD144-555/N | 555 | 72 | 50.5 | 14.05 | -0.30236 |  | [PAN](ZXM7-UHLDD144-555_N.PAN) / [spec](ZXM7-UHLDD144-555_N.yaml) |
+| ZXM7-SHDB144-560/M | 560 | 72 | 50.6 | 14.01 | -0.3197 |  | [PAN](ZXM7-SHDB144-560_M.PAN) / [spec](ZXM7-SHDB144-560_M.yaml) |
+| ZXM7-UHLDD144-560/N | 560 | 72 | 50.7 | 14.11 | -0.30236 |  | [PAN](ZXM7-UHLDD144-560_N.PAN) / [spec](ZXM7-UHLDD144-560_N.yaml) |
+| ZXM7-SHDB144-565/M | 565 | 72 | 50.8 | 14.07 | -0.3197 |  | [PAN](ZXM7-SHDB144-565_M.PAN) / [spec](ZXM7-SHDB144-565_M.yaml) |
+| ZXM7-UHLDD144-565/N | 565 | 72 | 50.9 | 14.17 | -0.30236 |  | [PAN](ZXM7-UHLDD144-565_N.PAN) / [spec](ZXM7-UHLDD144-565_N.yaml) |
+| ZXM7-UHLDD144-570/N | 570 | 72 | 51.1 | 14.23 | -0.28091 |  | [PAN](ZXM7-UHLDD144-570_N.PAN) / [spec](ZXM7-UHLDD144-570_N.yaml) |
+| ZXM7-UHLDD144-575/N | 575 | 72 | 51.3 | 14.29 | -0.28091 |  | [PAN](ZXM7-UHLDD144-575_N.PAN) / [spec](ZXM7-UHLDD144-575_N.yaml) |
+| ZXM8-TPLDD120-575/M | 575 | 60 | 40.5 | 18.13 | -0.33201 | bifacial | [PAN](ZXM8-TPLDD120-575_M.PAN) / [spec](ZXM8-TPLDD120-575_M.yaml) |
+| ZXM7-UHLDD144-580/N | 580 | 72 | 51.5 | 14.35 | -0.28091 |  | [PAN](ZXM7-UHLDD144-580_N.PAN) / [spec](ZXM7-UHLDD144-580_N.yaml) |
+| ZXM8-TPLDD120-580/M | 580 | 60 | 40.7 | 18.17 | -0.33201 | bifacial | [PAN](ZXM8-TPLDD120-580_M.PAN) / [spec](ZXM8-TPLDD120-580_M.yaml) |
+| ZXM7-UHLDD144-585/N | 585 | 72 | 51.7 | 14.41 | -0.28091 |  | [PAN](ZXM7-UHLDD144-585_N.PAN) / [spec](ZXM7-UHLDD144-585_N.yaml) |
+| ZXM8-TPLDD120-585/M | 585 | 60 | 40.9 | 18.21 | -0.33201 | bifacial | [PAN](ZXM8-TPLDD120-585_M.PAN) / [spec](ZXM8-TPLDD120-585_M.yaml) |
+| ZXM7-UHLDD144-590/N | 590 | 72 | 51.9 | 14.46 | -0.28091 |  | [PAN](ZXM7-UHLDD144-590_N.PAN) / [spec](ZXM7-UHLDD144-590_N.yaml) |
+| ZXM8-TPLDD120-590/M | 590 | 60 | 41.1 | 18.25 | -0.33201 | bifacial | [PAN](ZXM8-TPLDD120-590_M.PAN) / [spec](ZXM8-TPLDD120-590_M.yaml) |
+| ZXM7-UHLDD144-595/N | 595 | 72 | 52.1 | 14.51 | -0.28091 |  | [PAN](ZXM7-UHLDD144-595_N.PAN) / [spec](ZXM7-UHLDD144-595_N.yaml) |
+| ZXM8-TPLDD120-595/M | 595 | 60 | 41.3 | 18.29 | -0.33201 | bifacial | [PAN](ZXM8-TPLDD120-595_M.PAN) / [spec](ZXM8-TPLDD120-595_M.yaml) |
+| ZXM7-UHLDD144-600/N | 600 | 72 | 52.3 | 14.56 | -0.28091 |  | [PAN](ZXM7-UHLDD144-600_N.PAN) / [spec](ZXM7-UHLDD144-600_N.yaml) |
+| ZXM8-TPLDD120-600/M | 600 | 60 | 41.5 | 18.33 | -0.33201 | bifacial | [PAN](ZXM8-TPLDD120-600_M.PAN) / [spec](ZXM8-TPLDD120-600_M.yaml) |
+| ZXM7-UHLDD144-605/N | 605 | 72 | 52.5 | 14.61 | -0.28091 |  | [PAN](ZXM7-UHLDD144-605_N.PAN) / [spec](ZXM7-UHLDD144-605_N.yaml) |
+| ZXM8-TPLDD120-605/M | 605 | 60 | 41.7 | 18.37 | -0.33201 | bifacial | [PAN](ZXM8-TPLDD120-605_M.PAN) / [spec](ZXM8-TPLDD120-605_M.yaml) |
+| ZXM7-UHLDD144-610/N | 610 | 72 | 52.7 | 14.66 | -0.28091 |  | [PAN](ZXM7-UHLDD144-610_N.PAN) / [spec](ZXM7-UHLDD144-610_N.yaml) |
+| ZXM8-TPLDD120-610/M | 610 | 60 | 41.9 | 18.41 | -0.33201 | bifacial | [PAN](ZXM8-TPLDD120-610_M.PAN) / [spec](ZXM8-TPLDD120-610_M.yaml) |
+| ZXM7-UHLDD144-615/N | 615 | 72 | 52.9 | 14.72 | -0.28091 |  | [PAN](ZXM7-UHLDD144-615_N.PAN) / [spec](ZXM7-UHLDD144-615_N.yaml) |
+| ZXM8-TPLDD132-630/M | 630 | 66 | 44.4 | 18.07 | -0.311 |  | [PAN](ZXM8-TPLDD132-630_M.PAN) / [spec](ZXM8-TPLDD132-630_M.yaml) |
+| ZXM8-TPLDD132-635/M | 635 | 66 | 44.6 | 18.12 | -0.311 |  | [PAN](ZXM8-TPLDD132-635_M.PAN) / [spec](ZXM8-TPLDD132-635_M.yaml) |
+| ZXM8-TPLDD132-640/M | 640 | 66 | 44.8 | 18.17 | -0.311 |  | [PAN](ZXM8-TPLDD132-640_M.PAN) / [spec](ZXM8-TPLDD132-640_M.yaml) |
+| ZXM8-TPLDD132-645/M | 645 | 66 | 45 | 18.22 | -0.311 |  | [PAN](ZXM8-TPLDD132-645_M.PAN) / [spec](ZXM8-TPLDD132-645_M.yaml) |
+| ZXM8-TPLDD132-650/M | 650 | 66 | 45.2 | 18.27 | -0.311 |  | [PAN](ZXM8-TPLDD132-650_M.PAN) / [spec](ZXM8-TPLDD132-650_M.yaml) |
+| ZXM8-TPLDD132-655/M | 655 | 66 | 45.4 | 18.32 | -0.311 |  | [PAN](ZXM8-TPLDD132-655_M.PAN) / [spec](ZXM8-TPLDD132-655_M.yaml) |
+| ZXM8-TPLDD132-660/M | 660 | 66 | 45.6 | 18.37 | -0.311 |  | [PAN](ZXM8-TPLDD132-660_M.PAN) / [spec](ZXM8-TPLDD132-660_M.yaml) |
+| ZXM8-TPLDD132-665/M | 665 | 66 | 45.8 | 18.42 | -0.311 |  | [PAN](ZXM8-TPLDD132-665_M.PAN) / [spec](ZXM8-TPLDD132-665_M.yaml) |
+| ZXM8-TPLDD132-670/M | 670 | 66 | 46 | 18.47 | -0.311 |  | [PAN](ZXM8-TPLDD132-670_M.PAN) / [spec](ZXM8-TPLDD132-670_M.yaml) |
+| ZXM8-GPLDD132-695/N | 695 | 66 | 48.1 | 18.23 | -0.26186 | bifacial | [PAN](ZXM8-GPLDD132-695_N.PAN) / [spec](ZXM8-GPLDD132-695_N.yaml) |
+| ZXM8-GPLDD132-700/N | 700 | 66 | 48.3 | 18.27 | -0.26186 | bifacial | [PAN](ZXM8-GPLDD132-700_N.PAN) / [spec](ZXM8-GPLDD132-700_N.yaml) |
+| ZXM8-GPLDD132-705/N | 705 | 66 | 48.5 | 18.31 | -0.26186 | bifacial | [PAN](ZXM8-GPLDD132-705_N.PAN) / [spec](ZXM8-GPLDD132-705_N.yaml) |
+| ZXM8-GPLDD132-710/N | 710 | 66 | 48.7 | 18.35 | -0.26186 | bifacial | [PAN](ZXM8-GPLDD132-710_N.PAN) / [spec](ZXM8-GPLDD132-710_N.yaml) |
+| ZXM8-GPLDD132-715/N | 715 | 66 | 48.9 | 18.39 | -0.26186 | bifacial | [PAN](ZXM8-GPLDD132-715_N.PAN) / [spec](ZXM8-GPLDD132-715_N.yaml) |
+| ZXM8-GPLDD132-720/N | 720 | 66 | 49.1 | 18.43 | -0.26186 | bifacial | [PAN](ZXM8-GPLDD132-720_N.PAN) / [spec](ZXM8-GPLDD132-720_N.yaml) |
+| ZXM8-GPLDD132-725/N | 725 | 66 | 49.3 | 18.47 | -0.26186 | bifacial | [PAN](ZXM8-GPLDD132-725_N.PAN) / [spec](ZXM8-GPLDD132-725_N.yaml) |
+| ZXM8-GPLDD132-730/N | 730 | 66 | 49.5 | 18.51 | -0.26186 | bifacial | [PAN](ZXM8-GPLDD132-730_N.PAN) / [spec](ZXM8-GPLDD132-730_N.yaml) |
+| ZXM8-GPLDD132-735/N | 735 | 66 | 49.7 | 18.55 | -0.26186 | bifacial | [PAN](ZXM8-GPLDD132-735_N.PAN) / [spec](ZXM8-GPLDD132-735_N.yaml) |
+| ZXM8-GPLDD132-740/N | 740 | 66 | 49.9 | 18.95 | -0.26186 | bifacial | [PAN](ZXM8-GPLDD132-740_N.PAN) / [spec](ZXM8-GPLDD132-740_N.yaml) |

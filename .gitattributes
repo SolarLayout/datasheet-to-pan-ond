@@ -1,0 +1,6 @@
+# PVsyst files are written with CRLF line endings; keep the reference
+# fixtures byte-for-byte as PVsyst produced them.
+*.PAN -text
+*.pan -text
+*.OND -text
+*.ond -text

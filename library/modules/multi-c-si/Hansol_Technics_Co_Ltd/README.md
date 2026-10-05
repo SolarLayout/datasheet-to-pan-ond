@@ -1,0 +1,73 @@
+# Hansol Technics Co Ltd - multi-c-si
+
+[Up](../README.md) - 67 files.
+
+| Model | Pnom W | Cells | Voc V | Isc A | Pmax %/K | Flags | Files |
+|---|---:|---|---:|---:|---:|---|---|
+| HS240ME-V01 | 240 | 60 | 37.7 | 8.31 | -0.44 |  | [PAN](HS240ME-V01.PAN) / [spec](HS240ME-V01.yaml) |
+| HS245ME-V01 | 245 | 60 | 37.8 | 8.44 | -0.44 |  | [PAN](HS245ME-V01.PAN) / [spec](HS245ME-V01.yaml) |
+| HS250ME-V01 | 250 | 60 | 37.9 | 8.57 | -0.44 |  | [PAN](HS250ME-V01.PAN) / [spec](HS250ME-V01.yaml) |
+| HS250NB-AN3 | 250 | 60 | 36.8 | 8.96 | -0.42 |  | [PAN](HS250NB-AN3.PAN) / [spec](HS250NB-AN3.yaml) |
+| HS255ME-V01 | 255 | 60 | 38 | 8.71 | -0.44 |  | [PAN](HS255ME-V01.PAN) / [spec](HS255ME-V01.yaml) |
+| HS255NB-AN3 | 255 | 60 | 37.2 | 9.01 | -0.42 |  | [PAN](HS255NB-AN3.PAN) / [spec](HS255NB-AN3.yaml) |
+| HS255NB-AN4 | 255 | 60 | 37.2 | 9.01 | -0.394 |  | [PAN](HS255NB-AN4.PAN) / [spec](HS255NB-AN4.yaml) |
+| HS260ME-V01 | 260 | 60 | 38.1 | 8.85 | -0.42 |  | [PAN](HS260ME-V01.PAN) / [spec](HS260ME-V01.yaml) |
+| HS260NB-AN3 | 260 | 60 | 37.6 | 9.07 | -0.42 |  | [PAN](HS260NB-AN3.PAN) / [spec](HS260NB-AN3.yaml) |
+| HS260NB-AN4 | 260 | 60 | 37.6 | 9.07 | -0.394 |  | [PAN](HS260NB-AN4.PAN) / [spec](HS260NB-AN4.yaml) |
+| HS260PB-AN1 | 260 | 60 | 37.3 | 9.03 | -0.388 |  | [PAN](HS260PB-AN1.PAN) / [spec](HS260PB-AN1.yaml) |
+| HS265ME-V01 | 265 | 60 | 38.2 | 8.98 | -0.42 |  | [PAN](HS265ME-V01.PAN) / [spec](HS265ME-V01.yaml) |
+| HS265NB-AN3 | 265 | 60 | 38 | 9.12 | -0.42 |  | [PAN](HS265NB-AN3.PAN) / [spec](HS265NB-AN3.yaml) |
+| HS265NB-AN4 | 265 | 60 | 38 | 9.12 | -0.394 |  | [PAN](HS265NB-AN4.PAN) / [spec](HS265NB-AN4.yaml) |
+| HS265PB-AN1 | 265 | 60 | 37.7 | 9.08 | -0.388 |  | [PAN](HS265PB-AN1.PAN) / [spec](HS265PB-AN1.yaml) |
+| HS270ME-V01 | 270 | 60 | 38.3 | 9.12 | -0.42 |  | [PAN](HS270ME-V01.PAN) / [spec](HS270ME-V01.yaml) |
+| HS270NB-AN3 | 270 | 60 | 38.4 | 9.16 | -0.42 |  | [PAN](HS270NB-AN3.PAN) / [spec](HS270NB-AN3.yaml) |
+| HS270NB-AN4 | 270 | 60 | 38.4 | 9.16 | -0.394 |  | [PAN](HS270NB-AN4.PAN) / [spec](HS270NB-AN4.yaml) |
+| HS270PB-AN1 | 270 | 60 | 38.1 | 9.13 | -0.388 |  | [PAN](HS270PB-AN1.PAN) / [spec](HS270PB-AN1.yaml) |
+| HS275NB-AN4 | 275 | 60 | 38.8 | 9.21 | -0.394 |  | [PAN](HS275NB-AN4.PAN) / [spec](HS275NB-AN4.yaml) |
+| HS275PB-AN1 | 275 | 60 | 38.5 | 9.18 | -0.388 |  | [PAN](HS275PB-AN1.PAN) / [spec](HS275PB-AN1.yaml) |
+| HS275TB-AN3 | 275 | 60 | 38.3 | 9.41 | -0.48 |  | [PAN](HS275TB-AN3.PAN) / [spec](HS275TB-AN3.yaml) |
+| HS280PB-AN1 | 280 | 60 | 38.9 | 9.22 | -0.388 |  | [PAN](HS280PB-AN1.PAN) / [spec](HS280PB-AN1.yaml) |
+| HS280TB-AN3 | 280 | 60 | 38.7 | 9.45 | -0.48 |  | [PAN](HS280TB-AN3.PAN) / [spec](HS280TB-AN3.yaml) |
+| HS280TB-AN4 | 280 | 60 | 38.7 | 9.45 | -0.394 |  | [PAN](HS280TB-AN4.PAN) / [spec](HS280TB-AN4.yaml) |
+| HS285TB-AN3 | 285 | 60 | 39.1 | 9.5 | -0.48 |  | [PAN](HS285TB-AN3.PAN) / [spec](HS285TB-AN3.yaml) |
+| HS285TB-AN4 | 285 | 60 | 39.1 | 9.5 | -0.394 |  | [PAN](HS285TB-AN4.PAN) / [spec](HS285TB-AN4.yaml) |
+| HS290TB-AN3 | 290 | 60 | 39.5 | 9.54 | -0.48 |  | [PAN](HS290TB-AN3.PAN) / [spec](HS290TB-AN3.yaml) |
+| HS290TB-AN4 | 290 | 60 | 39.5 | 9.54 | -0.394 |  | [PAN](HS290TB-AN4.PAN) / [spec](HS290TB-AN4.yaml) |
+| HS295ME-V01 | 295 | 72 | 45 | 8.61 | -0.45 |  | [PAN](HS295ME-V01.PAN) / [spec](HS295ME-V01.yaml) |
+| HS295TB-AN3 | 295 | 60 | 39.9 | 9.59 | -0.48 |  | [PAN](HS295TB-AN3.PAN) / [spec](HS295TB-AN3.yaml) |
+| HS295TB-AN4 | 295 | 60 | 39.9 | 9.59 | -0.394 |  | [PAN](HS295TB-AN4.PAN) / [spec](HS295TB-AN4.yaml) |
+| HS300ME-V01 | 300 | 72 | 45.1 | 8.72 | -0.45 |  | [PAN](HS300ME-V01.PAN) / [spec](HS300ME-V01.yaml) |
+| HS300ND-AN3 | 300 | 72 | 44.5 | 8.97 | -0.42 |  | [PAN](HS300ND-AN3.PAN) / [spec](HS300ND-AN3.yaml) |
+| HS300TB-AN3 | 300 | 60 | 40.3 | 9.64 | -0.48 |  | [PAN](HS300TB-AN3.PAN) / [spec](HS300TB-AN3.yaml) |
+| HS300TB-AN4 | 300 | 60 | 40.3 | 9.64 | -0.394 |  | [PAN](HS300TB-AN4.PAN) / [spec](HS300TB-AN4.yaml) |
+| HS305ME-V01 | 305 | 72 | 45.2 | 8.84 | -0.45 |  | [PAN](HS305ME-V01.PAN) / [spec](HS305ME-V01.yaml) |
+| HS305ND-AN3 | 305 | 72 | 44.9 | 9.02 | -0.42 |  | [PAN](HS305ND-AN3.PAN) / [spec](HS305ND-AN3.yaml) |
+| HS305ND-AN4 | 305 | 72 | 44.9 | 9.02 | -0.397 |  | [PAN](HS305ND-AN4.PAN) / [spec](HS305ND-AN4.yaml) |
+| HS310ME-V01 | 310 | 72 | 45.3 | 8.95 | -0.45 |  | [PAN](HS310ME-V01.PAN) / [spec](HS310ME-V01.yaml) |
+| HS310ND-AN3 | 310 | 72 | 45.3 | 9.07 | -0.42 |  | [PAN](HS310ND-AN3.PAN) / [spec](HS310ND-AN3.yaml) |
+| HS310ND-AN4 | 310 | 72 | 45.3 | 9.07 | -0.397 |  | [PAN](HS310ND-AN4.PAN) / [spec](HS310ND-AN4.yaml) |
+| HS315ME-V01 | 315 | 72 | 45.4 | 9.06 | -0.45 |  | [PAN](HS315ME-V01.PAN) / [spec](HS315ME-V01.yaml) |
+| HS315ND-AN3 | 315 | 72 | 45.7 | 9.12 | -0.42 |  | [PAN](HS315ND-AN3.PAN) / [spec](HS315ND-AN3.yaml) |
+| HS315ND-AN4 | 315 | 72 | 45.7 | 9.12 | -0.397 |  | [PAN](HS315ND-AN4.PAN) / [spec](HS315ND-AN4.yaml) |
+| HS315PD-AN1 | 315 | 72 | 44.9 | 9.08 | -0.379 |  | [PAN](HS315PD-AN1.PAN) / [spec](HS315PD-AN1.yaml) |
+| HS320ME-V01 | 320 | 72 | 45.5 | 9.17 | -0.45 |  | [PAN](HS320ME-V01.PAN) / [spec](HS320ME-V01.yaml) |
+| HS320ND-AN3 | 320 | 72 | 46.1 | 9.16 | -0.42 |  | [PAN](HS320ND-AN3.PAN) / [spec](HS320ND-AN3.yaml) |
+| HS320ND-AN4 | 320 | 72 | 46.1 | 9.16 | -0.397 |  | [PAN](HS320ND-AN4.PAN) / [spec](HS320ND-AN4.yaml) |
+| HS320PD-AN1 | 320 | 72 | 45.3 | 9.12 | -0.379 |  | [PAN](HS320PD-AN1.PAN) / [spec](HS320PD-AN1.yaml) |
+| HS325ME-V01 | 325 | 72 | 45.6 | 9.29 | -0.45 |  | [PAN](HS325ME-V01.PAN) / [spec](HS325ME-V01.yaml) |
+| HS325ND-AN3 | 325 | 72 | 46.5 | 9.2 | -0.42 |  | [PAN](HS325ND-AN3.PAN) / [spec](HS325ND-AN3.yaml) |
+| HS325ND-AN4 | 325 | 72 | 46.5 | 9.2 | -0.397 |  | [PAN](HS325ND-AN4.PAN) / [spec](HS325ND-AN4.yaml) |
+| HS325PD-AN1 | 325 | 72 | 45.7 | 9.16 | -0.379 |  | [PAN](HS325PD-AN1.PAN) / [spec](HS325PD-AN1.yaml) |
+| HS325TD-AN3 | 325 | 72 | 46.5 | 9.2 | -0.44 |  | [PAN](HS325TD-AN3.PAN) / [spec](HS325TD-AN3.yaml) |
+| HS330ND-AN4 | 330 | 72 | 46.9 | 9.24 | -0.397 |  | [PAN](HS330ND-AN4.PAN) / [spec](HS330ND-AN4.yaml) |
+| HS330PD-AN1 | 330 | 72 | 46.1 | 9.2 | -0.379 |  | [PAN](HS330PD-AN1.PAN) / [spec](HS330PD-AN1.yaml) |
+| HS330TD-AN3 | 330 | 72 | 46.9 | 9.24 | -0.44 |  | [PAN](HS330TD-AN3.PAN) / [spec](HS330TD-AN3.yaml) |
+| HS335ND-AN4 | 335 | 72 | 47.3 | 9.28 | -0.397 |  | [PAN](HS335ND-AN4.PAN) / [spec](HS335ND-AN4.yaml) |
+| HS335PD-AN1 | 335 | 72 | 46.5 | 9.24 | -0.379 |  | [PAN](HS335PD-AN1.PAN) / [spec](HS335PD-AN1.yaml) |
+| HS335TD-AN3 | 335 | 72 | 46.2 | 9.5 | -0.44 |  | [PAN](HS335TD-AN3.PAN) / [spec](HS335TD-AN3.yaml) |
+| HS340PD-AN1 | 340 | 72 | 46.9 | 9.28 | -0.379 |  | [PAN](HS340PD-AN1.PAN) / [spec](HS340PD-AN1.yaml) |
+| HS340TD-AN3 | 340 | 72 | 46.6 | 9.54 | -0.44 |  | [PAN](HS340TD-AN3.PAN) / [spec](HS340TD-AN3.yaml) |
+| HS345PD-AN1 | 345 | 72 | 47.3 | 9.31 | -0.379 |  | [PAN](HS345PD-AN1.PAN) / [spec](HS345PD-AN1.yaml) |
+| HS345TD-AN3 | 345 | 72 | 47 | 9.58 | -0.44 |  | [PAN](HS345TD-AN3.PAN) / [spec](HS345TD-AN3.yaml) |
+| HS350TD-AN3 | 350 | 72 | 47.4 | 9.62 | -0.44 |  | [PAN](HS350TD-AN3.PAN) / [spec](HS350TD-AN3.yaml) |
+| HS355TD-AN3 | 355 | 72 | 47.8 | 9.65 | -0.44 |  | [PAN](HS355TD-AN3.PAN) / [spec](HS355TD-AN3.yaml) |

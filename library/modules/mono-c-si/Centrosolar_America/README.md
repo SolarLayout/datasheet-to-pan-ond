@@ -1,0 +1,72 @@
+# Centrosolar America - mono-c-si
+
+[Up](../README.md) - 66 files.
+
+| Model | Pnom W | Cells | Voc V | Isc A | Pmax %/K | Flags | Files |
+|---|---:|---|---:|---:|---:|---|---|
+| DM60 230 | 230 | 60 | 36.2 | 8.5 | -0.4319 |  | [PAN](DM60_230.PAN) / [spec](DM60_230.yaml) |
+| DM60 235 | 235 | 60 | 36.5 | 8.6 | -0.4319 |  | [PAN](DM60_235.PAN) / [spec](DM60_235.yaml) |
+| DM60 240 | 240 | 60 | 36.8 | 8.6 | -0.4319 |  | [PAN](DM60_240.PAN) / [spec](DM60_240.yaml) |
+| DM60 245 | 245 | 60 | 37.1 | 8.7 | -0.4319 |  | [PAN](DM60_245.PAN) / [spec](DM60_245.yaml) |
+| DM60 250 | 250 | 60 | 37.4 | 8.7 | -0.4319 |  | [PAN](DM60_250.PAN) / [spec](DM60_250.yaml) |
+| DM60 255 | 255 | 60 | 37.9 | 8.8 | -0.4319 |  | [PAN](DM60_255.PAN) / [spec](DM60_255.yaml) |
+| CP60 260-C1 | 260 | 60 | 38.3 | 9.16 | -0.4436 |  | [PAN](CP60_260-C1.PAN) / [spec](CP60_260-C1.yaml) |
+| DM60 260 | 260 | 60 | 38.2 | 8.8 | -0.4319 |  | [PAN](DM60_260.PAN) / [spec](DM60_260.yaml) |
+| EM60 260BB | 260 | 60 | 38.22 | 9.01 | -0.43 |  | [PAN](EM60_260BB.PAN) / [spec](EM60_260BB.yaml) |
+| TM6 260xx | 260 | 60 | 37.8 | 9.04 | -0.404 |  | [PAN](TM6_260xx.PAN) / [spec](TM6_260xx.yaml) |
+| TM6S 260xx | 260 | 60 | 37.8 | 9.04 | -0.404 |  | [PAN](TM6S_260xx.PAN) / [spec](TM6S_260xx.yaml) |
+| DM60 265 | 265 | 60 | 38.5 | 8.9 | -0.4319 |  | [PAN](DM60_265.PAN) / [spec](DM60_265.yaml) |
+| EM60 265BB | 265 | 60 | 38.29 | 9.1 | -0.43 |  | [PAN](EM60_265BB.PAN) / [spec](EM60_265BB.yaml) |
+| EM60 265SW | 265 | 60 | 38.29 | 9.1 | -0.421 |  | [PAN](EM60_265SW.PAN) / [spec](EM60_265SW.yaml) |
+| TM6 265xx | 265 | 60 | 38 | 9.16 | -0.404 |  | [PAN](TM6_265xx.PAN) / [spec](TM6_265xx.yaml) |
+| TM6S 265xx | 265 | 60 | 38 | 9.16 | -0.404 |  | [PAN](TM6S_265xx.PAN) / [spec](TM6S_265xx.yaml) |
+| DM60 270 | 270 | 60 | 38.8 | 8.9 | -0.4319 |  | [PAN](DM60_270.PAN) / [spec](DM60_270.yaml) |
+| EM60 270BB | 270 | 60 | 38.68 | 9.12 | -0.43 |  | [PAN](EM60_270BB.PAN) / [spec](EM60_270BB.yaml) |
+| EM60 270SW | 270 | 60 | 38.68 | 9.12 | -0.421 |  | [PAN](EM60_270SW.PAN) / [spec](EM60_270SW.yaml) |
+| TM6 270xx | 270 | 60 | 38.2 | 9.28 | -0.404 |  | [PAN](TM6_270xx.PAN) / [spec](TM6_270xx.yaml) |
+| TM6S 270xx | 270 | 60 | 38.2 | 9.28 | -0.404 |  | [PAN](TM6S_270xx.PAN) / [spec](TM6S_270xx.yaml) |
+| DM60 275 | 275 | 60 | 39.1 | 9 | -0.4319 |  | [PAN](DM60_275.PAN) / [spec](DM60_275.yaml) |
+| TM6 275xx | 275 | 60 | 38.4 | 9.36 | -0.404 |  | [PAN](TM6_275xx.PAN) / [spec](TM6_275xx.yaml) |
+| TM6S 275xx | 275 | 60 | 38.4 | 9.36 | -0.404 |  | [PAN](TM6S_275xx.PAN) / [spec](TM6S_275xx.yaml) |
+| TM6 280xx | 280 | 60 | 38.7 | 9.43 | -0.404 |  | [PAN](TM6_280xx.PAN) / [spec](TM6_280xx.yaml) |
+| TM6S 280xx | 280 | 60 | 38.7 | 9.43 | -0.404 |  | [PAN](TM6S_280xx.PAN) / [spec](TM6S_280xx.yaml) |
+| DM72 285 | 285 | 72 | 44.1 | 8.6 | -0.4319 |  | [PAN](DM72_285.PAN) / [spec](DM72_285.yaml) |
+| EM60 285BB | 285 | 60 | 39.18 | 9.46 | -0.43 |  | [PAN](EM60_285BB.PAN) / [spec](EM60_285BB.yaml) |
+| EM60 285BW | 285 | 60 | 39.18 | 9.46 | -0.421 |  | [PAN](EM60_285BW.PAN) / [spec](EM60_285BW.yaml) |
+| EM60 285SW | 285 | 60 | 39.18 | 9.46 | -0.421 |  | [PAN](EM60_285SW.PAN) / [spec](EM60_285SW.yaml) |
+| TM6 285xx | 285 | 60 | 39.1 | 9.47 | -0.404 |  | [PAN](TM6_285xx.PAN) / [spec](TM6_285xx.yaml) |
+| TM6S 285xx | 285 | 60 | 39.1 | 9.47 | -0.404 |  | [PAN](TM6S_285xx.PAN) / [spec](TM6S_285xx.yaml) |
+| DM72 290 | 290 | 72 | 44.4 | 8.6 | -0.4319 |  | [PAN](DM72_290.PAN) / [spec](DM72_290.yaml) |
+| EM60 290BW | 290 | 60 | 39.68 | 9.59 | -0.421 |  | [PAN](EM60_290BW.PAN) / [spec](EM60_290BW.yaml) |
+| EM60 290SW | 290 | 60 | 39.68 | 9.59 | -0.421 |  | [PAN](EM60_290SW.PAN) / [spec](EM60_290SW.yaml) |
+| DM72 295 | 295 | 72 | 44.7 | 8.7 | -0.4319 |  | [PAN](DM72_295.PAN) / [spec](DM72_295.yaml) |
+| DM72 300 | 300 | 72 | 45 | 8.7 | -0.4319 |  | [PAN](DM72_300.PAN) / [spec](DM72_300.yaml) |
+| DM72 305 | 305 | 72 | 45.4 | 8.8 | -0.4319 |  | [PAN](DM72_305.PAN) / [spec](DM72_305.yaml) |
+| DM72 310 | 310 | 72 | 45.7 | 8.8 | -0.4319 |  | [PAN](DM72_310.PAN) / [spec](DM72_310.yaml) |
+| DM72 315 | 315 | 72 | 46 | 8.9 | -0.4319 |  | [PAN](DM72_315.PAN) / [spec](DM72_315.yaml) |
+| TM7 315SW | 315 | 72 | 45.5 | 9.05 | -0.41 |  | [PAN](TM7_315SW.PAN) / [spec](TM7_315SW.yaml) |
+| TM7S 315SW | 315 | 72 | 45.5 | 9.05 | -0.41 |  | [PAN](TM7S_315SW.PAN) / [spec](TM7S_315SW.yaml) |
+| DM72 320 | 320 | 72 | 46.3 | 8.9 | -0.4319 |  | [PAN](DM72_320.PAN) / [spec](DM72_320.yaml) |
+| EM72 320BW | 320 | 72 | 46.31 | 9.08 | -0.421 |  | [PAN](EM72_320BW.PAN) / [spec](EM72_320BW.yaml) |
+| EM72 320SW | 320 | 72 | 46.31 | 9.08 | -0.421 |  | [PAN](EM72_320SW.PAN) / [spec](EM72_320SW.yaml) |
+| TM7 320SW | 320 | 72 | 45.6 | 9.15 | -0.41 |  | [PAN](TM7_320SW.PAN) / [spec](TM7_320SW.yaml) |
+| TM7S 320SW | 320 | 72 | 45.6 | 9.15 | -0.41 |  | [PAN](TM7S_320SW.PAN) / [spec](TM7S_320SW.yaml) |
+| DM72 325 | 325 | 72 | 46.6 | 9 | -0.4319 |  | [PAN](DM72_325.PAN) / [spec](DM72_325.yaml) |
+| TM7 325SW | 325 | 72 | 45.8 | 9.25 | -0.41 |  | [PAN](TM7_325SW.PAN) / [spec](TM7_325SW.yaml) |
+| TM7S 325SW | 325 | 72 | 45.8 | 9.25 | -0.41 |  | [PAN](TM7S_325SW.PAN) / [spec](TM7S_325SW.yaml) |
+| DM72 330 | 330 | 72 | 46.9 | 9 | -0.4319 |  | [PAN](DM72_330.PAN) / [spec](DM72_330.yaml) |
+| EM72 330BW | 330 | 72 | 46.64 | 9.29 | -0.421 |  | [PAN](EM72_330BW.PAN) / [spec](EM72_330BW.yaml) |
+| EM72 330SW | 330 | 72 | 46.64 | 9.29 | -0.421 |  | [PAN](EM72_330SW.PAN) / [spec](EM72_330SW.yaml) |
+| TM7 330SW | 330 | 72 | 46.1 | 9.32 | -0.41 |  | [PAN](TM7_330SW.PAN) / [spec](TM7_330SW.yaml) |
+| TM7S 330SW | 330 | 72 | 46.1 | 9.32 | -0.41 |  | [PAN](TM7S_330SW.PAN) / [spec](TM7S_330SW.yaml) |
+| DM72 335 | 335 | 72 | 47.2 | 9.1 | -0.4319 |  | [PAN](DM72_335.PAN) / [spec](DM72_335.yaml) |
+| EM72 335BW | 335 | 72 | 46.75 | 9.33 | -0.421 |  | [PAN](EM72_335BW.PAN) / [spec](EM72_335BW.yaml) |
+| EM72 335SW | 335 | 72 | 46.75 | 9.33 | -0.421 |  | [PAN](EM72_335SW.PAN) / [spec](EM72_335SW.yaml) |
+| TM7 335SW | 335 | 72 | 46.4 | 9.37 | -0.41 |  | [PAN](TM7_335SW.PAN) / [spec](TM7_335SW.yaml) |
+| TM7S 335SW | 335 | 72 | 46.4 | 9.37 | -0.41 |  | [PAN](TM7S_335SW.PAN) / [spec](TM7S_335SW.yaml) |
+| EM72 340BW | 340 | 72 | 46.91 | 9.41 | -0.421 |  | [PAN](EM72_340BW.PAN) / [spec](EM72_340BW.yaml) |
+| EM72 340SW | 340 | 72 | 46.91 | 9.41 | -0.421 |  | [PAN](EM72_340SW.PAN) / [spec](EM72_340SW.yaml) |
+| EM72 345BW | 345 | 72 | 47.13 | 9.48 | -0.421 |  | [PAN](EM72_345BW.PAN) / [spec](EM72_345BW.yaml) |
+| EM72 345SW | 345 | 72 | 47.13 | 9.48 | -0.421 |  | [PAN](EM72_345SW.PAN) / [spec](EM72_345SW.yaml) |
+| EM72 350BW | 350 | 72 | 47.64 | 9.59 | -0.421 |  | [PAN](EM72_350BW.PAN) / [spec](EM72_350BW.yaml) |
+| EM72 350SW | 350 | 72 | 47.64 | 9.59 | -0.421 |  | [PAN](EM72_350SW.PAN) / [spec](EM72_350SW.yaml) |

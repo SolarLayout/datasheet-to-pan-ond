@@ -1,0 +1,21 @@
+# Translucent Solar LLC - mono-c-si
+
+[Up](../README.md) - 15 files.
+
+| Model | Pnom W | Cells | Voc V | Isc A | Pmax %/K | Flags | Files |
+|---|---:|---|---:|---:|---:|---|---|
+| SK9609MHVC-U-395 | 395 | 54 | 36.9 | 13.71 | -0.3546 |  | [PAN](SK9609MHVC-U-395.PAN) / [spec](SK9609MHVC-U-395.yaml) |
+| SK9609MHVC-U-400 | 400 | 54 | 36.98 | 13.78 | -0.3546 |  | [PAN](SK9609MHVC-U-400.PAN) / [spec](SK9609MHVC-U-400.yaml) |
+| SK9609MHVC-U-405 | 405 | 54 | 37.06 | 13.85 | -0.3546 |  | [PAN](SK9609MHVC-U-405.PAN) / [spec](SK9609MHVC-U-405.yaml) |
+| SK9609MHVC-U-410 | 410 | 54 | 37.14 | 13.92 | -0.3546 |  | [PAN](SK9609MHVC-U-410.PAN) / [spec](SK9609MHVC-U-410.yaml) |
+| SK9609MHVC-U-415 | 415 | 54 | 37.31 | 14.01 | -0.3546 |  | [PAN](SK9609MHVC-U-415.PAN) / [spec](SK9609MHVC-U-415.yaml) |
+| SK9610MHVC-U-440 | 440 | 60 | 41.02 | 13.73 | -0.3546 |  | [PAN](SK9610MHVC-U-440.PAN) / [spec](SK9610MHVC-U-440.yaml) |
+| SK9610MHVC-U-445 | 445 | 60 | 41.1 | 13.79 | -0.3546 |  | [PAN](SK9610MHVC-U-445.PAN) / [spec](SK9610MHVC-U-445.yaml) |
+| SK9610MHVC-U-450 | 450 | 60 | 41.18 | 13.85 | -0.3546 |  | [PAN](SK9610MHVC-U-450.PAN) / [spec](SK9610MHVC-U-450.yaml) |
+| SK9610MHVC-U-455 | 455 | 60 | 41.33 | 13.93 | -0.3546 |  | [PAN](SK9610MHVC-U-455.PAN) / [spec](SK9610MHVC-U-455.yaml) |
+| SK9610MHVC-U-460 | 460 | 60 | 41.48 | 14.01 | -0.3546 |  | [PAN](SK9610MHVC-U-460.PAN) / [spec](SK9610MHVC-U-460.yaml) |
+| SK9612MHVC-U-530 | 530 | 72 | 49.26 | 13.71 | -0.3546 |  | [PAN](SK9612MHVC-U-530.PAN) / [spec](SK9612MHVC-U-530.yaml) |
+| SK9612MHVC-U-535 | 535 | 72 | 49.34 | 13.79 | -0.3546 |  | [PAN](SK9612MHVC-U-535.PAN) / [spec](SK9612MHVC-U-535.yaml) |
+| SK9612MHVC-U-540 | 540 | 72 | 49.42 | 13.85 | -0.3546 |  | [PAN](SK9612MHVC-U-540.PAN) / [spec](SK9612MHVC-U-540.yaml) |
+| SK9612MHVC-U-545 | 545 | 72 | 49.52 | 13.94 | -0.3546 |  | [PAN](SK9612MHVC-U-545.PAN) / [spec](SK9612MHVC-U-545.yaml) |
+| SK9612MHVC-U-550 | 550 | 72 | 49.62 | 14.03 | -0.3546 |  | [PAN](SK9612MHVC-U-550.PAN) / [spec](SK9612MHVC-U-550.yaml) |

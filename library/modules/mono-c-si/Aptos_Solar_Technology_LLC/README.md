@@ -1,0 +1,163 @@
+# Aptos Solar Technology LLC - mono-c-si
+
+[Up](../README.md) - 157 files.
+
+| Model | Pnom W | Cells | Voc V | Isc A | Pmax %/K | Flags | Files |
+|---|---:|---|---:|---:|---:|---|---|
+| DNA-120-BF23-320W | 320 | 60 | 40.18 | 10.13 | -0.358 | bifacial | [PAN](DNA-120-BF23-320W.PAN) / [spec](DNA-120-BF23-320W.yaml) |
+| DNA-120-MF23-320W {Blk} | 320 | 60 | 39.92 | 10.13 | -0.4034 |  | [PAN](DNA-120-MF23-320W_Blk.PAN) / [spec](DNA-120-MF23-320W_Blk.yaml) |
+| DNA-120-MF23-320W {Wht} | 320 | 60 | 39.92 | 10.13 | -0.348 |  | [PAN](DNA-120-MF23-320W_Wht.PAN) / [spec](DNA-120-MF23-320W_Wht.yaml) |
+| DNA-120-MF23-325W {Blk} | 325 | 60 | 40.1 | 10.43 | -0.4034 |  | [PAN](DNA-120-MF23-325W_Blk.PAN) / [spec](DNA-120-MF23-325W_Blk.yaml) |
+| DNA-120-MF23-325W {Wht} | 325 | 60 | 40.1 | 10.43 | -0.348 |  | [PAN](DNA-120-MF23-325W_Wht.PAN) / [spec](DNA-120-MF23-325W_Wht.yaml) |
+| DNA-120-MF23-330W {Blk} | 330 | 60 | 40.27 | 10.51 | -0.4034 |  | [PAN](DNA-120-MF23-330W_Blk.PAN) / [spec](DNA-120-MF23-330W_Blk.yaml) |
+| DNA-120-MF23-330W {Wht} | 330 | 60 | 40.27 | 10.51 | -0.348 |  | [PAN](DNA-120-MF23-330W_Wht.PAN) / [spec](DNA-120-MF23-330W_Wht.yaml) |
+| DNA-120-MF23-335W {Blk} | 335 | 60 | 40.44 | 10.6 | -0.4034 |  | [PAN](DNA-120-MF23-335W_Blk.PAN) / [spec](DNA-120-MF23-335W_Blk.yaml) |
+| DNA-120-MF23-335W {Wht} | 335 | 60 | 40.44 | 10.6 | -0.348 |  | [PAN](DNA-120-MF23-335W_Wht.PAN) / [spec](DNA-120-MF23-335W_Wht.yaml) |
+| DNA-120-MF23-340W {Blk} | 340 | 60 | 40.62 | 10.69 | -0.4034 |  | [PAN](DNA-120-MF23-340W_Blk.PAN) / [spec](DNA-120-MF23-340W_Blk.yaml) |
+| DNA-120-MF23-340W {Wht} | 340 | 60 | 40.62 | 10.69 | -0.348 |  | [PAN](DNA-120-MF23-340W_Wht.PAN) / [spec](DNA-120-MF23-340W_Wht.yaml) |
+| DNA-120-BF26-360W | 360 | 60 | 40.26 | 11.26 | -0.366 | bifacial | [PAN](DNA-120-BF26-360W.PAN) / [spec](DNA-120-BF26-360W.yaml) |
+| DNA-120-MF26-360W | 360 | 60 | 40.6 | 11.24 | -0.392 |  | [PAN](DNA-120-MF26-360W.PAN) / [spec](DNA-120-MF26-360W.yaml) |
+| DNA-120-BF26-365W | 365 | 60 | 40.59 | 11.28 | -0.366 | bifacial | [PAN](DNA-120-BF26-365W.PAN) / [spec](DNA-120-BF26-365W.yaml) |
+| DNA-120-MF26-365W | 365 | 60 | 40.7 | 11.36 | -0.392 |  | [PAN](DNA-120-MF26-365W.PAN) / [spec](DNA-120-MF26-365W.yaml) |
+| DNA-120-BF26-370W | 370 | 60 | 40.91 | 11.3 | -0.366 | bifacial | [PAN](DNA-120-BF26-370W.PAN) / [spec](DNA-120-BF26-370W.yaml) |
+| DNA-120-MF26-370W | 370 | 60 | 40.8 | 11.51 | -0.392 |  | [PAN](DNA-120-MF26-370W.PAN) / [spec](DNA-120-MF26-370W.yaml) |
+| DNA-108-BF10-385W | 385 | 54 | 36.72 | 13.52 | -0.3204 | bifacial | [PAN](DNA-108-BF10-385W.PAN) / [spec](DNA-108-BF10-385W.yaml) |
+| DNA-108-BF10-390W | 390 | 54 | 36.85 | 13.61 | -0.3204 | bifacial | [PAN](DNA-108-BF10-390W.PAN) / [spec](DNA-108-BF10-390W.yaml) |
+| DNA-144-MF23-390W {Blk} | 390 | 72 | 48.18 | 10.48 | -0.4149 |  | [PAN](DNA-144-MF23-390W_Blk.PAN) / [spec](DNA-144-MF23-390W_Blk.yaml) |
+| DNA-144-MF23-390W {Wht} | 390 | 72 | 48.18 | 10.48 | -0.349 |  | [PAN](DNA-144-MF23-390W_Wht.PAN) / [spec](DNA-144-MF23-390W_Wht.yaml) |
+| DNA-108-BF10-395W | 395 | 54 | 36.98 | 13.7 | -0.3204 | bifacial | [PAN](DNA-108-BF10-395W.PAN) / [spec](DNA-108-BF10-395W.yaml) |
+| DNA-108-MF10-395W | 395 | 54 | 36.98 | 13.7 | -0.3526 |  | [PAN](DNA-108-MF10-395W.PAN) / [spec](DNA-108-MF10-395W.yaml) |
+| DNA-144-MF23-395W {Blk} | 395 | 72 | 48.37 | 10.56 | -0.4149 |  | [PAN](DNA-144-MF23-395W_Blk.PAN) / [spec](DNA-144-MF23-395W_Blk.yaml) |
+| DNA-144-MF23-395W {Wht} | 395 | 72 | 48.37 | 10.56 | -0.349 |  | [PAN](DNA-144-MF23-395W_Wht.PAN) / [spec](DNA-144-MF23-395W_Wht.yaml) |
+| DNA-108-BF10-400W | 400 | 54 | 37.07 | 13.79 | -0.3204 | bifacial | [PAN](DNA-108-BF10-400W.PAN) / [spec](DNA-108-BF10-400W.yaml) |
+| DNA-108-MF10-400W | 400 | 54 | 37.04 | 13.79 | -0.3526 |  | [PAN](DNA-108-MF10-400W.PAN) / [spec](DNA-108-MF10-400W.yaml) |
+| DNA-108-MF10-400W-USAptos1 | 400 | 54 | 37.2 | 13.39 | -0.328 |  | [PAN](DNA-108-MF10-400W-USAptos1.PAN) / [spec](DNA-108-MF10-400W-USAptos1.yaml) |
+| DNA-108-MF10-400W-USAptos1a | 400 | 54 | 37.1 | 13.7 | -0.348 |  | [PAN](DNA-108-MF10-400W-USAptos1a.PAN) / [spec](DNA-108-MF10-400W-USAptos1a.yaml) |
+| DNA-108-MF10-400W-USAptos2 | 400 | 54 | 37.2 | 13.39 | -0.328 |  | [PAN](DNA-108-MF10-400W-USAptos2.PAN) / [spec](DNA-108-MF10-400W-USAptos2.yaml) |
+| DNA-144-MF23-400W {Blk} | 400 | 72 | 48.55 | 10.64 | -0.4149 |  | [PAN](DNA-144-MF23-400W_Blk.PAN) / [spec](DNA-144-MF23-400W_Blk.yaml) |
+| DNA-144-MF23-400W {Wht} | 400 | 72 | 48.55 | 10.64 | -0.349 |  | [PAN](DNA-144-MF23-400W_Wht.PAN) / [spec](DNA-144-MF23-400W_Wht.yaml) |
+| DNA-108-BF10-405W | 405 | 54 | 37.23 | 13.87 | -0.3204 | bifacial | [PAN](DNA-108-BF10-405W.PAN) / [spec](DNA-108-BF10-405W.yaml) |
+| DNA-108-MF10-405W | 405 | 54 | 37.23 | 13.87 | -0.3526 |  | [PAN](DNA-108-MF10-405W.PAN) / [spec](DNA-108-MF10-405W.yaml) |
+| DNA-108-MF10-405W-USAptos1 | 405 | 54 | 37.3 | 13.44 | -0.328 |  | [PAN](DNA-108-MF10-405W-USAptos1.PAN) / [spec](DNA-108-MF10-405W-USAptos1.yaml) |
+| DNA-108-MF10-405W-USAptos1a | 405 | 54 | 37.3 | 13.77 | -0.348 |  | [PAN](DNA-108-MF10-405W-USAptos1a.PAN) / [spec](DNA-108-MF10-405W-USAptos1a.yaml) |
+| DNA-108-MF10-405W-USAptos2 | 405 | 54 | 37.3 | 13.44 | -0.328 |  | [PAN](DNA-108-MF10-405W-USAptos2.PAN) / [spec](DNA-108-MF10-405W-USAptos2.yaml) |
+| DNA-144-BF23-405W | 405 | 72 | 48.45 | 10.42 | -0.358 | bifacial | [PAN](DNA-144-BF23-405W.PAN) / [spec](DNA-144-BF23-405W.yaml) |
+| DNA-144-MF23-405W {Blk} | 405 | 72 | 48.73 | 10.71 | -0.4149 |  | [PAN](DNA-144-MF23-405W_Blk.PAN) / [spec](DNA-144-MF23-405W_Blk.yaml) |
+| DNA-144-MF23-405W {Wht} | 405 | 72 | 48.73 | 10.71 | -0.349 |  | [PAN](DNA-144-MF23-405W_Wht.PAN) / [spec](DNA-144-MF23-405W_Wht.yaml) |
+| DNA-108-BF10-410W | 410 | 54 | 37.32 | 13.95 | -0.3204 | bifacial | [PAN](DNA-108-BF10-410W.PAN) / [spec](DNA-108-BF10-410W.yaml) |
+| DNA-108-MF10-410W | 410 | 54 | 37.32 | 13.95 | -0.3526 |  | [PAN](DNA-108-MF10-410W.PAN) / [spec](DNA-108-MF10-410W.yaml) |
+| DNA-108-MF10-410W-USAptos1 | 410 | 54 | 37.7 | 13.59 | -0.328 |  | [PAN](DNA-108-MF10-410W-USAptos1.PAN) / [spec](DNA-108-MF10-410W-USAptos1.yaml) |
+| DNA-108-MF10-410W-USAptos2 | 410 | 54 | 37.7 | 13.59 | -0.328 |  | [PAN](DNA-108-MF10-410W-USAptos2.PAN) / [spec](DNA-108-MF10-410W-USAptos2.yaml) |
+| DNA-144-BF23-410W | 410 | 72 | 48.56 | 10.51 | -0.36 | bifacial | [PAN](DNA-144-BF23-410W.PAN) / [spec](DNA-144-BF23-410W.yaml) |
+| DNA-144-MF23-410W {Blk} | 410 | 72 | 48.91 | 10.79 | -0.4149 |  | [PAN](DNA-144-MF23-410W_Blk.PAN) / [spec](DNA-144-MF23-410W_Blk.yaml) |
+| DNA-144-MF23-410W {Wht} | 410 | 72 | 48.91 | 10.79 | -0.349 |  | [PAN](DNA-144-MF23-410W_Wht.PAN) / [spec](DNA-144-MF23-410W_Wht.yaml) |
+| DNA-108-BF10-415W | 415 | 54 | 37.5 | 14.02 | -0.337 |  | [PAN](DNA-108-BF10-415W.PAN) / [spec](DNA-108-BF10-415W.yaml) |
+| DNA-108-MF10-415W | 415 | 54 | 37.7 | 13.91 | -0.326 |  | [PAN](DNA-108-MF10-415W.PAN) / [spec](DNA-108-MF10-415W.yaml) |
+| DNA-108-MF10-415W-USAptos1 | 415 | 54 | 37.8 | 13.72 | -0.328 |  | [PAN](DNA-108-MF10-415W-USAptos1.PAN) / [spec](DNA-108-MF10-415W-USAptos1.yaml) |
+| DNA-108-MF10-415W-USAptos1a | 415 | 54 | 37.7 | 13.91 | -0.348 |  | [PAN](DNA-108-MF10-415W-USAptos1a.PAN) / [spec](DNA-108-MF10-415W-USAptos1a.yaml) |
+| DNA-108-MF10-415W-USAptos2 | 415 | 54 | 37.8 | 13.72 | -0.328 |  | [PAN](DNA-108-MF10-415W-USAptos2.PAN) / [spec](DNA-108-MF10-415W-USAptos2.yaml) |
+| DNA-144-BF23-415W | 415 | 72 | 48.64 | 10.61 | -0.36 | bifacial | [PAN](DNA-144-BF23-415W.PAN) / [spec](DNA-144-BF23-415W.yaml) |
+| DNA-108-BFN10-420W-DG | 420 | 54 | 37.6 | 13.93 | -0.301 | bifacial | [PAN](DNA-108-BFN10-420W-DG.PAN) / [spec](DNA-108-BFN10-420W-DG.yaml) |
+| DNA-108-MF10-420W-USAptos1 | 420 | 54 | 38 | 13.8 | -0.328 |  | [PAN](DNA-108-MF10-420W-USAptos1.PAN) / [spec](DNA-108-MF10-420W-USAptos1.yaml) |
+| DNA-108-MF10-420W-USAptos1a | 420 | 54 | 37.9 | 13.98 | -0.348 |  | [PAN](DNA-108-MF10-420W-USAptos1a.PAN) / [spec](DNA-108-MF10-420W-USAptos1a.yaml) |
+| DNA-108-MF10-420W-USAptos2 | 420 | 54 | 38 | 13.8 | -0.328 |  | [PAN](DNA-108-MF10-420W-USAptos2.PAN) / [spec](DNA-108-MF10-420W-USAptos2.yaml) |
+| DNA-108-MFN10-420W | 420 | 54 | 38.5 | 13.4 | -0.293 |  | [PAN](DNA-108-MFN10-420W.PAN) / [spec](DNA-108-MFN10-420W.yaml) |
+| DNA-108-BFN10-425W-DG | 425 | 54 | 38.6 | 13.64 | -0.301 | bifacial | [PAN](DNA-108-BFN10-425W-DG.PAN) / [spec](DNA-108-BFN10-425W-DG.yaml) |
+| DNA-108-MFN10-425W | 425 | 54 | 38.6 | 13.48 | -0.293 |  | [PAN](DNA-108-MFN10-425W.PAN) / [spec](DNA-108-MFN10-425W.yaml) |
+| DNA-108-BFN10-430W-DG | 430 | 54 | 38.8 | 13.72 | -0.301 | bifacial | [PAN](DNA-108-BFN10-430W-DG.PAN) / [spec](DNA-108-BFN10-430W-DG.yaml) |
+| DNA-108-MFN10-430W | 430 | 54 | 38.8 | 13.57 | -0.293 |  | [PAN](DNA-108-MFN10-430W.PAN) / [spec](DNA-108-MFN10-430W.yaml) |
+| DNA-144-BF26-430W | 430 | 72 | 49.17 | 10.85 | -0.366 | bifacial | [PAN](DNA-144-BF26-430W.PAN) / [spec](DNA-144-BF26-430W.yaml) |
+| DNA-144-MF26-430W {Blk} | 430 | 72 | 49.5 | 11.19 | -0.382 |  | [PAN](DNA-144-MF26-430W_Blk.PAN) / [spec](DNA-144-MF26-430W_Blk.yaml) |
+| DNA-144-MF26-430W {Wht} | 430 | 72 | 49.5 | 11.19 | -0.382 |  | [PAN](DNA-144-MF26-430W_Wht.PAN) / [spec](DNA-144-MF26-430W_Wht.yaml) |
+| DNA-108-BFN10-435W-DG | 435 | 54 | 39 | 13.8 | -0.301 | bifacial | [PAN](DNA-108-BFN10-435W-DG.PAN) / [spec](DNA-108-BFN10-435W-DG.yaml) |
+| DNA-108-MFN10-435W | 435 | 54 | 38.9 | 13.65 | -0.293 |  | [PAN](DNA-108-MFN10-435W.PAN) / [spec](DNA-108-MFN10-435W.yaml) |
+| DNA-120-BF10-435W | 435 | 60 | 41.02 | 13.66 | -0.3555 | bifacial | [PAN](DNA-120-BF10-435W.PAN) / [spec](DNA-120-BF10-435W.yaml) |
+| DNA-120-BF10-435W-USAptos1 | 435 | 60 | 40.99 | 13.32 | -0.3222 | bifacial | [PAN](DNA-120-BF10-435W-USAptos1.PAN) / [spec](DNA-120-BF10-435W-USAptos1.yaml) |
+| DNA-120-BF10-435W-USAptos2 | 435 | 60 | 41 | 13.32 | -0.322 | bifacial | [PAN](DNA-120-BF10-435W-USAptos2.PAN) / [spec](DNA-120-BF10-435W-USAptos2.yaml) |
+| DNA-120-MF10-435W-USAptos1 | 435 | 60 | 40.99 | 13.32 | -0.3284 |  | [PAN](DNA-120-MF10-435W-USAptos1.PAN) / [spec](DNA-120-MF10-435W-USAptos1.yaml) |
+| DNA-120-MF10-435W-USAptos2 | 435 | 60 | 40.99 | 13.32 | -0.3284 |  | [PAN](DNA-120-MF10-435W-USAptos2.PAN) / [spec](DNA-120-MF10-435W-USAptos2.yaml) |
+| DNA-144-BF26-435W | 435 | 72 | 49.38 | 10.92 | -0.366 | bifacial | [PAN](DNA-144-BF26-435W.PAN) / [spec](DNA-144-BF26-435W.yaml) |
+| DNA-144-MF26-435W {Blk} | 435 | 72 | 49.7 | 11.26 | -0.382 |  | [PAN](DNA-144-MF26-435W_Blk.PAN) / [spec](DNA-144-MF26-435W_Blk.yaml) |
+| DNA-144-MF26-435W {Wht} | 435 | 72 | 49.7 | 11.26 | -0.382 |  | [PAN](DNA-144-MF26-435W_Wht.PAN) / [spec](DNA-144-MF26-435W_Wht.yaml) |
+| DNA-108-BFN10-440W-DG | 440 | 54 | 39.2 | 13.88 | -0.301 | bifacial | [PAN](DNA-108-BFN10-440W-DG.PAN) / [spec](DNA-108-BFN10-440W-DG.yaml) |
+| DNA-108-MFN10-440W | 440 | 54 | 39 | 13.73 | -0.293 |  | [PAN](DNA-108-MFN10-440W.PAN) / [spec](DNA-108-MFN10-440W.yaml) |
+| DNA-120-BF10-440W | 440 | 60 | 41.11 | 13.71 | -0.3555 | bifacial | [PAN](DNA-120-BF10-440W.PAN) / [spec](DNA-120-BF10-440W.yaml) |
+| DNA-120-BF10-440W-USAptos1 | 440 | 60 | 41.18 | 13.37 | -0.3222 | bifacial | [PAN](DNA-120-BF10-440W-USAptos1.PAN) / [spec](DNA-120-BF10-440W-USAptos1.yaml) |
+| DNA-120-BF10-440W-USAptos2 | 440 | 60 | 41.2 | 13.37 | -0.322 | bifacial | [PAN](DNA-120-BF10-440W-USAptos2.PAN) / [spec](DNA-120-BF10-440W-USAptos2.yaml) |
+| DNA-120-MF10-440W | 440 | 60 | 41.02 | 13.73 | -0.3546 |  | [PAN](DNA-120-MF10-440W.PAN) / [spec](DNA-120-MF10-440W.yaml) |
+| DNA-120-MF10-440W-USAptos1 | 440 | 60 | 41.18 | 13.37 | -0.3284 |  | [PAN](DNA-120-MF10-440W-USAptos1.PAN) / [spec](DNA-120-MF10-440W-USAptos1.yaml) |
+| DNA-120-MF10-440W-USAptos2 | 440 | 60 | 41.18 | 13.37 | -0.3284 |  | [PAN](DNA-120-MF10-440W-USAptos2.PAN) / [spec](DNA-120-MF10-440W-USAptos2.yaml) |
+| DNA-144-BF26-440W | 440 | 72 | 49.57 | 11 | -0.366 | bifacial | [PAN](DNA-144-BF26-440W.PAN) / [spec](DNA-144-BF26-440W.yaml) |
+| DNA-144-MF26-440W {Blk} | 440 | 72 | 49.9 | 11.33 | -0.382 |  | [PAN](DNA-144-MF26-440W_Blk.PAN) / [spec](DNA-144-MF26-440W_Blk.yaml) |
+| DNA-144-MF26-440W {Wht} | 440 | 72 | 49.9 | 11.33 | -0.382 |  | [PAN](DNA-144-MF26-440W_Wht.PAN) / [spec](DNA-144-MF26-440W_Wht.yaml) |
+| DNA-108-BFN10-445W-DG | 445 | 54 | 39.4 | 13.96 | -0.301 | bifacial | [PAN](DNA-108-BFN10-445W-DG.PAN) / [spec](DNA-108-BFN10-445W-DG.yaml) |
+| DNA-108-MFN10-445W | 445 | 54 | 39.2 | 13.81 | -0.293 |  | [PAN](DNA-108-MFN10-445W.PAN) / [spec](DNA-108-MFN10-445W.yaml) |
+| DNA-120-BF10-445W-USAptos1 | 445 | 60 | 41.27 | 13.42 | -0.3222 | bifacial | [PAN](DNA-120-BF10-445W-USAptos1.PAN) / [spec](DNA-120-BF10-445W-USAptos1.yaml) |
+| DNA-120-BF10-445W-USAptos2 | 445 | 60 | 41.3 | 13.42 | -0.322 | bifacial | [PAN](DNA-120-BF10-445W-USAptos2.PAN) / [spec](DNA-120-BF10-445W-USAptos2.yaml) |
+| DNA-120-MF10-445W | 445 | 60 | 41.1 | 13.79 | -0.3546 |  | [PAN](DNA-120-MF10-445W.PAN) / [spec](DNA-120-MF10-445W.yaml) |
+| DNA-120-MF10-445W-USAptos1 | 445 | 60 | 41.27 | 13.42 | -0.3284 |  | [PAN](DNA-120-MF10-445W-USAptos1.PAN) / [spec](DNA-120-MF10-445W-USAptos1.yaml) |
+| DNA-120-MF10-445W-USAptos2 | 445 | 60 | 41.27 | 13.42 | -0.3284 |  | [PAN](DNA-120-MF10-445W-USAptos2.PAN) / [spec](DNA-120-MF10-445W-USAptos2.yaml) |
+| DNA-108-BFN10-450W-DG | 450 | 54 | 39.5 | 14.04 | -0.301 | bifacial | [PAN](DNA-108-BFN10-450W-DG.PAN) / [spec](DNA-108-BFN10-450W-DG.yaml) |
+| DNA-120-BF10-450W | 450 | 60 | 41.3 | 13.86 | -0.3555 | bifacial | [PAN](DNA-120-BF10-450W.PAN) / [spec](DNA-120-BF10-450W.yaml) |
+| DNA-120-BF10-450W-USAptos1 | 450 | 60 | 41.46 | 13.47 | -0.3222 | bifacial | [PAN](DNA-120-BF10-450W-USAptos1.PAN) / [spec](DNA-120-BF10-450W-USAptos1.yaml) |
+| DNA-120-BF10-450W-USAptos2 | 450 | 60 | 41.5 | 13.47 | -0.322 | bifacial | [PAN](DNA-120-BF10-450W-USAptos2.PAN) / [spec](DNA-120-BF10-450W-USAptos2.yaml) |
+| DNA-120-MF10-450W | 450 | 60 | 41.18 | 13.85 | -0.3546 |  | [PAN](DNA-120-MF10-450W.PAN) / [spec](DNA-120-MF10-450W.yaml) |
+| DNA-120-MF10-450W-USAptos1 | 450 | 60 | 41.46 | 13.47 | -0.3284 |  | [PAN](DNA-120-MF10-450W-USAptos1.PAN) / [spec](DNA-120-MF10-450W-USAptos1.yaml) |
+| DNA-120-MF10-450W-USAptos2 | 450 | 60 | 41.46 | 13.47 | -0.3284 |  | [PAN](DNA-120-MF10-450W-USAptos2.PAN) / [spec](DNA-120-MF10-450W-USAptos2.yaml) |
+| DNA-108-BFN10-455W-DG | 455 | 54 | 39.7 | 14.12 | -0.301 | bifacial | [PAN](DNA-108-BFN10-455W-DG.PAN) / [spec](DNA-108-BFN10-455W-DG.yaml) |
+| DNA-120-BF10-455W | 455 | 60 | 41.51 | 13.92 | -0.3555 | bifacial | [PAN](DNA-120-BF10-455W.PAN) / [spec](DNA-120-BF10-455W.yaml) |
+| DNA-120-BF10-455W-USAptos1 | 455 | 60 | 41.65 | 13.54 | -0.3222 | bifacial | [PAN](DNA-120-BF10-455W-USAptos1.PAN) / [spec](DNA-120-BF10-455W-USAptos1.yaml) |
+| DNA-120-BF10-455W-USAptos2 | 455 | 60 | 41.7 | 13.54 | -0.322 | bifacial | [PAN](DNA-120-BF10-455W-USAptos2.PAN) / [spec](DNA-120-BF10-455W-USAptos2.yaml) |
+| DNA-120-MF10-455W | 455 | 60 | 41.5 | 13.93 | -0.363 |  | [PAN](DNA-120-MF10-455W.PAN) / [spec](DNA-120-MF10-455W.yaml) |
+| DNA-120-MF10-455W-USAptos1 | 455 | 60 | 41.65 | 13.54 | -0.3284 |  | [PAN](DNA-120-MF10-455W-USAptos1.PAN) / [spec](DNA-120-MF10-455W-USAptos1.yaml) |
+| DNA-120-MF10-455W-USAptos2 | 455 | 60 | 41.65 | 13.54 | -0.3284 |  | [PAN](DNA-120-MF10-455W-USAptos2.PAN) / [spec](DNA-120-MF10-455W-USAptos2.yaml) |
+| DNA-108-BFN10-460W-DG | 460 | 54 | 39.9 | 14.2 | -0.301 | bifacial | [PAN](DNA-108-BFN10-460W-DG.PAN) / [spec](DNA-108-BFN10-460W-DG.yaml) |
+| DNA-120-BF10-460W | 460 | 60 | 41.5 | 14.01 | -0.337 |  | [PAN](DNA-120-BF10-460W.PAN) / [spec](DNA-120-BF10-460W.yaml) |
+| DNA-120-BF10-460W-USAptos1 | 460 | 60 | 41.78 | 13.63 | -0.3222 | bifacial | [PAN](DNA-120-BF10-460W-USAptos1.PAN) / [spec](DNA-120-BF10-460W-USAptos1.yaml) |
+| DNA-120-BF10-460W-USAptos2 | 460 | 60 | 41.8 | 13.63 | -0.322 | bifacial | [PAN](DNA-120-BF10-460W-USAptos2.PAN) / [spec](DNA-120-BF10-460W-USAptos2.yaml) |
+| DNA-120-MF10-460W | 460 | 60 | 41.7 | 14 | -0.363 |  | [PAN](DNA-120-MF10-460W.PAN) / [spec](DNA-120-MF10-460W.yaml) |
+| DNA-120-MF10-460W-USAptos1 | 460 | 60 | 41.78 | 13.63 | -0.3284 |  | [PAN](DNA-120-MF10-460W-USAptos1.PAN) / [spec](DNA-120-MF10-460W-USAptos1.yaml) |
+| DNA-120-MF10-460W-USAptos2 | 460 | 60 | 41.78 | 13.63 | -0.3284 |  | [PAN](DNA-120-MF10-460W-USAptos2.PAN) / [spec](DNA-120-MF10-460W-USAptos2.yaml) |
+| DNA-120-MF10-465W | 465 | 60 | 41.9 | 14.07 | -0.363 |  | [PAN](DNA-120-MF10-465W.PAN) / [spec](DNA-120-MF10-465W.yaml) |
+| DNA-120-BFN10-470W-DG | 470 | 60 | 42.38 | 14.15 | -0.2985 |  | [PAN](DNA-120-BFN10-470W-DG.PAN) / [spec](DNA-120-BFN10-470W-DG.yaml) |
+| DNA-120-BFN10-475W-DG | 475 | 60 | 42.49 | 14.23 | -0.2985 |  | [PAN](DNA-120-BFN10-475W-DG.PAN) / [spec](DNA-120-BFN10-475W-DG.yaml) |
+| DNA-120-BFN10-480W-DG | 480 | 60 | 42.61 | 14.31 | -0.2985 |  | [PAN](DNA-120-BFN10-480W-DG.PAN) / [spec](DNA-120-BFN10-480W-DG.yaml) |
+| DNA-132-BF10-480W | 480 | 66 | 45 | 13.59 | -0.337 | bifacial | [PAN](DNA-132-BF10-480W.PAN) / [spec](DNA-132-BF10-480W.yaml) |
+| DNA-120-BFN10-485W-DG | 485 | 60 | 42.72 | 14.41 | -0.2985 |  | [PAN](DNA-120-BFN10-485W-DG.PAN) / [spec](DNA-120-BFN10-485W-DG.yaml) |
+| DNA-132-BF10-485W | 485 | 66 | 45.1 | 13.67 | -0.337 | bifacial | [PAN](DNA-132-BF10-485W.PAN) / [spec](DNA-132-BF10-485W.yaml) |
+| DNA-132-BF10-490W | 490 | 66 | 45.3 | 13.74 | -0.337 | bifacial | [PAN](DNA-132-BF10-490W.PAN) / [spec](DNA-132-BF10-490W.yaml) |
+| DNA-132-BF10-495W | 495 | 66 | 45.4 | 13.82 | -0.337 | bifacial | [PAN](DNA-132-BF10-495W.PAN) / [spec](DNA-132-BF10-495W.yaml) |
+| DNA-132-BF10-500W | 500 | 66 | 45.6 | 13.9 | -0.337 | bifacial | [PAN](DNA-132-BF10-500W.PAN) / [spec](DNA-132-BF10-500W.yaml) |
+| DNA-132-BFN10-515W-DG | 515 | 66 | 46.28 | 14.21 | -0.2985 |  | [PAN](DNA-132-BFN10-515W-DG.PAN) / [spec](DNA-132-BFN10-515W-DG.yaml) |
+| DNA-132-BFN10-520W-DG | 520 | 66 | 46.44 | 14.27 | -0.2985 |  | [PAN](DNA-132-BFN10-520W-DG.PAN) / [spec](DNA-132-BFN10-520W-DG.yaml) |
+| DNA-132-BFN10-525W-DG | 525 | 66 | 46.57 | 14.35 | -0.2985 |  | [PAN](DNA-132-BFN10-525W-DG.PAN) / [spec](DNA-132-BFN10-525W-DG.yaml) |
+| DNA-132-BFN10-530W-DG | 530 | 66 | 46.72 | 14.41 | -0.2985 |  | [PAN](DNA-132-BFN10-530W-DG.PAN) / [spec](DNA-132-BFN10-530W-DG.yaml) |
+| DNA-144-BF10-530W | 530 | 72 | 49.2 | 13.71 | -0.337 | bifacial | [PAN](DNA-144-BF10-530W.PAN) / [spec](DNA-144-BF10-530W.yaml) |
+| DNA-144-MF10-530W | 530 | 72 | 49.26 | 13.71 | -0.3546 |  | [PAN](DNA-144-MF10-530W.PAN) / [spec](DNA-144-MF10-530W.yaml) |
+| DNA-144-BF10-535W | 535 | 72 | 49.4 | 13.78 | -0.337 | bifacial | [PAN](DNA-144-BF10-535W.PAN) / [spec](DNA-144-BF10-535W.yaml) |
+| DNA-144-BF10-535W-DG | 535 | 72 | 49.4 | 13.78 | -0.335 |  | [PAN](DNA-144-BF10-535W-DG.PAN) / [spec](DNA-144-BF10-535W-DG.yaml) |
+| DNA-144-MF10-535W | 535 | 72 | 49.34 | 13.79 | -0.3546 |  | [PAN](DNA-144-MF10-535W.PAN) / [spec](DNA-144-MF10-535W.yaml) |
+| DNA-144-BF10-540W | 540 | 72 | 49.5 | 13.85 | -0.337 | bifacial | [PAN](DNA-144-BF10-540W.PAN) / [spec](DNA-144-BF10-540W.yaml) |
+| DNA-144-BF10-540W-DG | 540 | 72 | 49.5 | 13.85 | -0.335 |  | [PAN](DNA-144-BF10-540W-DG.PAN) / [spec](DNA-144-BF10-540W-DG.yaml) |
+| DNA-144-MF10-540W | 540 | 72 | 49.42 | 13.85 | -0.3546 |  | [PAN](DNA-144-MF10-540W.PAN) / [spec](DNA-144-MF10-540W.yaml) |
+| DNA-144-BF10-545W | 545 | 72 | 49.7 | 13.92 | -0.337 | bifacial | [PAN](DNA-144-BF10-545W.PAN) / [spec](DNA-144-BF10-545W.yaml) |
+| DNA-144-BF10-545W-DG | 545 | 72 | 49.7 | 13.92 | -0.335 |  | [PAN](DNA-144-BF10-545W-DG.PAN) / [spec](DNA-144-BF10-545W-DG.yaml) |
+| DNA-144-BF10-550W | 550 | 72 | 49.8 | 13.99 | -0.337 | bifacial | [PAN](DNA-144-BF10-550W.PAN) / [spec](DNA-144-BF10-550W.yaml) |
+| DNA-144-BF10-550W-DG | 550 | 72 | 49.8 | 13.99 | -0.335 |  | [PAN](DNA-144-BF10-550W-DG.PAN) / [spec](DNA-144-BF10-550W-DG.yaml) |
+| DNA-144-BF10-555W | 555 | 72 | 50 | 14.02 | -0.337 | bifacial | [PAN](DNA-144-BF10-555W.PAN) / [spec](DNA-144-BF10-555W.yaml) |
+| DNA-144-BF10-555W-DG | 555 | 72 | 50 | 14.02 | -0.335 |  | [PAN](DNA-144-BF10-555W-DG.PAN) / [spec](DNA-144-BF10-555W-DG.yaml) |
+| DNA-144-BFN10-565W-DG | 565 | 72 | 50.6 | 14.23 | -0.2985 |  | [PAN](DNA-144-BFN10-565W-DG.PAN) / [spec](DNA-144-BFN10-565W-DG.yaml) |
+| DNA-144-BFN10-570W-DG | 570 | 72 | 50.74 | 14.31 | -0.2985 |  | [PAN](DNA-144-BFN10-570W-DG.PAN) / [spec](DNA-144-BFN10-570W-DG.yaml) |
+| DNA-144-BFN10-575W-DG | 575 | 72 | 50.88 | 14.39 | -0.2985 |  | [PAN](DNA-144-BFN10-575W-DG.PAN) / [spec](DNA-144-BFN10-575W-DG.yaml) |
+| DNA-144-BFN10-580W-DG | 580 | 72 | 51.02 | 14.47 | -0.2985 |  | [PAN](DNA-144-BFN10-580W-DG.PAN) / [spec](DNA-144-BFN10-580W-DG.yaml) |
+| DNA-144-BFN10-585W-DG | 585 | 72 | 52.2 | 13.85 | -0.301 | bifacial | [PAN](DNA-144-BFN10-585W-DG.PAN) / [spec](DNA-144-BFN10-585W-DG.yaml) |
+| DNA-144-BFN10-590W-DG | 590 | 72 | 52.4 | 13.9 | -0.301 | bifacial | [PAN](DNA-144-BFN10-590W-DG.PAN) / [spec](DNA-144-BFN10-590W-DG.yaml) |
+| DNA-144-BFN10-595W-DG | 595 | 72 | 52.5 | 13.95 | -0.301 | bifacial | [PAN](DNA-144-BFN10-595W-DG.PAN) / [spec](DNA-144-BFN10-595W-DG.yaml) |
+| DNA-144-BFN10-600W-DG | 600 | 72 | 52.7 | 14 | -0.301 | bifacial | [PAN](DNA-144-BFN10-600W-DG.PAN) / [spec](DNA-144-BFN10-600W-DG.yaml) |
+| DNA-144-BFN10-605W-DG | 605 | 72 | 52.9 | 14.05 | -0.301 | bifacial | [PAN](DNA-144-BFN10-605W-DG.PAN) / [spec](DNA-144-BFN10-605W-DG.yaml) |
+| DNA-144-BFN10-610W-DG | 610 | 72 | 53.1 | 14.1 | -0.301 | bifacial | [PAN](DNA-144-BFN10-610W-DG.PAN) / [spec](DNA-144-BFN10-610W-DG.yaml) |
+| DNA-156-BFN10-610W-DG | 610 | 78 | 54.93 | 14.17 | -0.2985 |  | [PAN](DNA-156-BFN10-610W-DG.PAN) / [spec](DNA-156-BFN10-610W-DG.yaml) |
+| DNA-156-BFN10-615W-DG | 615 | 78 | 55.08 | 14.25 | -0.2985 |  | [PAN](DNA-156-BFN10-615W-DG.PAN) / [spec](DNA-156-BFN10-615W-DG.yaml) |
+| DNA-156-BFN10-620W-DG | 620 | 78 | 55.25 | 14.3 | -0.2985 |  | [PAN](DNA-156-BFN10-620W-DG.PAN) / [spec](DNA-156-BFN10-620W-DG.yaml) |
+| DNA-156-BFN10-625W-DG | 625 | 78 | 55.4 | 14.35 | -0.2985 |  | [PAN](DNA-156-BFN10-625W-DG.PAN) / [spec](DNA-156-BFN10-625W-DG.yaml) |
+| DNA-156-BFN10-630W-DG | 630 | 78 | 55.55 | 14.39 | -0.2985 |  | [PAN](DNA-156-BFN10-630W-DG.PAN) / [spec](DNA-156-BFN10-630W-DG.yaml) |

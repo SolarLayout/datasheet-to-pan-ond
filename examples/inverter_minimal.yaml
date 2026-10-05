@@ -1,0 +1,13 @@
+# Minimum set of fields for an inverter.
+manufacturer: Example Power
+model: EXP-10K-1P
+p_nom_ac_kw: 10
+v_ac: 230
+phases: single
+v_mpp_min: 120
+v_mpp_max: 550
+v_dc_max: 600
+i_max_dc: 32
+n_mppt: 2
+eff_max_pct: 97.8
+eff_euro_pct: 97.3

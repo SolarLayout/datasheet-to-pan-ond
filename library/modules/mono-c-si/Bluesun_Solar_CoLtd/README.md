@@ -1,0 +1,36 @@
+# Bluesun Solar CoLtd - mono-c-si
+
+[Up](../README.md) - 30 files.
+
+| Model | Pnom W | Cells | Voc V | Isc A | Pmax %/K | Flags | Files |
+|---|---:|---|---:|---:|---:|---|---|
+| BSM360M-60HPH | 360 | 60 | 40.7 | 11.15 | -0.3637 |  | [PAN](BSM360M-60HPH.PAN) / [spec](BSM360M-60HPH.yaml) |
+| BSM365M-60HPH | 365 | 60 | 40.9 | 11.2 | -0.3637 |  | [PAN](BSM365M-60HPH.PAN) / [spec](BSM365M-60HPH.yaml) |
+| BSM370M-60HPH | 370 | 60 | 41.1 | 11.26 | -0.3637 |  | [PAN](BSM370M-60HPH.PAN) / [spec](BSM370M-60HPH.yaml) |
+| BSM395M10-54HPH | 395 | 54 | 36.75 | 13.69 | -0.3581 |  | [PAN](BSM395M10-54HPH.PAN) / [spec](BSM395M10-54HPH.yaml) |
+| BSM400M10-54HPH | 400 | 54 | 37 | 13.78 | -0.3581 |  | [PAN](BSM400M10-54HPH.PAN) / [spec](BSM400M10-54HPH.yaml) |
+| BSM405M10-54HPH | 405 | 54 | 37.25 | 13.86 | -0.3581 |  | [PAN](BSM405M10-54HPH.PAN) / [spec](BSM405M10-54HPH.yaml) |
+| BSM410M10-54HPH | 410 | 54 | 37.5 | 13.94 | -0.3581 |  | [PAN](BSM410M10-54HPH.PAN) / [spec](BSM410M10-54HPH.yaml) |
+| BSM415M10-54HPH | 415 | 54 | 37.75 | 14.02 | -0.3581 |  | [PAN](BSM415M10-54HPH.PAN) / [spec](BSM415M10-54HPH.yaml) |
+| BSM430M-72HPH | 430 | 72 | 48.8 | 11.26 | -0.377 |  | [PAN](BSM430M-72HPH.PAN) / [spec](BSM430M-72HPH.yaml) |
+| BSM435M-72HBD | 435 | 72 | 49.8 | 11.16 | -0.3766 | bifacial | [PAN](BSM435M-72HBD.PAN) / [spec](BSM435M-72HBD.yaml) |
+| BSM435M-72HPH | 435 | 72 | 49 | 11.33 | -0.377 |  | [PAN](BSM435M-72HPH.PAN) / [spec](BSM435M-72HPH.yaml) |
+| BSM435M10-54HNH | 435 | 54 | 38.7 | 14.31 | -0.294 |  | [PAN](BSM435M10-54HNH.PAN) / [spec](BSM435M10-54HNH.yaml) |
+| BSM440M-72HBD | 440 | 72 | 50 | 11.22 | -0.3766 | bifacial | [PAN](BSM440M-72HBD.PAN) / [spec](BSM440M-72HBD.yaml) |
+| BSM440M-72HPH | 440 | 72 | 49.2 | 11.4 | -0.377 |  | [PAN](BSM440M-72HPH.PAN) / [spec](BSM440M-72HPH.yaml) |
+| BSM440M10-54HNH | 440 | 54 | 38.9 | 14.39 | -0.294 |  | [PAN](BSM440M10-54HNH.PAN) / [spec](BSM440M10-54HNH.yaml) |
+| BSM445M-72HBD | 445 | 72 | 50.2 | 11.29 | -0.3766 | bifacial | [PAN](BSM445M-72HBD.PAN) / [spec](BSM445M-72HBD.yaml) |
+| BSM445M-72HPH | 445 | 72 | 49.4 | 11.47 | -0.377 |  | [PAN](BSM445M-72HPH.PAN) / [spec](BSM445M-72HPH.yaml) |
+| BSM450M-72HBD | 450 | 72 | 50.4 | 11.36 | -0.3766 | bifacial | [PAN](BSM450M-72HBD.PAN) / [spec](BSM450M-72HBD.yaml) |
+| BSM450M-72HPH | 450 | 72 | 49.6 | 11.54 | -0.377 |  | [PAN](BSM450M-72HPH.PAN) / [spec](BSM450M-72HPH.yaml) |
+| BSM455M-72HBD | 455 | 72 | 50.6 | 11.43 | -0.3766 | bifacial | [PAN](BSM455M-72HBD.PAN) / [spec](BSM455M-72HBD.yaml) |
+| BSM455M-72HPH | 455 | 72 | 49.8 | 11.61 | -0.377 |  | [PAN](BSM455M-72HPH.PAN) / [spec](BSM455M-72HPH.yaml) |
+| BSM460M-72HBD | 460 | 72 | 50.8 | 11.5 | -0.3766 | bifacial | [PAN](BSM460M-72HBD.PAN) / [spec](BSM460M-72HBD.yaml) |
+| BSM545M10-72HBD | 545 | 72 | 49.76 | 13.93 | -0.3945 | bifacial | [PAN](BSM545M10-72HBD.PAN) / [spec](BSM545M10-72HBD.yaml) |
+| BSM550M10-72HBD | 550 | 72 | 49.92 | 14 | -0.3945 | bifacial | [PAN](BSM550M10-72HBD.PAN) / [spec](BSM550M10-72HBD.yaml) |
+| BSM550M10-72HPH | 550 | 72 | 49.92 | 14 | -0.3581 |  | [PAN](BSM550M10-72HPH.PAN) / [spec](BSM550M10-72HPH.yaml) |
+| BSM555M10-72HPH | 555 | 72 | 50.08 | 14.07 | -0.3581 |  | [PAN](BSM555M10-72HPH.PAN) / [spec](BSM555M10-72HPH.yaml) |
+| BSM585M10-72HNH | 585 | 72 | 51.2 | 14.55 | -0.294 |  | [PAN](BSM585M10-72HNH.PAN) / [spec](BSM585M10-72HNH.yaml) |
+| BSM590M10-72HNH | 590 | 72 | 51.3 | 14.63 | -0.294 |  | [PAN](BSM590M10-72HNH.PAN) / [spec](BSM590M10-72HNH.yaml) |
+| BSM635M10-78HNH | 635 | 78 | 56 | 14.43 | -0.294 |  | [PAN](BSM635M10-78HNH.PAN) / [spec](BSM635M10-78HNH.yaml) |
+| BSM640M10-78HNH | 640 | 78 | 56.2 | 14.51 | -0.294 |  | [PAN](BSM640M10-78HNH.PAN) / [spec](BSM640M10-78HNH.yaml) |

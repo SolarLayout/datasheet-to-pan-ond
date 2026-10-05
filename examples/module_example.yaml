@@ -1,0 +1,55 @@
+# Example module datasheet (fictional manufacturer, realistic values).
+# One file = one power bin. Units follow datasheet conventions.
+manufacturer: Example Solar
+model: EXS-144M-550
+data_source: Manufacturer datasheet rev. A
+year: 2026
+
+technology: mtSiMono
+cells_in_series: 72        # 144 half-cells = 2 parallel strings of 72
+cells_in_parallel: 2
+bypass_diodes: 3
+half_cell: true
+
+p_nom: 550.0
+p_nom_tol_up_pct: 0.9      # +0..+5 W
+isc: 14.00
+voc: 49.90
+imp: 13.11
+vmp: 41.96
+
+temp_coeff_isc_pct: 0.050  # %/K
+temp_coeff_voc_pct: -0.260 # %/K
+temp_coeff_pmax_pct: -0.340 # %/K
+
+# Optional: relative efficiency at 200 W/m2 vs STC (often in a footnote or
+# a "low irradiance performance" chart). Drives the series-resistance fit.
+low_light_rel_eff_pct: -2.5
+
+v_max_iec: 1500
+v_max_ul: 1500
+bifaciality: 0.70
+cell_area_cm2: 165.1
+
+dimensions:
+  width_m: 1.134
+  height_m: 2.278
+  depth_m: 0.035
+  weight_kg: 32.0
+
+# Optional incidence-angle modifier profile (angle in degrees, IAM 0-1).
+iam_profile:
+  - {angle_deg: 0, iam: 1.0}
+  - {angle_deg: 30, iam: 1.0}
+  - {angle_deg: 50, iam: 0.98}
+  - {angle_deg: 60, iam: 0.96}
+  - {angle_deg: 70, iam: 0.89}
+  - {angle_deg: 80, iam: 0.66}
+  - {angle_deg: 90, iam: 0.0}
+
+# Optional overrides of modelling assumptions (see docs/methodology.md).
+# fit:
+#   r_sh_ref: 300        # ohm
+#   r_sh_0_ratio: 4.0
+#   r_sh_exp: 5.5
+#   r_s: 0.20            # ohm, disables the low-light fit

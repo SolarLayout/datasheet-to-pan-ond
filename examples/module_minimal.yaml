@@ -1,0 +1,14 @@
+# Minimum set of fields: STC values, cell count and temperature coefficients.
+manufacturer: Example Solar
+model: EXS-120M-400
+cells_in_series: 60
+cells_in_parallel: 2
+half_cell: true
+p_nom: 400
+isc: 10.95
+voc: 45.30
+imp: 10.39
+vmp: 38.50
+temp_coeff_isc_pct: 0.048
+temp_coeff_voc_pct: -0.270
+temp_coeff_pmax_pct: -0.350
