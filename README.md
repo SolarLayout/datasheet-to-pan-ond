@@ -14,6 +14,9 @@ manufacturer datasheet values.
 - Ships a **ready-made, verified library** in [`library/`](library/README.md):
   19,832 PAN and 2,343 OND files, organised by technology / inverter class
   and manufacturer, with README indexes, `index.csv` files and checksums.
+- Holds **specs transcribed from makers' own datasheets** in
+  [`datasheets/`](datasheets/): Waaree's current modules (159 power bins from
+  22 datasheets), each traced to its datasheet, with every assumption stated.
 - Writes files in the same layout as PVsyst's own exports. Every assumed
   value is recorded in the file's `Remarks` and in a fit report.
 
@@ -77,6 +80,21 @@ uv run ds2panond library verify library --jobs 0             # independent check
 
 Only records that fit without warnings and pass verification are included.
 Everything else is listed in `<kind>/excluded.csv` with the reason.
+
+### From a maker's datasheets
+
+For makers that publish datasheets but no PVsyst files, `datasheets/<maker>/`
+holds one spec per power bin read from the datasheets, the list of datasheets
+used (`sources.csv`, with document numbers and URLs) and the script that writes
+the specs from the datasheets' text. Build the PAN files from them as from any
+spec:
+
+```bash
+uv run ds2panond module datasheets/waaree/specs/Waaree_BiN-08-580.yaml -o out/Waaree_BiN-08-580.PAN --strict
+```
+
+What may go into a spec, and how to add a maker: [`docs/datasheets.md`](docs/datasheets.md).
+Waaree's sources, assumptions and fit: [`datasheets/waaree/README.md`](datasheets/waaree/README.md).
 
 ### Using the Python API
 
@@ -176,9 +194,10 @@ src/datasheet_to_pan_ond/
   io.py, cli.py     YAML/JSON loading and dumping, `ds2panond` CLI
 tests/              pytest suite; tests/data/reference = real PVsyst files,
                     tests/data/cec = CEC/SAM CSV subsets
-examples/           example datasheet specs
+examples/           example datasheet specs (fictional makers)
 library/            generated, verified PAN/OND library (committed)
-docs/               methodology, file-format and CEC import notes
+datasheets/<maker>/ specs transcribed from a maker's datasheets, their sources and script
+docs/               methodology, file format, CEC import, validation, datasheets
 ```
 
 ## Roadmap
@@ -186,7 +205,8 @@ docs/               methodology, file-format and CEC import notes
 - [ ] Import-test generated files in PVsyst; fix any format issues
 - [x] Import from the CEC module / inverter lists
 - [ ] Datasheet PDF extraction (LLM or table parsing) into the YAML schema,
-      with a human review step
+      with a human review step (done per maker, by table parsing, for Waaree:
+      `datasheets/waaree/`)
 - [ ] Multiple power bins from one datasheet spec
 - [ ] Fit to IEC 61853-1 matrix data when available
       (`pvlib.ivtools.sdm.fit_pvsyst_iec61853_sandia_2025`)

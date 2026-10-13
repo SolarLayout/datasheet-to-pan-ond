@@ -5,9 +5,23 @@ Guidance for AI coding agents (and humans) working in this repo.
 ## What this is
 
 A Python library + CLI (`ds2panond`) that turns PV module / inverter
-datasheet values into PVsyst `.PAN` / `.OND` files. Read `README.md` for usage,
-`docs/methodology.md` for the modelling, and `docs/file-format.md` for the
-on-disk format.
+datasheet values into PVsyst `.PAN` / `.OND` files. It also holds a generated
+library from the CEC lists (`library/`) and specs transcribed from real
+makers' datasheets (`datasheets/`). Repository: `SolarLayout/datasheet-to-pan-ond`
+on GitHub (private). SolarLayout Rooftop's module library takes PAN files made
+here (Waaree's, from `datasheets/waaree/`).
+
+## Read next, when the task needs it
+
+| Read | When |
+|---|---|
+| `README.md` | Usage of the CLI and the Python API, the input format |
+| `docs/methodology.md` | Any change to a fit, an assumed value or a default |
+| `docs/file-format.md` | Any change to a writer, a PVsyst key, units or encoding |
+| `docs/cec-import.md` | Any change to the CEC import or its data-quality heuristics |
+| `docs/validation.md` | Comparing output with manufacturer PVsyst files |
+| `docs/datasheets.md` | Adding or changing specs transcribed from a maker's datasheets (`datasheets/`) |
+| `library/README.md` | The generated library's layout and policy |
 
 ## Commands
 
@@ -15,7 +29,7 @@ Always use `uv`; never `pip install` into the system Python.
 
 ```bash
 uv sync                                   # set up / update .venv
-uv run pytest                             # full test suite (fast, < 15 s)
+uv run pytest                             # full test suite (about 25 s)
 uv run ruff check . && uv run ruff format --check .
 uv run mypy                               # strict; must pass
 uv run ds2panond module examples/module_example.yaml -o out/x.PAN
@@ -38,6 +52,8 @@ sources/cec.py ──> spec dict (validated against models.py) ──> io.dump_s
 sources/export.py: bulk orchestration (+ optional build via the pipeline above)
 library/build.py ──> plan (classify, paths) ──> worker: fit + write + verify ──> index.py
 library/verify.py: independent checks (pvlib re-read + physics), used per file and library-wide
+
+datasheets/<maker>/make_specs.py: datasheet text (pdftotext) ──> spec dicts ──> io.dump_spec ──> specs/*.yaml
 ```
 
 - **models.py**: pydantic v2, `extra="forbid"`, frozen. Datasheet units
@@ -80,6 +96,8 @@ library/verify.py: independent checks (pvlib re-read + physics), used per file a
 5. **No real manufacturer branding in examples.** Examples use fictional
    names ("Example Solar", "Example Power"). Test fixtures may contain real
    CEC records (public data, provenance in `tests/data/cec/README.md`).
+   `datasheets/` is the one place for real products by name, each traced to
+   the maker's datasheet (`docs/datasheets.md`).
 6. **No network in tests.** CEC tests use `tests/data/cec/*.csv` via
    `--source` / `cec.load(kind, path)`. Never call `cec.fetch` in tests.
 
@@ -97,6 +115,15 @@ library/verify.py: independent checks (pvlib re-read + physics), used per file a
 - Inclusion policy: no fit warnings and verification passes. Don't loosen it
   to include more records. Fix the cause or leave the record in `excluded.csv`.
 
+## The committed `datasheets/` folder
+
+- Specs read from real makers' datasheets, one folder per maker. The specs are
+  **output of the maker's `make_specs.py`**: never edit them by hand. Every
+  figure is the datasheet's; every assumed one is in `provenance_notes`.
+- Rules, the folder's files and how to add a maker: `docs/datasheets.md`.
+- `tests/test_datasheets.py` checks every spec. A change to a fit that makes
+  one of them warn is a change to discuss, not a test to loosen.
+
 ## Conventions
 
 - Python ≥ 3.10, `from __future__ import annotations`, full type hints.
@@ -106,6 +133,13 @@ library/verify.py: independent checks (pvlib re-read + physics), used per file a
 - `out/` is git-ignored scratch space for generated files.
 - Keep `CHANGELOG.md` updated under "Unreleased" for user-visible changes.
 - Commit messages: imperative mood, short subject line.
+
+## GitHub
+
+- `origin` is `git@github.com:SolarLayout/datasheet-to-pan-ond.git`, private.
+- Work on a branch and open a pull request into `main`. CI
+  (`.github/workflows/ci.yml`) runs the four checks on Python 3.10 and 3.12
+  and verifies the committed library. Merge on green.
 
 ## Adding PVsyst keys
 
