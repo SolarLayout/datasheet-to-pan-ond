@@ -116,6 +116,7 @@ def _converter(result: InverterFitResult) -> Section:
     v_min, v_max, v_abs = mppt_window(ds)
     c.add("VMppMin", v_min)
     c.add("VMPPMax", v_max)
+    c.add_opt("VmppNom", None if ds.v_mpp_nom is None else num(ds.v_mpp_nom, 1))
     c.add("VAbsMax", v_abs)
     c.add("PSeuil", num(result.p_threshold_w, 1))
     c.add("EfficMax", num(100 * main.eff_max, 2))

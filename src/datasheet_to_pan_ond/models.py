@@ -239,6 +239,12 @@ class InverterDatasheet(BaseModel):
     p_max_dc_kw: float | None = Field(default=None, gt=0, description="Max DC input power [kW].")
     v_mpp_min: float = Field(gt=0, description="Min MPPT voltage [V].")
     v_mpp_max: float = Field(gt=0, description="Max MPPT voltage [V].")
+    v_mpp_nom: float | None = Field(
+        default=None,
+        gt=0,
+        description="Nominal MPP voltage, the datasheet's rated or nominal DC input voltage [V] "
+        "(PVsyst VmppNom). Omitted from the file when not given.",
+    )
     v_dc_max: float = Field(gt=0, description="Absolute max DC input voltage [V].")
     i_max_dc: float = Field(gt=0, description="Max DC input current (all MPPTs) [A].")
     n_mppt: int = Field(default=1, gt=0)
@@ -271,6 +277,9 @@ class InverterDatasheet(BaseModel):
         _check_curve(self.efficiency_curve)
         if not self.v_mpp_min < self.v_mpp_max <= self.v_dc_max:
             raise ValueError("require v_mpp_min < v_mpp_max <= v_dc_max")
+        if self.v_mpp_nom is not None and not self.v_mpp_min <= self.v_mpp_nom <= self.v_mpp_max:
+            window = f"{self.v_mpp_min} to {self.v_mpp_max} V"
+            raise ValueError(f"v_mpp_nom must lie within the MPPT window ({window})")
         if self.p_max_ac_kw is not None and self.p_max_ac_kw < self.p_nom_ac_kw:
             raise ValueError("p_max_ac_kw must be >= p_nom_ac_kw")
         if self.efficiency_by_voltage is not None:
