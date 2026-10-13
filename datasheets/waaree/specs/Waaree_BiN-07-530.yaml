@@ -1,0 +1,27 @@
+# Waaree Elite series (TOPCon): https://www.waaree.com/upload/media/elite_series_bin_07_515_545_wel_epd_515_545_132_bin_hc_05_03012025_1782473986.pdf
+manufacturer: Waaree Energies Ltd.
+model: BiN-07-530
+data_source: Waaree datasheet WEL/E&PD/515-545/132/BiN-07/HC/05/03.01.2025
+year: 2025
+provenance_notes: []
+technology: mtSiMono
+cells_in_series: 66
+cells_in_parallel: 2
+bypass_diodes: 3
+half_cell: true
+p_nom: 530.0
+isc: 13.9
+voc: 47.99
+imp: 13.14
+vmp: 40.33
+temp_coeff_isc_pct: 0.046
+temp_coeff_voc_pct: -0.26
+temp_coeff_pmax_pct: -0.3
+low_light_rel_eff_pct: -4.5
+v_max_iec: 1500.0
+dimensions:
+  width_m: 1.134
+  height_m: 2.089
+  depth_m: 0.033
+  weight_kg: 29.5
+bifaciality: 0.8

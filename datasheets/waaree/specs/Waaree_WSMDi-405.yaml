@@ -1,0 +1,27 @@
+# Waaree Arka series (PERC): https://www.waaree.com/upload/media/arka_series_wsmdi_395_415_wel_epd_395_415_132_mp_hc_01_17042023_1782477677.pdf
+manufacturer: Waaree Energies Ltd.
+model: WSMDi-405
+data_source: Waaree datasheet WEL/E&PD/395-415/132/MP/HC/01/17.04.2023
+year: 2023
+provenance_notes:
+- '3 bypass diodes: the datasheet does not state the count'
+technology: mtSiMono
+cells_in_series: 66
+cells_in_parallel: 2
+bypass_diodes: 3
+half_cell: true
+p_nom: 405.0
+isc: 11.4
+voc: 45.44
+imp: 10.61
+vmp: 38.22
+temp_coeff_isc_pct: 0.055
+temp_coeff_voc_pct: -0.285
+temp_coeff_pmax_pct: -0.365
+low_light_rel_eff_pct: -4.5
+v_max_iec: 1500.0
+dimensions:
+  width_m: 1.038
+  height_m: 1.924
+  depth_m: 0.035
+  weight_kg: 22.0

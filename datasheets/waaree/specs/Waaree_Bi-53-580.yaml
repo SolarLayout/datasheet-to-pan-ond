@@ -1,0 +1,29 @@
+# Waaree Ahnay series (PERC): https://www.waaree.com/upload/media/ahnay_series_bi_53_560_590_wel_epd_560_590_156_mpb_hc_02_19032024_1782478679.pdf
+manufacturer: Waaree Energies Ltd.
+model: Bi-53-580
+data_source: Waaree datasheet WEL/E&PD/560-590/156/MPB/HC/02/19.03.2024
+year: 2024
+provenance_notes:
+- 'bifaciality 0.70: the datasheet states none; the series'' other bifacial PERC datasheets state 70 %'
+- '3 bypass diodes: the datasheet does not state the count'
+technology: mtSiMono
+cells_in_series: 78
+cells_in_parallel: 2
+bypass_diodes: 3
+half_cell: true
+p_nom: 580.0
+isc: 13.76
+voc: 53.59
+imp: 12.88
+vmp: 45.05
+temp_coeff_isc_pct: 0.05
+temp_coeff_voc_pct: -0.25
+temp_coeff_pmax_pct: -0.34
+low_light_rel_eff_pct: -4.5
+v_max_iec: 1500.0
+dimensions:
+  width_m: 1.134
+  height_m: 2.465
+  depth_m: 0.035
+  weight_kg: 35.0
+bifaciality: 0.7

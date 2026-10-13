@@ -25,6 +25,11 @@ adheres to [Semantic Versioning](https://semver.org/).
 - Committed `library/`: 19,832 PAN and 2,343 OND files from SAM library
   2026.7.3, all verified.
 
+- `datasheets/waaree/`: 159 module specs transcribed from Waaree's 22 current
+  datasheets (TOPCon, HJT, PERC), their sources, the script that writes them from
+  the datasheets' text, and `tests/test_datasheets.py` (every spec fits without
+  warnings and names a listed datasheet).
+
 - Validation against manufacturer PVsyst files for the same products
   (`docs/validation.md`, `tests/test_against_manufacturer.py`).
 

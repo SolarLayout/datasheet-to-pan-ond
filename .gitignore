@@ -46,6 +46,8 @@ htmlcov/
 # Scratch output from ad-hoc CLI runs (the curated library lives in library/)
 out/
 specs/
+# ...except the specs transcribed from real datasheets
+!datasheets/*/specs/
 
 # Resumable build state of the generated library (not part of the library)
 library/.build/

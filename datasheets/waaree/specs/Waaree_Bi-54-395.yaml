@@ -1,0 +1,28 @@
+# Waaree Ahnay series (PERC): https://www.waaree.com/upload/media/ahnay_series_bi_54_380_410_wel_epd_380_410_108_mpb_hc_00_10042023_c_1782478353.pdf
+manufacturer: Waaree Energies Ltd.
+model: Bi-54-395
+data_source: Waaree datasheet WEL/E&PD/380-410/108/MPB/HC/00/10.04.2023
+year: 2023
+provenance_notes:
+- '3 bypass diodes: the datasheet does not state the count'
+technology: mtSiMono
+cells_in_series: 54
+cells_in_parallel: 2
+bypass_diodes: 3
+half_cell: true
+p_nom: 395.0
+isc: 13.58
+voc: 36.94
+imp: 12.73
+vmp: 31.06
+temp_coeff_isc_pct: 0.05
+temp_coeff_voc_pct: -0.25
+temp_coeff_pmax_pct: -0.34
+low_light_rel_eff_pct: -4.5
+v_max_iec: 1500.0
+dimensions:
+  width_m: 1.133
+  height_m: 1.722
+  depth_m: 0.035
+  weight_kg: 24.5
+bifaciality: 0.7
