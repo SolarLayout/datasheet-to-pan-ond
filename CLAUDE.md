@@ -9,7 +9,7 @@ datasheet values into PVsyst `.PAN` / `.OND` files. It also holds a generated
 library from the CEC lists (`library/`) and specs transcribed from real
 makers' datasheets (`datasheets/`). Repository: `SolarLayout/datasheet-to-pan-ond`
 on GitHub (private). SolarLayout Rooftop's module library takes PAN files made
-here (Waaree's, from `datasheets/waaree/`).
+here (Waaree's modules and inverters, from `datasheets/waaree/`).
 
 ## Read next, when the task needs it
 
@@ -54,6 +54,7 @@ library/build.py ──> plan (classify, paths) ──> worker: fit + write + ve
 library/verify.py: independent checks (pvlib re-read + physics), used per file and library-wide
 
 datasheets/<maker>/make_specs.py: datasheet text (pdftotext) ──> spec dicts ──> io.dump_spec ──> specs/*.yaml
+datasheets/<maker>/make_inverter_specs.py: transcribed tables ──> spec dicts ──> inverter-specs/*.yaml
 ```
 
 - **models.py**: pydantic v2, `extra="forbid"`, frozen. Datasheet units
@@ -118,7 +119,8 @@ datasheets/<maker>/make_specs.py: datasheet text (pdftotext) ──> spec dicts 
 ## The committed `datasheets/` folder
 
 - Specs read from real makers' datasheets, one folder per maker. The specs are
-  **output of the maker's `make_specs.py`**: never edit them by hand. Every
+  **output of the maker's `make_specs.py` / `make_inverter_specs.py`**: never
+  edit them by hand. Every
   figure is the datasheet's; every assumed one is in `provenance_notes`.
 - Rules, the folder's files and how to add a maker: `docs/datasheets.md`.
 - `tests/test_datasheets.py` checks every spec. A change to a fit that makes

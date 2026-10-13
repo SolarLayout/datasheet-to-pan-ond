@@ -1,0 +1,28 @@
+# Waaree on-grid inverter, 30kW to 75kW family: https://www.waaree.com/upload/media/inverter_waaree_1770965615.pdf
+manufacturer: Waaree Energies Ltd.
+model: 3P-60K (30-75 kW)
+data_source: Waaree catalogue Inverter Vr 01 / Oct 2025
+year: 2025
+provenance_notes:
+- 'night loss 1 W: the catalogue does not state it'
+p_nom_ac_kw: 60
+p_max_ac_kw: 66
+v_ac: 400
+phases: three
+power_factor_min: 0.8
+transformer: false
+v_mpp_min: 200
+v_mpp_max: 1000
+v_dc_max: 1100
+i_max_dc: 240
+n_mppt: 6
+n_inputs: 12
+eff_max_pct: 98.5
+eff_euro_pct: 98.1
+night_loss_w: 1.0
+dimensions:
+  width_m: 0.64
+  height_m: 0.43
+  depth_m: 0.243
+  weight_kg: 50
+i_max_ac: 100.3
