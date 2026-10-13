@@ -82,6 +82,26 @@ and y = IAM.
 | `Weight` | kg |
 | `CellArea` | cm² |
 
+## Keys written only when the datasheet gives them
+
+Beyond the reference exports, a few keys appear only when the input has a
+value for them; a structure test allows each one by name
+(`tests/test_writers.py`, `OPTIONAL_CONVERTER`).
+
+| Key | From | Where | Format |
+|-----|------|-------|--------|
+| `VmppNom` (OND converter) | `v_mpp_nom`: the datasheet's rated or nominal DC input voltage | between `VMPPMax` and `VAbsMax` | V, one decimal (`VmppNom=620.0`) |
+
+`VmppNom` is not in the reference OND (CPS 275 kW, from pvlib's tests). Its
+place and format are those of makers' own exports: in 338 of 388 manufacturer
+OND files written by PVsyst 6.4 to 8.1 (SolarLayout's internal inverter
+library, not redistributed here) it follows `VMPPMax`, and in 274 of them
+`VAbsMax` follows it (the others put `Vmpp_PMax` between them, a key this
+writer does not produce). Example: FIMER PVM-75-TL, PVsyst 8.1.5,
+`VMPPMax=1000`, `VmppNom=620.0`, `VAbsMax=1100`. Readers use it as the
+inverter's nominal string voltage (SolarLayout Rooftop sizes its nominal
+string length to it).
+
 ## Reading
 
 `pvlib.iotools.read_panond(path, encoding="utf-8-sig")` parses both file

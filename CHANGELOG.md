@@ -36,6 +36,10 @@ adheres to [Semantic Versioning](https://semver.org/).
 - Validation against manufacturer PVsyst files for the same products
   (`docs/validation.md`, `tests/test_against_manufacturer.py`).
 
+- `v_mpp_nom` on inverter specs: the datasheet's rated DC input voltage,
+  written as `VmppNom` between `VMPPMax` and `VAbsMax` (where makers' own OND
+  files have it); omitted when not given, so existing output is unchanged.
+
 ### Changed
 
 - Python 3.12 is the minimum (was 3.10, which reaches end of life in

@@ -61,6 +61,7 @@ class Family:
     v_ac: float  # line-to-line for three phases
     v_mpp_min: float
     v_mpp_max: float
+    v_mpp_nom: float  # the catalogue's rated (nominal) DC input voltage
     v_dc_max: float
     strings_per_mppt: int
     i_max_mppt: dict[str, float]  # per MPPT, by rating
@@ -83,6 +84,7 @@ SINGLE_1_TO_3 = Family(
     v_ac=230,
     v_mpp_min=50,
     v_mpp_max=480,
+    v_mpp_nom=360,
     v_dc_max=500,
     strings_per_mppt=1,
     i_max_mppt=_same(20, R1),
@@ -112,6 +114,7 @@ SINGLE_3_TO_6 = Family(
     v_ac=230,
     v_mpp_min=80,
     v_mpp_max=550,
+    v_mpp_nom=360,
     v_dc_max=600,
     strings_per_mppt=1,
     i_max_mppt=_same(14, R2),
@@ -140,6 +143,7 @@ THREE_3_TO_25 = Family(
     v_ac=400,
     v_mpp_min=140,
     v_mpp_max=1000,
+    v_mpp_nom=600,
     v_dc_max=1100,
     strings_per_mppt=1,  # 1+1 up to 12 kW; 2+2 from 15 kW (set below)
     i_max_mppt={r: (14 if float(r) <= 12 else 28) for r in R3},
@@ -174,6 +178,7 @@ THREE_30_TO_75 = Family(
     v_ac=400,
     v_mpp_min=200,
     v_mpp_max=1000,
+    v_mpp_nom=600,
     v_dc_max=1100,
     strings_per_mppt=2,
     i_max_mppt=_same(40, R4),
@@ -203,6 +208,7 @@ THREE_75_TO_136 = Family(
     v_ac=400,
     v_mpp_min=200,
     v_mpp_max=1000,
+    v_mpp_nom=600,
     v_dc_max=1100,
     strings_per_mppt=2,
     i_max_mppt=_same(40, R5),
@@ -274,6 +280,7 @@ def spec(family: Family, model: Model, document: str, year: int) -> dict[str, An
         "transformer": False,
         "v_mpp_min": family.v_mpp_min,
         "v_mpp_max": family.v_mpp_max,
+        "v_mpp_nom": family.v_mpp_nom,
         "v_dc_max": family.v_dc_max,
         "i_max_dc": round(family.i_max_mppt[model.rating] * model.n_mppt, 1),
         "n_mppt": model.n_mppt,

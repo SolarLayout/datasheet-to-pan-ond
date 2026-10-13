@@ -51,6 +51,11 @@ def test_valid_inverter() -> None:
     assert InverterDatasheet(**INV).p_max_ac == 100
 
 
+def test_inverter_nominal_mpp_voltage_is_optional_and_kept() -> None:
+    assert InverterDatasheet(**INV).v_mpp_nom is None
+    assert InverterDatasheet(**{**INV, "v_mpp_nom": 600}).v_mpp_nom == 600
+
+
 @pytest.mark.parametrize(
     ("override", "msg"),
     [
@@ -58,6 +63,8 @@ def test_valid_inverter() -> None:
         ({"eff_euro_pct": 99.0}, "must be below eff_max"),
         ({"v_mpp_max": 1200}, "v_mpp_min < v_mpp_max <= v_dc_max"),
         ({"p_max_ac_kw": 90}, "p_max_ac_kw"),
+        ({"v_mpp_nom": 150}, "v_mpp_nom must lie within"),
+        ({"v_mpp_nom": 1050}, "v_mpp_nom must lie within"),
         (
             {"efficiency_by_voltage": [{"v_dc": 300, "eff_max_pct": 98, "eff_euro_pct": 97}]},
             "3 entries",

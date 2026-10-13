@@ -14,6 +14,7 @@ transformer: false
 p_max_dc_kw: 150
 v_mpp_min: 200
 v_mpp_max: 1000
+# v_mpp_nom: 600      # optional: rated DC input voltage, written as VmppNom
 v_dc_max: 1100
 i_max_dc: 300        # total over all MPPTs
 n_mppt: 10

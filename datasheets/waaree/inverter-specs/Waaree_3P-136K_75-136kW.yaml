@@ -12,6 +12,7 @@ power_factor_min: 0.8
 transformer: false
 v_mpp_min: 200
 v_mpp_max: 1000
+v_mpp_nom: 600
 v_dc_max: 1100
 i_max_dc: 400
 n_mppt: 10

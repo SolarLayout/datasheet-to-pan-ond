@@ -71,8 +71,8 @@ Waaree's inverter catalogue (download center, Brochures › Inverter, "Inverter 
   meets both figures exactly.
 - **Assumed** (in `provenance_notes`): night loss 1 W where the catalogue does not state it (30–75 kW); 78 kVA as the
   maximum AC power of `3P-75K (75-136 kW)`, the lower of the catalogue's "78*/82.5" (the asterisk is not explained).
-- **Not written:** `VmppNom`, the nominal MPP voltage (the catalogue's "rated input voltage": 360, 600 V), since the
-  writer has no such key yet. SolarLayout Rooftop then takes the longest string as the nominal one.
+- **Nominal MPP voltage** (`v_mpp_nom`, written as `VmppNom`): the catalogue's rated input voltage, 360 V for the
+  single-phase families ("Nominal DC Operating Voltage" in the 1–3.3 kW table) and 600 V for the three-phase ones.
 - **Left out:** the 350 kW model. Its 480 V MPPT minimum leaves no string length under a 600 V system voltage, and its
   800 V AC output is for a plant with its own transformer, not a rooftop. The hybrid inverters (Waaree Tech, 3–15 kW)
   are not on-grid string inverters and are not transcribed.

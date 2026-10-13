@@ -84,13 +84,35 @@ def test_ond_roundtrip(ond_path: Path, inverter_ds: InverterDatasheet) -> None:
     assert d["NbMPPT"] == inverter_ds.n_mppt
 
 
+#: Converter keys written only when the datasheet gives them, and absent from the reference export
+#: (``docs/file-format.md``, "VmppNom").
+OPTIONAL_CONVERTER = {"VmppNom"}
+
+
 def test_ond_structure_matches_reference(ond_path: Path, ref_ond: dict[str, Any]) -> None:
     ours = read_panond(ond_path, encoding="utf-8-sig")["PVObject_"]
     optional_top = {"NbMSInterne", "MS_Thresh"}
     assert not (_keys(ref_ond) - _keys(ours) - optional_top)
     assert not (_keys(ours) - _keys(ref_ond))
     assert not (_keys(ref_ond["Converter"]) - _keys(ours["Converter"]))
-    assert not (_keys(ours["Converter"]) - _keys(ref_ond["Converter"]))
+    assert not (_keys(ours["Converter"]) - _keys(ref_ond["Converter"]) - OPTIONAL_CONVERTER)
+
+
+def test_ond_without_nominal_mpp_voltage_has_no_vmppnom(ond_path: Path) -> None:
+    assert "VmppNom" not in ond_path.read_bytes().decode("utf-8-sig")
+
+
+def test_ond_nominal_mpp_voltage_sits_between_vmppmax_and_vabsmax(
+    tmp_path: Path, inverter_ds: InverterDatasheet
+) -> None:
+    ds = inverter_ds.model_copy(update={"v_mpp_nom": 620.0})
+    path = write_ond(fit_inverter(ds), tmp_path / "n.OND", now=NOW)
+    lines = [ln.strip() for ln in path.read_bytes().decode("utf-8-sig").splitlines()]
+    i = lines.index("VmppNom=620.0")
+    assert lines[i - 1].startswith("VMPPMax=")
+    assert lines[i + 1].startswith("VAbsMax=")
+    converter = read_panond(path, encoding="utf-8-sig")["PVObject_"]["Converter"]
+    assert converter["VmppNom"] == 620.0
 
 
 def test_ond_quirky_keys_verbatim(ond_path: Path) -> None:

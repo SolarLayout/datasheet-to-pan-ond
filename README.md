@@ -129,7 +129,9 @@ For half-cut modules, a 144 half-cell module is `cells_in_series: 72`,
 
 **Inverter.** Required: `manufacturer`, `model`, `p_nom_ac_kw`, `v_ac`,
 `v_mpp_min`, `v_mpp_max`, `v_dc_max`, `i_max_dc`, `eff_max_pct`, and at least
-one of `eff_euro_pct` / `eff_cec_pct`. See
+one of `eff_euro_pct` / `eff_cec_pct`. Recommended: `v_mpp_nom`, the
+datasheet's rated (nominal) DC input voltage, written as PVsyst's `VmppNom`.
+See
 [`examples/inverter_example.yaml`](examples/inverter_example.yaml) and
 [`examples/inverter_minimal.yaml`](examples/inverter_minimal.yaml).
 
