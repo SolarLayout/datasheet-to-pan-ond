@@ -1,0 +1,27 @@
+# Waaree on-grid inverter, 75kW to 136kW family: https://www.waaree.com/upload/media/inverter_waaree_1770965615.pdf
+manufacturer: Waaree Energies Ltd.
+model: 3P-125K (75-136 kW)
+data_source: Waaree catalogue Inverter Vr 01 / Oct 2025
+year: 2025
+provenance_notes: []
+p_nom_ac_kw: 125
+p_max_ac_kw: 137.5
+v_ac: 400
+phases: three
+power_factor_min: 0.8
+transformer: false
+v_mpp_min: 200
+v_mpp_max: 1000
+v_dc_max: 1100
+i_max_dc: 400
+n_mppt: 10
+n_inputs: 20
+eff_max_pct: 98.6
+eff_euro_pct: 98.2
+night_loss_w: 3.5
+dimensions:
+  width_m: 0.975
+  height_m: 0.63
+  depth_m: 0.36
+  weight_kg: 90
+i_max_ac: 199.3

@@ -7,8 +7,8 @@ from pathlib import Path
 
 import pytest
 
-from datasheet_to_pan_ond import fit_module
-from datasheet_to_pan_ond.io import load_module
+from datasheet_to_pan_ond import fit_inverter, fit_module
+from datasheet_to_pan_ond.io import load_inverter, load_module
 
 DATASHEETS = Path(__file__).resolve().parents[1] / "datasheets"
 SPECS = sorted(DATASHEETS.glob("*/specs/*.yaml"))
@@ -43,5 +43,25 @@ def test_spec_fits_without_warnings(spec: Path) -> None:
 @pytest.mark.parametrize("spec", SPECS, ids=lambda p: f"{p.parts[-3]}/{p.stem}")
 def test_spec_names_a_listed_datasheet(spec: Path) -> None:
     ds = load_module(spec)
+    documents = _documents(spec.parents[1])
+    assert any(ds.data_source.endswith(doc) for doc in documents), ds.data_source
+
+
+INVERTER_SPECS = sorted(DATASHEETS.glob("*/inverter-specs/*.yaml"))
+
+
+def test_there_are_inverter_specs() -> None:
+    assert INVERTER_SPECS, f"no inverter specs under {DATASHEETS}"
+
+
+@pytest.mark.parametrize("spec", INVERTER_SPECS, ids=lambda p: f"{p.parts[-3]}/{p.stem}")
+def test_inverter_spec_fits_without_warnings(spec: Path) -> None:
+    result = fit_inverter(load_inverter(spec))
+    assert result.warnings == []
+
+
+@pytest.mark.parametrize("spec", INVERTER_SPECS, ids=lambda p: f"{p.parts[-3]}/{p.stem}")
+def test_inverter_spec_names_a_listed_datasheet(spec: Path) -> None:
+    ds = load_inverter(spec)
     documents = _documents(spec.parents[1])
     assert any(ds.data_source.endswith(doc) for doc in documents), ds.data_source

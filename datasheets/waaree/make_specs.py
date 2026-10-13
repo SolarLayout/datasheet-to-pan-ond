@@ -5,9 +5,9 @@ Usage::
     uv run python datasheets/waaree/make_specs.py <text-dir> datasheets/waaree/specs
 
 ``<text-dir>`` holds ``pdftotext -layout`` output of the PDFs in ``sources.csv``, one
-``<pdf stem>.txt`` each (see README.md). Only the datasheets listed in ``sources.csv`` are read.
-A figure a datasheet does not give is written into the spec's ``provenance_notes``, which end up
-in the PAN file's Remarks.
+``<pdf stem>.txt`` each (see README.md). Only the rows of ``sources.csv`` of kind ``module`` are
+read. A figure a datasheet does not give is written into the spec's ``provenance_notes``, which end
+up in the PAN file's Remarks.
 """
 
 from __future__ import annotations
@@ -181,7 +181,7 @@ def main(argv: list[str]) -> int:
         return 2
     text_dir, spec_dir = Path(argv[0]), Path(argv[1])
     with (HERE / "sources.csv").open(encoding="utf-8", newline="") as f:
-        sources = list(csv.DictReader(f))
+        sources = [row for row in csv.DictReader(f) if row["kind"] == "module"]
     written = 0
     for src in sources:
         txt = text_dir / (Path(src["pdf"]).stem + ".txt")

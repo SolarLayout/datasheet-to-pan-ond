@@ -29,6 +29,9 @@ adheres to [Semantic Versioning](https://semver.org/).
   datasheets (TOPCon, HJT, PERC), their sources, the script that writes them from
   the datasheets' text, and `tests/test_datasheets.py` (every spec fits without
   warnings and names a listed datasheet).
+- `datasheets/waaree/inverter-specs/`: 38 on-grid inverter specs from Waaree's
+  inverter catalogue (single-phase 0.7–6 kW, three-phase 3–136 kW), transcribed
+  in `make_inverter_specs.py`; `sources.csv` gains a `kind` column.
 
 - Validation against manufacturer PVsyst files for the same products
   (`docs/validation.md`, `tests/test_against_manufacturer.py`).

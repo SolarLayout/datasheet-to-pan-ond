@@ -16,7 +16,8 @@ manufacturer datasheet values.
   and manufacturer, with README indexes, `index.csv` files and checksums.
 - Holds **specs transcribed from makers' own datasheets** in
   [`datasheets/`](datasheets/): Waaree's current modules (159 power bins from
-  22 datasheets), each traced to its datasheet, with every assumption stated.
+  22 datasheets) and on-grid inverters (38 models from its catalogue), each
+  traced to its source, with every assumption stated.
 - Writes files in the same layout as PVsyst's own exports. Every assumed
   value is recorded in the file's `Remarks` and in a fit report.
 
