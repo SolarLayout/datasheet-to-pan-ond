@@ -6,7 +6,7 @@ PVsyst's internal units. Conversion to PVsyst units happens in the writers.
 
 from __future__ import annotations
 
-from enum import Enum
+from enum import StrEnum
 from typing import Literal
 
 from pydantic import BaseModel, ConfigDict, Field, model_validator
@@ -14,7 +14,7 @@ from pydantic import BaseModel, ConfigDict, Field, model_validator
 _STRICT = ConfigDict(extra="forbid", frozen=True)
 
 
-class Technology(str, Enum):
+class Technology(StrEnum):
     """PVsyst cell technology codes (``Technol`` key)."""
 
     SI_MONO = "mtSiMono"

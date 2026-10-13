@@ -126,7 +126,7 @@ datasheets/<maker>/make_specs.py: datasheet text (pdftotext) ──> spec dicts 
 
 ## Conventions
 
-- Python ≥ 3.10, `from __future__ import annotations`, full type hints.
+- Python ≥ 3.12, `from __future__ import annotations`, full type hints.
 - Ruff (line length 100) and mypy strict are configured in `pyproject.toml`.
 - Tests: pytest, one file per module; shared fixtures in `tests/conftest.py`.
   Write output to `tmp_path`, never into the repo.
@@ -138,7 +138,7 @@ datasheets/<maker>/make_specs.py: datasheet text (pdftotext) ──> spec dicts 
 
 - `origin` is `git@github.com:SolarLayout/datasheet-to-pan-ond.git`, private.
 - Work on a branch and open a pull request into `main`. CI
-  (`.github/workflows/ci.yml`) runs the four checks on Python 3.10 and 3.12
+  (`.github/workflows/ci.yml`) runs the four checks on Python 3.12 and 3.13
   and verifies the committed library. Merge on green.
 
 ## Adding PVsyst keys

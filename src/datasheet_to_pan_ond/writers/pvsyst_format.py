@@ -21,7 +21,6 @@ import os
 from collections.abc import Iterable, Sequence
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Union
 
 INDENT = "  "
 
@@ -71,7 +70,7 @@ class Entry:
         return f"{self.key}={self.value}"
 
 
-Item = Union[Entry, Section, Blank]  # noqa: UP007  (runtime alias on py3.10)
+Item = Entry | Section | Blank
 
 
 def pvobject(key: str, cls: str, items: Iterable[Item] = ()) -> Section:

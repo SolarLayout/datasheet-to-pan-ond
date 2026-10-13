@@ -27,7 +27,7 @@ manufacturer datasheet values.
 
 ## Quick start
 
-Requires [uv](https://docs.astral.sh/uv/) (Python ≥ 3.10).
+Requires [uv](https://docs.astral.sh/uv/) (Python ≥ 3.12).
 
 ```bash
 uv sync                                     # create .venv with dependencies

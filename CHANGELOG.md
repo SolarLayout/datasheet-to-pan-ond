@@ -33,6 +33,12 @@ adheres to [Semantic Versioning](https://semver.org/).
 - Validation against manufacturer PVsyst files for the same products
   (`docs/validation.md`, `tests/test_against_manufacturer.py`).
 
+### Changed
+
+- Python 3.12 is the minimum (was 3.10, which reaches end of life in
+  October 2026); CI tests 3.12 and 3.13. `Technology` is a `StrEnum`; the
+  written files are unchanged.
+
 ### Fixed
 
 - OND MPPT voltages are rounded inwards to integers (they were rounded to

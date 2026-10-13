@@ -5,14 +5,12 @@ from __future__ import annotations
 import json
 import os
 from pathlib import Path
-from typing import Any, TypeVar
+from typing import Any
 
 import yaml
 from pydantic import BaseModel
 
 from datasheet_to_pan_ond.models import InverterDatasheet, ModuleDatasheet
-
-M = TypeVar("M", bound=BaseModel)
 
 
 def load_mapping(path: str | Path) -> dict[str, Any]:
@@ -24,7 +22,7 @@ def load_mapping(path: str | Path) -> dict[str, Any]:
     return data
 
 
-def load_model(path: str | Path, model: type[M]) -> M:
+def load_model[M: BaseModel](path: str | Path, model: type[M]) -> M:
     return model.model_validate(load_mapping(path))
 
 
