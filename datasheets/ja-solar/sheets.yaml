@@ -1,0 +1,30 @@
+# JA Solar datasheets, transcribed as printed. Run datasheets/build_specs.py after a change.
+manufacturer: JA Solar
+prefix: JA
+modules:
+  - pdf: modules/JA Solar/DeepBlue 4.0 JAM66D45 LB max 640W.pdf
+    sha256: 9ff6dae88e9a5569554e061589efb2003ccf7a4a9ba7548f0fe0840cc6fa380e
+    url: https://www.jasolar.com/uploadfile/fujian/2026/0720/2a75c72617251cf.pdf
+    document: Global-EN-20260610A
+    year: 2026
+    series: DeepBlue 4.0 JAM66D45 LB
+    technology: TOPCon
+    model: JAM66D45-{p}/LB
+    cells: 132
+    half_cell: true
+    bypass_diodes: 3
+    bins:
+      p_nom: [615, 620, 625, 630, 635, 640]
+      vmp: [39.96, 40.21, 40.45, 40.70, 40.94, 41.20]
+      imp: [15.39, 15.42, 15.45, 15.48, 15.51, 15.54]
+      voc: [48.30, 48.50, 48.70, 48.90, 49.10, 49.39]
+      isc: [16.10, 16.13, 16.15, 16.18, 16.21, 16.24]
+    temp_coeff_pmax_pct: -0.290
+    temp_coeff_voc_pct: -0.250
+    temp_coeff_isc_pct: 0.045
+    v_max_iec: 1500
+    bifaciality_pct: 80
+    size_mm: [2382, 1134, 30]
+    weight_kg: 32.8
+    notes:
+      - "Technology: the sheet calls the cell n-type Bycium+ (mono) and does not name the cell structure; recorded as TOPCon, which gives the same PVsyst technology (crystalline mono) as any non-HJT cell."

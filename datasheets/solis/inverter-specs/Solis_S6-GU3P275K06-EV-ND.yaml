@@ -1,0 +1,32 @@
+# Solis S6-GU3P(275-350)K06-EV-ND grid-tied inverter (India): https://www.solisinverters.com/uploads/file/S6-GU3P(275-350)K-ND-IN-Flyer-V2,1.pdf
+manufacturer: Solis
+model: S6-GU3P275K06-EV-ND
+data_source: Solis datasheet sha256 7abcec5a1944
+provenance_notes:
+- 'Model names: the sheet''s family name S6-GU3P(275-350)K06-EV-ND with its models 275K and 350K written
+  out.'
+- 'Nominal AC power: the rated output power the model is named after, 275 kW at 40 °C (the sheet also
+  gives 250 kW at 51 °C) and 350 kW at 30 °C (also 340 kW at 40 °C and 300 kW at 51 °C), rated at 1080
+  Vdc and 800 Vac.'
+- 'Maximum AC power: the sheet''s maximum apparent output power (275 kVA, 350 kVA), taken as kW at cos
+  phi = 1.'
+- 'Maximum DC input current: 70 A per MPPT x 6 MPPTs = 420 A; the datasheet gives it per MPPT.'
+p_nom_ac_kw: 275.0
+p_max_ac_kw: 275.0
+v_ac: 800.0
+phases: three
+i_max_ac: 198.5
+v_mpp_min: 480.0
+v_mpp_max: 1500.0
+v_mpp_nom: 1080.0
+v_dc_max: 1500.0
+i_max_dc: 420.0
+n_mppt: 6
+n_inputs: 24
+eff_max_pct: 99.0
+eff_euro_pct: 98.7
+dimensions:
+  width_m: 1.098
+  height_m: 0.813
+  depth_m: 0.3785
+  weight_kg: 117.0

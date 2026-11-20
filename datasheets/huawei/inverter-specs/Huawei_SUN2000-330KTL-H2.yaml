@@ -1,0 +1,28 @@
+# Huawei SUN2000 smart string inverter (MEA, Eurasian): https://solar.huawei.com/dam/asset/view/946d92f29a424b6d8db331c9ac9718e9.pdf
+manufacturer: Huawei
+model: SUN2000-330KTL-H2
+data_source: Huawei datasheet sha256 fdf5880d0856
+provenance_notes:
+- 'Nominal AC power: the sheet''s nominal AC active power, 275 kW, which it states at 50 °C ambient; the
+  330 in the model name is its maximum AC active power at cos phi = 1.'
+- Efficiencies are printed as minimums (≥ 99.0% maximum, ≥ 98.8% European) and taken as those values.
+- 'Maximum DC input current: 65 A per MPPT x 6 MPPTs = 390 A; the datasheet gives it per MPPT.'
+p_nom_ac_kw: 275.0
+p_max_ac_kw: 330.0
+v_ac: 800.0
+phases: three
+i_nom_ac: 198.5
+i_max_ac: 240.3
+v_mpp_min: 500.0
+v_mpp_max: 1500.0
+v_mpp_nom: 1080.0
+v_dc_max: 1500.0
+i_max_dc: 390.0
+n_mppt: 6
+eff_max_pct: 99.0
+eff_euro_pct: 98.8
+dimensions:
+  width_m: 1.048
+  height_m: 0.732
+  depth_m: 0.395
+  weight_kg: 112.0

@@ -1,0 +1,75 @@
+# Sungrow datasheets, transcribed as printed. Run datasheets/build_specs.py after a change.
+manufacturer: Sungrow
+prefix: Sungrow
+inverters:
+  - pdf: inverters/Sungrow/SG320HX SG350HX 320-352kW (string).pdf
+    sha256: 97791db897521cc01ddeb9caf970d079c6770fff02f74f3a3de137ab32db18ff
+    url: https://info-support.sungrowpower.com/application/pdf/2022/11/30/DS_20221121_SG320HX_Datasheet_V17_EN.pdf
+    document: Version 17
+    year: 2022
+    series: SG320HX multi-MPPT string inverter for 1500 Vdc
+    models: [SG320HX]
+    p_nom_ac_kw: 320
+    p_max_ac_kw: 352
+    v_ac: 800
+    i_max_ac: 254
+    v_mpp_min: 500
+    v_mpp_max: 1500
+    v_mpp_nom: 1080
+    v_dc_max: 1500
+    n_mppt: 12
+    i_max_mppt: 40
+    eff_max_pct: 99.02
+    eff_euro_pct: 98.8
+    size_mm: [1136, 870, 361]
+    weight_kg: 116
+    notes:
+      - "Nominal AC power: 320 kVA at 40 °C ambient, the rating the model is named after, taken as 320 kW at cos phi = 1; the sheet gives AC output power in kVA only."
+      - "Maximum AC power: 352 kVA at 30 °C ambient, taken as 352 kW at cos phi = 1 (the sheet also gives 295 kVA at 50 °C)."
+      - "MPPT inputs: the standard 12 MPPTs at 40 A each; the sheet's 16-MPPT option (30 A per MPPT) is not described here."
+      - "Weight: printed as ≤116 kg, with a possible ±8% deviation between suppliers."
+  # SG3300UD / SG4400UD: one entry a model, as the two differ in size.
+  - pdf: inverters/Sungrow/SG3300UD SG4400UD 3.3-4.4MW (central).pdf
+    sha256: e1c0739f16c6cbf1fa1f42b09c7a187ffcf0a450dda307a99a74cf54e5455c12
+    url: https://info-support.sungrowpower.com/application/pdf/2025/06/16/DS_20250610_SG3300UD_SG4400UD_Datasheet_V21_EN.pdf
+    document: Version 21
+    year: 2025
+    series: SG3300UD/SG4400UD central inverter for 1500 Vdc
+    models: [SG3300UD]
+    p_nom_ac_kw: 3300
+    v_ac: 630
+    v_mpp_min: 895
+    v_mpp_max: 1500
+    v_dc_max: 1500
+    n_mppt: 3
+    n_inputs: 15
+    i_max_mppt: 1435
+    eff_max_pct: 99.0
+    eff_euro_pct: 98.8
+    size_mm: [2340, 2300, 1550]
+    notes:
+      - "Nominal AC power: 3300 kVA at 45 °C ambient, the rating the model is named after, taken as 3300 kW at cos phi = 1; the sheet gives AC output power in kVA only, and also 3399 kVA at 40 °C and 3795 kVA at 22.5 °C."
+      - "MPPT range: the sheet's MPP voltage range, 895–1500 V; its minimum PV input voltage is 895 V and its start-up voltage 905 V."
+      - "DC inputs: the standard 15; the sheet offers 21 as an option."
+  - pdf: inverters/Sungrow/SG3300UD SG4400UD 3.3-4.4MW (central).pdf
+    sha256: e1c0739f16c6cbf1fa1f42b09c7a187ffcf0a450dda307a99a74cf54e5455c12
+    url: https://info-support.sungrowpower.com/application/pdf/2025/06/16/DS_20250610_SG3300UD_SG4400UD_Datasheet_V21_EN.pdf
+    document: Version 21
+    year: 2025
+    series: SG3300UD/SG4400UD central inverter for 1500 Vdc
+    models: [SG4400UD]
+    p_nom_ac_kw: 4400
+    v_ac: 630
+    v_mpp_min: 895
+    v_mpp_max: 1500
+    v_dc_max: 1500
+    n_mppt: 4
+    n_inputs: 20
+    i_max_mppt: 1435
+    eff_max_pct: 99.0
+    eff_euro_pct: 98.8
+    size_mm: [2900, 2300, 1550]
+    notes:
+      - "Nominal AC power: 4400 kVA at 45 °C ambient, the rating the model is named after, taken as 4400 kW at cos phi = 1; the sheet gives AC output power in kVA only, and also 4532 kVA at 40 °C and 5060 kVA at 22.5 °C."
+      - "MPPT range: the sheet's MPP voltage range, 895–1500 V; its minimum PV input voltage is 895 V and its start-up voltage 905 V."
+      - "DC inputs: the standard 20; the sheet offers 28 as an option."

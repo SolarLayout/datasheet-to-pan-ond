@@ -1,0 +1,27 @@
+# JinkoSolar Tiger Neo 3.0: https://jinkosolarcdn.shwebspace.com/uploads/JKM650-670N-66QL6-BDV-F4-EN.pdf
+manufacturer: JinkoSolar
+model: JKM650N-66QL6-BDV
+data_source: JinkoSolar datasheet JKM650-670N-66QL6-BDV-F4-EN
+year: 2026
+provenance_notes:
+- 'Bypass diodes: 3, the usual count; the datasheet does not state it.'
+technology: mtSiMono
+cells_in_series: 66
+cells_in_parallel: 4
+bypass_diodes: 3
+half_cell: true
+p_nom: 650.0
+isc: 15.98
+voc: 50.26
+imp: 15.27
+vmp: 42.57
+temp_coeff_isc_pct: 0.046
+temp_coeff_voc_pct: -0.24
+temp_coeff_pmax_pct: -0.26
+v_max_iec: 1500.0
+dimensions:
+  width_m: 1.134
+  height_m: 2.382
+  depth_m: 0.03
+  weight_kg: 32.5
+bifaciality: 0.85

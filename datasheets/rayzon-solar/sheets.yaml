@@ -1,0 +1,27 @@
+# Rayzon Solar datasheets, transcribed as printed. Run datasheets/build_specs.py after a change.
+manufacturer: Rayzon Solar
+prefix: Rayzon
+modules:
+  - pdf: modules/Rayzon Solar/RS132TGC TOPCon 210R Bifacial G2G 610-625Wp (Domestic).pdf
+    sha256: 36866a77887b027ef675e609e09404e84d3bb4a186d281e36a1cfd28aa8b30cb
+    url: https://rayzonsolar.com/img/datasheet/topcon-210%20x182-cells-210R.pdf
+    document: null
+    series: N-Type TOPCon 16BB Bifacial (Glass to Glass) 210R
+    technology: TOPCon
+    model: RS{p}132TGC
+    cells: 132
+    half_cell: true
+    bypass_diodes: 3
+    bins:
+      p_nom: [610, 615, 620, 625]
+      vmp: [40.95, 41.18, 41.37, 41.52]
+      imp: [14.91, 14.95, 15.00, 15.06]
+      voc: [48.54, 48.68, 48.92, 49.18]
+      isc: [15.66, 15.69, 15.72, 15.73]
+    temp_coeff_pmax_pct: -0.2827
+    temp_coeff_voc_pct: -0.2277
+    temp_coeff_isc_pct: 0.0350
+    v_max_iec: 1500
+    bifaciality_pct: 80
+    size_mm: [2382, 1133, 35]
+    weight_kg: 34.5

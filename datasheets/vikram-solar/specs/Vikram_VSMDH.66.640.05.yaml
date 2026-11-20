@@ -1,0 +1,31 @@
+# Vikram Solar Hypersol G12R N-type: https://www.vikramsolar.com/wp-content/uploads/2026/10/HYPERSOL-G12R-620-650W-132-CELLS.pdf
+manufacturer: Vikram Solar
+model: VSMDH.66.640.05
+data_source: Vikram Solar datasheet VSL/ENG/SC/327-V19/STD
+provenance_notes:
+- 'Technology: the datasheet says N-type (not HJT) without naming the cell structure; taken as TOPCon,
+  crystalline mono in PVsyst.'
+- 'Bifaciality 0.75: the datasheet''s bifaciality coefficient for Pmax and Isc at BNPI (75 ± 5 %); its
+  feature list says up to 80 %.'
+- 'Bypass diodes: 3, the usual count; the datasheet does not state it.'
+technology: mtSiMono
+cells_in_series: 66
+cells_in_parallel: 2
+bypass_diodes: 3
+half_cell: true
+p_nom: 640.0
+isc: 16.16
+voc: 49.9
+imp: 15.25
+vmp: 42.0
+temp_coeff_isc_pct: 0.045
+temp_coeff_voc_pct: -0.25
+temp_coeff_pmax_pct: -0.28
+low_light_rel_eff_pct: -5.0
+v_max_iec: 1500.0
+dimensions:
+  width_m: 1.134
+  height_m: 2.382
+  depth_m: 0.03
+  weight_kg: 33.4
+bifaciality: 0.75

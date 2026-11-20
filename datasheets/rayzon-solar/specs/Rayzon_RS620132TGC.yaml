@@ -1,0 +1,25 @@
+# Rayzon Solar N-Type TOPCon 16BB Bifacial (Glass to Glass) 210R: https://rayzonsolar.com/img/datasheet/topcon-210%20x182-cells-210R.pdf
+manufacturer: Rayzon Solar
+model: RS620132TGC
+data_source: Rayzon Solar datasheet sha256 36866a77887b
+provenance_notes: []
+technology: mtSiMono
+cells_in_series: 66
+cells_in_parallel: 2
+bypass_diodes: 3
+half_cell: true
+p_nom: 620.0
+isc: 15.72
+voc: 48.92
+imp: 15.0
+vmp: 41.37
+temp_coeff_isc_pct: 0.035
+temp_coeff_voc_pct: -0.2277
+temp_coeff_pmax_pct: -0.2827
+v_max_iec: 1500.0
+dimensions:
+  width_m: 1.133
+  height_m: 2.382
+  depth_m: 0.035
+  weight_kg: 34.5
+bifaciality: 0.8

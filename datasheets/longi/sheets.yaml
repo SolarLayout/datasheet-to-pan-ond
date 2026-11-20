@@ -1,0 +1,30 @@
+# LONGi datasheets, transcribed as printed. Run datasheets/build_specs.py after a change.
+manufacturer: LONGi
+prefix: LONGi
+modules:
+  - pdf: modules/LONGi/Hi-MO 9 LR8-66HYD (India) 625-660W.pdf
+    sha256: fe79c2a875d9910b5cd4e3be19e7e1b594ba30d3d238265a05517e54238b0e5e
+    url: https://static.longi.com/LR_8_66_HYD_625_660_M_30_30_and_15_V3_0_EN_2ce01313ee.pdf
+    document: 20240902V3.0
+    year: 2024
+    series: Hi-MO 9
+    technology: BC
+    model: LR8-66HYD-{p}M
+    cells: 132
+    half_cell: true
+    bypass_diodes: 3
+    bins:
+      p_nom: [625, 630, 635, 640, 645, 650, 655, 660]
+      vmp: [40.70, 40.80, 40.90, 41.00, 41.10, 41.20, 41.30, 41.40]
+      imp: [15.36, 15.45, 15.53, 15.62, 15.70, 15.78, 15.87, 15.95]
+      voc: [49.51, 49.61, 49.71, 49.81, 49.91, 50.01, 50.11, 50.21]
+      isc: [16.09, 16.17, 16.25, 16.33, 16.41, 16.49, 16.57, 16.65]
+    temp_coeff_pmax_pct: -0.260
+    temp_coeff_voc_pct: -0.200
+    temp_coeff_isc_pct: 0.050
+    v_max_iec: 1500
+    bifaciality_pct: 70
+    size_mm: [2382, 1134, 30]
+    weight_kg: 33.5
+    notes:
+      - "Cell layout: the sheet prints 132 cells (6 x 22) but not that they are half cells; taken as 66 in series x 2 in parallel, as a Voc of 49.5-50.2 V is about 0.75-0.76 V a cell for 66 cells in series and could not come from 132."

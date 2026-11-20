@@ -1,0 +1,52 @@
+# Huawei datasheets, transcribed as printed. Run datasheets/build_specs.py after a change.
+manufacturer: Huawei
+prefix: Huawei
+inverters:
+  - pdf: inverters/Huawei/SUN2000-330KTL-H1 330kW APAC LATAM Europe (string).pdf
+    sha256: fdf5880d085635a6b5d0a5948fbd3e5bef1c7f1461c6e034bcb08d6281afaa51
+    url: https://solar.huawei.com/dam/asset/view/946d92f29a424b6d8db331c9ac9718e9.pdf
+    document: null
+    series: SUN2000 smart string inverter (APAC, LATAM & Europe)
+    models: [SUN2000-330KTL-H1]
+    p_nom_ac_kw: 300
+    p_max_ac_kw: 330
+    v_ac: 800
+    i_nom_ac: 216.6
+    i_max_ac: 238.2
+    v_mpp_min: 500
+    v_mpp_max: 1500
+    v_mpp_nom: 1080
+    v_dc_max: 1500
+    n_mppt: 6
+    i_max_mppt: 65
+    eff_max_pct: 99.03
+    eff_euro_pct: 98.8
+    size_mm: [1048, 732, 395]
+    weight_kg: 112
+    notes:
+      - "Nominal AC power: the sheet's nominal AC active power, 300 kW; the 330 in the model name is its maximum AC active power at cos phi = 1."
+      - "Efficiencies are printed as minimums (≥ 99.03% maximum, ≥ 98.8% European) and taken as those values."
+  - pdf: inverters/Huawei/SUN2000-330KTL-H1 330kW APAC LATAM Europe (string).pdf
+    sha256: fdf5880d085635a6b5d0a5948fbd3e5bef1c7f1461c6e034bcb08d6281afaa51
+    url: https://solar.huawei.com/dam/asset/view/946d92f29a424b6d8db331c9ac9718e9.pdf
+    document: null
+    series: SUN2000 smart string inverter (MEA, Eurasian)
+    models: [SUN2000-330KTL-H2]
+    p_nom_ac_kw: 275
+    p_max_ac_kw: 330
+    v_ac: 800
+    i_nom_ac: 198.5
+    i_max_ac: 240.3
+    v_mpp_min: 500
+    v_mpp_max: 1500
+    v_mpp_nom: 1080
+    v_dc_max: 1500
+    n_mppt: 6
+    i_max_mppt: 65
+    eff_max_pct: 99.0
+    eff_euro_pct: 98.8
+    size_mm: [1048, 732, 395]
+    weight_kg: 112
+    notes:
+      - "Nominal AC power: the sheet's nominal AC active power, 275 kW, which it states at 50 °C ambient; the 330 in the model name is its maximum AC active power at cos phi = 1."
+      - "Efficiencies are printed as minimums (≥ 99.0% maximum, ≥ 98.8% European) and taken as those values."

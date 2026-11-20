@@ -1,0 +1,30 @@
+# Premier Energies 132 Half Cut N-Type Bifacial Dual Glass G12R: https://premierenergies.com/downloads/N_Type_G12R_610_WP_G2G_Series.pdf
+manufacturer: Premier Energies
+model: PE-132-615 THGB-G12R
+data_source: Premier Energies datasheet PE-19/04.08.2025/01
+year: 2025
+provenance_notes:
+- 'Depth: printed ''35m''; the frame drawing gives 35 ±1 mm.'
+- 'Technology: the datasheet says N-type cell without naming the cell structure; taken as TOPCon (the
+  file''s title names TOPCon), crystalline mono in PVsyst.'
+- 'Bypass diodes: 3, the usual count; the datasheet does not state it.'
+technology: mtSiMono
+cells_in_series: 66
+cells_in_parallel: 2
+bypass_diodes: 3
+half_cell: true
+p_nom: 615.0
+isc: 15.62
+voc: 49.2
+imp: 14.79
+vmp: 41.57
+temp_coeff_isc_pct: 0.045
+temp_coeff_voc_pct: -0.25
+temp_coeff_pmax_pct: -0.29
+v_max_iec: 1500.0
+dimensions:
+  width_m: 1.134
+  height_m: 2.382
+  depth_m: 0.035
+  weight_kg: 33.5
+bifaciality: 0.8

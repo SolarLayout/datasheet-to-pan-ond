@@ -1,0 +1,29 @@
+# Solis datasheets, transcribed as printed. Run datasheets/build_specs.py after a change.
+manufacturer: Solis
+prefix: Solis
+inverters:
+  - pdf: inverters/Solis/Solis S6-GU3P(275-350)K-ND India 275-350kW (string).pdf
+    sha256: 7abcec5a1944c99317f8eaf62cb505a4bb6e2980e7479b40fae68341442d21eb
+    url: https://www.solisinverters.com/uploads/file/S6-GU3P(275-350)K-ND-IN-Flyer-V2,1.pdf
+    document: null
+    series: S6-GU3P(275-350)K06-EV-ND grid-tied inverter (India)
+    models: [S6-GU3P275K06-EV-ND, S6-GU3P350K06-EV-ND]
+    p_nom_ac_kw: [275, 350]
+    p_max_ac_kw: [275, 350]
+    v_ac: 800
+    i_max_ac: [198.5, 252.6]
+    v_mpp_min: 480
+    v_mpp_max: 1500
+    v_mpp_nom: 1080
+    v_dc_max: 1500
+    n_mppt: 6
+    n_inputs: [24, 30]
+    i_max_mppt: [70, 80]
+    eff_max_pct: 99.0
+    eff_euro_pct: 98.7
+    size_mm: [1098, 813, 378.5]
+    weight_kg: 117
+    notes:
+      - "Model names: the sheet's family name S6-GU3P(275-350)K06-EV-ND with its models 275K and 350K written out."
+      - "Nominal AC power: the rated output power the model is named after, 275 kW at 40 °C (the sheet also gives 250 kW at 51 °C) and 350 kW at 30 °C (also 340 kW at 40 °C and 300 kW at 51 °C), rated at 1080 Vdc and 800 Vac."
+      - "Maximum AC power: the sheet's maximum apparent output power (275 kVA, 350 kVA), taken as kW at cos phi = 1."

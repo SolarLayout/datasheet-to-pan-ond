@@ -1,0 +1,27 @@
+# ReNew datasheets, transcribed as printed. Run datasheets/build_specs.py after a change.
+manufacturer: ReNew
+prefix: ReNew
+modules:
+  - pdf: modules/ReNew/G12R TOPCon Bifacial RPS3MH66BD 615-640W (Jan 2026 rev).pdf
+    sha256: adb3f878a7cc1340e99912480c97a5d2ae316be19b2a7d6c2b204f67cb1bad65
+    url: https://solarpv.renew.com/assets/pdf/Renew Datasheet-G12R TOPCon_003_Jan26.pdf
+    document: RP/SS/G12R/132/R/003
+    series: G12R TOPCon Bifacial
+    technology: TOPCon
+    model: RPS3MH66BD{p}
+    cells: 132
+    half_cell: true
+    bins:
+      p_nom: [615, 620, 625, 630, 635, 640]
+      vmp: [40.70, 40.90, 41.10, 41.30, 41.50, 41.70]
+      imp: [15.12, 15.18, 15.22, 15.27, 15.32, 15.36]
+      voc: [48.62, 48.80, 49.01, 49.20, 49.40, 49.60]
+      isc: [16.03, 16.09, 16.10, 16.17, 16.22, 16.27]
+    temp_coeff_pmax_pct: -0.29
+    temp_coeff_voc_pct: -0.25
+    temp_coeff_isc_pct: 0.06
+    bifaciality_pct: 80
+    read_by_eye:
+      bins.vmp: "the text layer fuses 41.10 with a drawing dimension; read from the page by two readers independently, who agree"
+    size_mm: [2382, 1134, 30]
+    weight_kg: 33.5

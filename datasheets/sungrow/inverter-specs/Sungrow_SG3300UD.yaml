@@ -1,0 +1,28 @@
+# Sungrow SG3300UD/SG4400UD central inverter for 1500 Vdc: https://info-support.sungrowpower.com/application/pdf/2025/06/16/DS_20250610_SG3300UD_SG4400UD_Datasheet_V21_EN.pdf
+manufacturer: Sungrow
+model: SG3300UD
+data_source: Sungrow datasheet Version 21
+year: 2025
+provenance_notes:
+- 'Nominal AC power: 3300 kVA at 45 °C ambient, the rating the model is named after, taken as 3300 kW
+  at cos phi = 1; the sheet gives AC output power in kVA only, and also 3399 kVA at 40 °C and 3795 kVA
+  at 22.5 °C.'
+- 'MPPT range: the sheet''s MPP voltage range, 895–1500 V; its minimum PV input voltage is 895 V and its
+  start-up voltage 905 V.'
+- 'DC inputs: the standard 15; the sheet offers 21 as an option.'
+- 'Maximum DC input current: 1435 A per MPPT x 3 MPPTs = 4305 A; the datasheet gives it per MPPT.'
+p_nom_ac_kw: 3300.0
+v_ac: 630.0
+phases: three
+v_mpp_min: 895.0
+v_mpp_max: 1500.0
+v_dc_max: 1500.0
+i_max_dc: 4305.0
+n_mppt: 3
+n_inputs: 15
+eff_max_pct: 99.0
+eff_euro_pct: 98.8
+dimensions:
+  width_m: 2.34
+  height_m: 2.3
+  depth_m: 1.55

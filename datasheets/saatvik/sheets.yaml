@@ -1,0 +1,29 @@
+# Saatvik datasheets, transcribed as printed. Run datasheets/build_specs.py after a change.
+manufacturer: Saatvik
+prefix: Saatvik
+modules:
+  - pdf: modules/Saatvik/Tej Plus N-TOPCon G12R Bifacial 600-640Wp.pdf
+    sha256: b4a67109f7880234dcdc060d57ab10e2b07fc1601a30e77abfdd54b659d19b66
+    url: https://saatvikgroup.com/docs/datasheets/Saatvik-TejPlus-N-TOPCon-G12R-Datasheet-600-640Wp.pdf
+    document: STVK/PMG/SGEXXX-132TGG-REV07
+    series: Tej Plus Bifacial N-TOPCon G12R
+    technology: TOPCon
+    model: SGE{p}-132TGG
+    cells: 132
+    half_cell: true
+    bypass_diodes: 3
+    bins:
+      p_nom: [600, 605, 610, 615, 620, 625, 630, 635, 640]
+      vmp: [40.11, 40.31, 40.51, 40.71, 40.91, 41.11, 41.31, 41.51, 41.71]
+      imp: [14.96, 15.01, 15.06, 15.11, 15.16, 15.21, 15.26, 15.31, 15.36]
+      voc: [47.98, 48.18, 48.38, 48.58, 48.78, 48.98, 49.18, 49.38, 49.58]
+      isc: [15.85, 15.90, 15.95, 16.00, 16.05, 16.10, 16.15, 16.2, 16.25]
+    temp_coeff_pmax_pct: -0.30
+    temp_coeff_voc_pct: -0.26
+    temp_coeff_isc_pct: 0.046
+    low_light_loss_pct: 4.5
+    v_max_iec: 1500
+    bifaciality_pct: 80
+    unchecked: "most of the sheet is an image (the text holds only the 630-640 W bins); every figure read from the page by two readers independently, who agree"
+    size_mm: [2382, 1134, 30]
+    weight_kg: 33

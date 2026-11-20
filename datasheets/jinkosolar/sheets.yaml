@@ -1,0 +1,28 @@
+# JinkoSolar datasheets, transcribed as printed. Run datasheets/build_specs.py after a change.
+manufacturer: JinkoSolar
+prefix: Jinko
+modules:
+  - pdf: modules/JinkoSolar/Tiger Neo 3.0 JKM-N-66QL6-BDV 650-670W.pdf
+    sha256: ce3da51a8a8d064dc8cf19f59fdcf2480db9864aaaaa722c444602f4e13b6dbd
+    url: https://jinkosolarcdn.shwebspace.com/uploads/JKM650-670N-66QL6-BDV-F4-EN.pdf
+    document: JKM650-670N-66QL6-BDV-F4-EN
+    year: 2026
+    series: Tiger Neo 3.0
+    technology: TOPCon
+    model: JKM{p}N-66QL6-BDV
+    cells: 264
+    half_cell: true
+    cells_in_parallel: 4    # "264 (66x4)": quarter-cut cells
+    bins:
+      p_nom: [650, 655, 660, 665, 670]
+      vmp: [42.57, 42.70, 42.78, 42.85, 42.92]
+      imp: [15.27, 15.34, 15.43, 15.52, 15.61]
+      voc: [50.26, 50.44, 50.50, 50.55, 50.60]
+      isc: [15.98, 16.04, 16.14, 16.24, 16.34]
+    temp_coeff_pmax_pct: -0.26
+    temp_coeff_voc_pct: -0.24
+    temp_coeff_isc_pct: 0.046
+    v_max_iec: 1500
+    bifaciality_pct: 85
+    size_mm: [2382, 1134, 30]
+    weight_kg: 32.5

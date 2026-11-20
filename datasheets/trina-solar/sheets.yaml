@@ -1,0 +1,28 @@
+# Trina Solar datasheets, transcribed as printed. Run datasheets/build_specs.py after a change.
+manufacturer: Trina Solar
+prefix: Trina
+modules:
+  - pdf: modules/Trina Solar/Vertex TSM-NEG19RC.20 625-650W.pdf
+    sha256: 9b0e01dad9a85a36372192761d80462784afc23088de8e06db4695b280e0d8b9
+    url: https://www-cdn.trinasolar.com/wwwstorage/sites/3/DT-M-0045-G-EN-K-Datasheet_Vertex_NEG19RC.20_2025_D.pdf
+    document: TSM_EN_2025_D
+    year: 2025
+    series: Vertex NEG19RC.20
+    technology: TOPCon
+    # The sheet names the type TSM-NEG19RC.20 and its power range "625-650W" separately.
+    model: TSM-NEG19RC.20 {p}W
+    cells: 132
+    half_cell: true
+    bins:
+      p_nom: [625, 630, 635, 640, 645, 650]
+      vmp: [40.46, 40.68, 40.84, 41.06, 41.22, 41.43]
+      imp: [15.45, 15.49, 15.55, 15.60, 15.65, 15.69]
+      voc: [48.70, 48.90, 49.10, 49.30, 49.52, 49.77]
+      isc: [16.32, 16.38, 16.44, 16.51, 16.55, 16.59]
+    temp_coeff_pmax_pct: -0.29
+    temp_coeff_voc_pct: -0.24
+    temp_coeff_isc_pct: 0.04
+    v_max_iec: 1500
+    bifaciality_pct: 80
+    size_mm: [2382, 1134, 30]
+    weight_kg: 33.0

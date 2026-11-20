@@ -1,0 +1,26 @@
+# ReNew G12R TOPCon Bifacial: https://solarpv.renew.com/assets/pdf/Renew Datasheet-G12R TOPCon_003_Jan26.pdf
+manufacturer: ReNew
+model: RPS3MH66BD635
+data_source: ReNew datasheet RP/SS/G12R/132/R/003
+provenance_notes:
+- 'Maximum system voltage: the datasheet does not state one, and the file gives none.'
+- 'Bypass diodes: 3, the usual count; the datasheet does not state it.'
+technology: mtSiMono
+cells_in_series: 66
+cells_in_parallel: 2
+bypass_diodes: 3
+half_cell: true
+p_nom: 635.0
+isc: 16.22
+voc: 49.4
+imp: 15.32
+vmp: 41.5
+temp_coeff_isc_pct: 0.06
+temp_coeff_voc_pct: -0.25
+temp_coeff_pmax_pct: -0.29
+dimensions:
+  width_m: 1.134
+  height_m: 2.382
+  depth_m: 0.03
+  weight_kg: 33.5
+bifaciality: 0.8

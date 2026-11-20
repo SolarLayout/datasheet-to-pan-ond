@@ -1,0 +1,27 @@
+# Adani Solar Elan Shine TOPCon Gen-II: https://www.adanisolar.com/-/media/project/adanisolar/downloads/pdf/newdatasheet1/shine-topcon-g2g-modules-gen-ii.pdf
+manufacturer: Adani Solar
+model: ASB-M10-144-560
+data_source: Adani Solar datasheet MSEL/MDL/PM/Gen-II/Rev03
+provenance_notes:
+- 'Bypass diodes: 3, the usual count; the datasheet does not state it.'
+technology: mtSiMono
+cells_in_series: 72
+cells_in_parallel: 2
+bypass_diodes: 3
+half_cell: true
+p_nom: 560.0
+isc: 13.71
+voc: 51.7
+imp: 12.97
+vmp: 43.22
+temp_coeff_isc_pct: 0.028
+temp_coeff_voc_pct: -0.24
+temp_coeff_pmax_pct: -0.32
+low_light_rel_eff_pct: -3.0
+v_max_iec: 1500.0
+dimensions:
+  width_m: 1.133
+  height_m: 2.278
+  depth_m: 0.03
+  weight_kg: 31.3
+bifaciality: 0.8
