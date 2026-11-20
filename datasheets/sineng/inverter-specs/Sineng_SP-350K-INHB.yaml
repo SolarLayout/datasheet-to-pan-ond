@@ -1,0 +1,29 @@
+# Sineng SP series string inverter (India): https://en.si-neng.com/Public/Uploads/uploadfile/files/20260415/SP350KINHB.pdf
+manufacturer: Sineng
+model: SP-350K-INHB
+data_source: Sineng datasheet sha256 5d44c801aba6
+year: 2026
+provenance_notes:
+- 'Nominal AC power: 352 kW at 30 °C ambient, the rating nearest the 350 the model is named after; the
+  sheet also gives 305 kW at 50 °C and 300 kW at 51 °C.'
+- 'MPPT range: the full 500–1500 V MPP range; the sheet gives 880–1300 V for nominal power.'
+- 'Maximum DC input current: 75 A per MPPT x 6 MPPTs = 450 A; the datasheet gives it per MPPT.'
+p_nom_ac_kw: 352.0
+p_max_ac_kw: 352.0
+v_ac: 800.0
+phases: three
+i_max_ac: 254.0
+v_mpp_min: 500.0
+v_mpp_max: 1500.0
+v_mpp_nom: 1080.0
+v_dc_max: 1500.0
+i_max_dc: 450.0
+n_mppt: 6
+n_inputs: 30
+eff_max_pct: 99.0
+eff_euro_pct: 98.8
+dimensions:
+  width_m: 1.317
+  height_m: 0.735
+  depth_m: 0.403
+  weight_kg: 135.0

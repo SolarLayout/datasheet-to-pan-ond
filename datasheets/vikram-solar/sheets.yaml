@@ -1,0 +1,30 @@
+# Vikram Solar datasheets, transcribed as printed. Run datasheets/build_specs.py after a change.
+manufacturer: Vikram Solar
+prefix: Vikram
+modules:
+  - pdf: modules/Vikram Solar/Hypersol G12R N-type Bifacial 620-650Wp.pdf
+    sha256: f34cd482de2d50d7ef84e84260294be8887ee3feccf17041a6770509716c5e82
+    url: https://www.vikramsolar.com/wp-content/uploads/2026/10/HYPERSOL-G12R-620-650W-132-CELLS.pdf
+    document: VSL/ENG/SC/327-V19/STD
+    series: Hypersol G12R N-type
+    technology: TOPCon
+    model: VSMDH.66.{p}.05
+    cells: 132
+    half_cell: true
+    bins:
+      p_nom: [620, 625, 630, 635, 640, 645, 650]
+      vmp: [41.2, 41.4, 41.6, 41.8, 42.0, 42.2, 42.4]
+      imp: [15.05, 15.1, 15.15, 15.20, 15.25, 15.30, 15.35]
+      voc: [49.1, 49.3, 49.5, 49.7, 49.9, 50.1, 50.3]
+      isc: [15.95, 16, 16.05, 16.11, 16.16, 16.22, 16.27]
+    temp_coeff_pmax_pct: -0.28
+    temp_coeff_voc_pct: -0.25
+    temp_coeff_isc_pct: 0.045
+    low_light_loss_pct: 5
+    v_max_iec: 1500
+    bifaciality_pct: 75
+    size_mm: [2382, 1134, 30]
+    weight_kg: 33.4
+    notes:
+      - "Technology: the datasheet says N-type (not HJT) without naming the cell structure; taken as TOPCon, crystalline mono in PVsyst."
+      - "Bifaciality 0.75: the datasheet's bifaciality coefficient for Pmax and Isc at BNPI (75 ± 5 %); its feature list says up to 80 %."

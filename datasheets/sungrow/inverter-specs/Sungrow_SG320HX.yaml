@@ -1,0 +1,32 @@
+# Sungrow SG320HX multi-MPPT string inverter for 1500 Vdc: https://info-support.sungrowpower.com/application/pdf/2022/11/30/DS_20221121_SG320HX_Datasheet_V17_EN.pdf
+manufacturer: Sungrow
+model: SG320HX
+data_source: Sungrow datasheet Version 17
+year: 2022
+provenance_notes:
+- 'Nominal AC power: 320 kVA at 40 °C ambient, the rating the model is named after, taken as 320 kW at
+  cos phi = 1; the sheet gives AC output power in kVA only.'
+- 'Maximum AC power: 352 kVA at 30 °C ambient, taken as 352 kW at cos phi = 1 (the sheet also gives 295
+  kVA at 50 °C).'
+- 'MPPT inputs: the standard 12 MPPTs at 40 A each; the sheet''s 16-MPPT option (30 A per MPPT) is not
+  described here.'
+- 'Weight: printed as ≤116 kg, with a possible ±8% deviation between suppliers.'
+- 'Maximum DC input current: 40 A per MPPT x 12 MPPTs = 480 A; the datasheet gives it per MPPT.'
+p_nom_ac_kw: 320.0
+p_max_ac_kw: 352.0
+v_ac: 800.0
+phases: three
+i_max_ac: 254.0
+v_mpp_min: 500.0
+v_mpp_max: 1500.0
+v_mpp_nom: 1080.0
+v_dc_max: 1500.0
+i_max_dc: 480.0
+n_mppt: 12
+eff_max_pct: 99.02
+eff_euro_pct: 98.8
+dimensions:
+  width_m: 1.136
+  height_m: 0.87
+  depth_m: 0.361
+  weight_kg: 116.0

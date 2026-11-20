@@ -1,0 +1,29 @@
+# Sineng EP Series 1500V Outdoor Central Inverter: https://en.si-neng.com/Public/Uploads/uploadfile/files/20240129/EP3125HCUD-668.pdf
+manufacturer: Sineng
+model: EP-3125-HC-UD
+data_source: Sineng datasheet sha256 3831a689a2ba
+year: 2024
+provenance_notes:
+- 'Nominal AC power: the rating each model is named after, printed in kVA (EP-3125-HC-UD 3125 kVA at 50
+  °C, EP-3400-HA-UD 3400 kVA at 45 °C ambient), taken as kW at cos phi = 1; the sheet gives both 3594
+  kVA at 25 °C.'
+- 'MPPT range: the sheet prints only the MPP voltage range for nominal power (875–1300 V and 900–1300
+  V), taken as the MPPT operating range; the inverter may track over a wider range.'
+- 'DC inputs: the sheet''s maximum number of DC inputs.'
+p_nom_ac_kw: 3125.0
+v_ac: 600.0
+phases: three
+i_max_ac: 3459.0
+v_mpp_min: 875.0
+v_mpp_max: 1300.0
+v_dc_max: 1500.0
+i_max_dc: 4191.0
+n_mppt: 2
+n_inputs: 22
+eff_max_pct: 99.0
+eff_euro_pct: 98.7
+dimensions:
+  width_m: 2.205
+  height_m: 2.2
+  depth_m: 1.76
+  weight_kg: 2600.0

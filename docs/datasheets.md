@@ -6,6 +6,15 @@ products under their real names, and every figure in them is one the datasheet p
 maker is Waaree (`datasheets/waaree/`: 159 module specs from 22 datasheets, and 38 on-grid inverter specs from its
 inverter catalogue, 2026-10-13). Their files are in SolarLayout Rooftop's equipment library.
 
+There are two ways a maker's sheets come in:
+
+- **A script per maker** (Waaree): `make_specs.py` parses the datasheets' text, `make_inverter_specs.py` holds an
+  inverter catalogue's figures as typed data. Below, "What a maker's folder holds".
+- **A transcription per maker** (every other maker, from 2026-11): `sheets.yaml` holds each datasheet's figures as
+  printed, and the shared `datasheets/build_specs.py` writes the specs and `sources.csv` from it, after checking every
+  figure against the PDF. Below, "Transcribed sheets". This is the way to add a maker now: no parser to write per
+  sheet layout, and a check that catches a mistyped figure, a shifted bin or swapped columns.
+
 ## What a maker's folder holds
 
 | File | What it is |
@@ -57,6 +66,43 @@ The PDFs are the maker's documents and are not committed: `sources.csv` says whe
    every spec is valid and names a datasheet in `sources.csv`, and fits the highest bin of each datasheet. Fitting
    every spec would take most of a minute; the full `--strict` build is part of step 5. Inverter specs are all fitted.
 8. Add a line to `CHANGELOG.md` under Unreleased.
+
+## Transcribed sheets (`sheets.yaml`)
+
+One file per maker, `datasheets/<maker>/sheets.yaml`: `manufacturer`, `prefix` (the specs' file-name prefix), then a
+`modules:` and/or an `inverters:` list, one entry per datasheet. `datasheets/adani-solar/sheets.yaml` is the module
+example, `datasheets/sungrow/sheets.yaml` the inverter one; `build_specs.py`'s docstring lists the keys.
+
+- An entry names its PDF (relative to the folder of downloaded datasheets), the PDF's SHA-256, its URL, and its printed
+  document code (`null` when the sheet prints none: the SHA-256 then names it).
+- A module entry gives the bins as columns in the sheet's order (`p_nom`, `vmp`, `imp`, `voc`, `isc`), the printed cell
+  count with `half_cell` (and `cells_in_parallel: 4` for quarter-cut cells), the three coefficients, the maximum system
+  voltage (left out when the sheet prints none), bifaciality in %, size in mm and weight. `low_light_loss_pct` only when
+  the sheet prints the reduction at 200 W/m².
+- An inverter entry lists its `models`; each figure is one value for every model or a list, one a model. The current per
+  MPPT (`i_max_mppt`) is multiplied by the MPPTs, and the spec says so.
+- `notes` are the assumptions: each becomes a line of the file's Remarks.
+
+Check and write:
+
+```bash
+uv run python datasheets/build_specs.py --check <folder of downloaded datasheets> [<maker> ...]
+```
+
+`--check` refuses a sheet whose file changed, a list that is not a line of the PDF's text (or a bin that is not a row of
+it; a row split over two lines is put together by column), a figure not in the text, bins that don't rise, or Vmp × Imp
+more than 0.6 % from the rated power. A figure the text does not hold (an image, or text fused with a drawing) is named
+in `read_by_eye` (or the whole sheet in `unchecked`), with the reason, **after two readers have read it independently
+and agree**. Such figures are still checked for sense. Then fit every spec with `--strict`.
+`tests/test_build_specs.py` checks that the committed specs are the script's output, and that the check refuses the
+usual mistakes.
+
+## Using the files in SolarLayout Desktop
+
+The ground-mount catalogue's files (`datasheets/README.md`) are read only by SolarLayout Desktop's own PAN and OND
+readers; users choose from the catalogue or load their own file, and never download these. A file goes in when the
+app's readers give back the spec's power, voltages, currents, size, temperature coefficients, maximum system and DC
+voltages, MPPT window and efficiencies.
 
 ## Using the files in SolarLayout Rooftop
 

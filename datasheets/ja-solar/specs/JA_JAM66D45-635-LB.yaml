@@ -1,0 +1,28 @@
+# JA Solar DeepBlue 4.0 JAM66D45 LB: https://www.jasolar.com/uploadfile/fujian/2026/0720/2a75c72617251cf.pdf
+manufacturer: JA Solar
+model: JAM66D45-635/LB
+data_source: JA Solar datasheet Global-EN-20260610A
+year: 2026
+provenance_notes:
+- 'Technology: the sheet calls the cell n-type Bycium+ (mono) and does not name the cell structure; recorded
+  as TOPCon, which gives the same PVsyst technology (crystalline mono) as any non-HJT cell.'
+technology: mtSiMono
+cells_in_series: 66
+cells_in_parallel: 2
+bypass_diodes: 3
+half_cell: true
+p_nom: 635.0
+isc: 16.21
+voc: 49.1
+imp: 15.51
+vmp: 40.94
+temp_coeff_isc_pct: 0.045
+temp_coeff_voc_pct: -0.25
+temp_coeff_pmax_pct: -0.29
+v_max_iec: 1500.0
+dimensions:
+  width_m: 1.134
+  height_m: 2.382
+  depth_m: 0.03
+  weight_kg: 32.8
+bifaciality: 0.8

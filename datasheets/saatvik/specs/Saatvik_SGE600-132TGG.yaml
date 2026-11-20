@@ -1,0 +1,26 @@
+# Saatvik Tej Plus Bifacial N-TOPCon G12R: https://saatvikgroup.com/docs/datasheets/Saatvik-TejPlus-N-TOPCon-G12R-Datasheet-600-640Wp.pdf
+manufacturer: Saatvik
+model: SGE600-132TGG
+data_source: Saatvik datasheet STVK/PMG/SGEXXX-132TGG-REV07
+provenance_notes: []
+technology: mtSiMono
+cells_in_series: 66
+cells_in_parallel: 2
+bypass_diodes: 3
+half_cell: true
+p_nom: 600.0
+isc: 15.85
+voc: 47.98
+imp: 14.96
+vmp: 40.11
+temp_coeff_isc_pct: 0.046
+temp_coeff_voc_pct: -0.26
+temp_coeff_pmax_pct: -0.3
+low_light_rel_eff_pct: -4.5
+v_max_iec: 1500.0
+dimensions:
+  width_m: 1.134
+  height_m: 2.382
+  depth_m: 0.03
+  weight_kg: 33.0
+bifaciality: 0.8

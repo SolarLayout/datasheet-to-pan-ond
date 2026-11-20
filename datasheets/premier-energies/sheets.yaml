@@ -1,0 +1,31 @@
+# Premier Energies datasheets, transcribed as printed. Run datasheets/build_specs.py after a change.
+manufacturer: Premier Energies
+prefix: Premier
+modules:
+  - pdf: modules/Premier Energies/PE-132 G12R TOPCon Bifacial Dual Glass 600-630Wp.pdf
+    sha256: 8dab0d8fb3d91c4258a0a002c7b93715b6ae13d3432b116dc1fc56f4d940e8ca
+    url: https://premierenergies.com/downloads/N_Type_G12R_610_WP_G2G_Series.pdf
+    document: PE-19/04.08.2025/01
+    year: 2025
+    series: 132 Half Cut N-Type Bifacial Dual Glass G12R
+    technology: TOPCon
+    model: PE-132-{p} THGB-G12R
+    cells: 132
+    half_cell: true
+    unchecked: "image-only sheet; every figure read from the page by two readers independently, who agree"
+    bins:
+      p_nom: [600, 605, 610, 615, 620, 625, 630]
+      vmp: [41.03, 41.21, 41.39, 41.57, 41.76, 41.94, 42.13]
+      imp: [14.63, 14.68, 14.74, 14.79, 14.85, 14.90, 14.96]
+      voc: [48.79, 48.93, 49.06, 49.20, 49.34, 49.47, 49.61]
+      isc: [15.60, 15.61, 15.62, 15.62, 15.63, 15.64, 15.65]
+    temp_coeff_pmax_pct: -0.29
+    temp_coeff_voc_pct: -0.25
+    temp_coeff_isc_pct: 0.045
+    v_max_iec: 1500
+    bifaciality_pct: 80
+    size_mm: [2382, 1134, 35]
+    weight_kg: 33.5
+    notes:
+      - "Depth: printed '35m'; the frame drawing gives 35 ±1 mm."
+      - "Technology: the datasheet says N-type cell without naming the cell structure; taken as TOPCon (the file's title names TOPCon), crystalline mono in PVsyst."
