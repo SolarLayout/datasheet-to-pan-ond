@@ -1,0 +1,25 @@
+# Sample modules and inverters for SolarLayout Desktop's draft layouts: each id names the
+# checked spec its values come from (paths relative to datasheets/). build_samples.py writes
+# them to samples/ with the maker replaced by "Sample", so no file names its source.
+# One sample per kind: no two modules share power and size, no two inverters kind and power.
+version: 1
+module:
+  module-550: adani-solar/specs/Adani_ASB-M10-144-550.yaml
+  module-580: adani-solar/specs/Adani_ASB-M10-144-580.yaml
+  module-610: rayzon-solar/specs/Rayzon_RS610132TGC.yaml
+  module-630: trina-solar/specs/Trina_TSM-NEG19RC.20-630W.yaml
+  module-650: trina-solar/specs/Trina_TSM-NEG19RC.20-650W.yaml
+  module-670: jinkosolar/specs/Jinko_JKM670N-66QL6-BDV.yaml
+  module-700: avaada/specs/Avaada_AVN66G12G-700W.yaml
+  module-720: avaada/specs/Avaada_AVN66G12G-720W.yaml
+string:
+  string-275: solis/inverter-specs/Solis_S6-GU3P275K06-EV-ND.yaml
+  string-300: huawei/inverter-specs/Huawei_SUN2000-330KTL-H1.yaml
+  string-320: sungrow/inverter-specs/Sungrow_SG320HX.yaml
+  string-350: solis/inverter-specs/Solis_S6-GU3P350K06-EV-ND.yaml
+central:
+  central-3125: sineng/inverter-specs/Sineng_EP-3125-HC-UD.yaml
+  central-3300: sungrow/inverter-specs/Sungrow_SG3300UD.yaml
+  central-4000: sma/inverter-specs/SMA_SC-4000-UP.yaml
+  central-4400: sungrow/inverter-specs/Sungrow_SG4400UD.yaml
+  central-4600: sma/inverter-specs/SMA_SC-4600-UP.yaml

@@ -11,6 +11,9 @@ adheres to [Semantic Versioning](https://semver.org/).
 - `datasheets/build_specs.py`: specs from a maker's transcribed datasheets (`datasheets/<maker>/sheets.yaml`), each
   figure checked against the PDF's text; a pilot of 18 ground-mount datasheets (11 module makers, 5 inverter makers:
   81 module and 14 inverter specs) for SolarLayout Desktop's catalogue (`datasheets/README.md`).
+- `datasheets/build_samples.py`: SolarLayout Desktop's sample modules and inverters for draft layouts
+  (`datasheets/samples/`, 8 modules and 9 inverters from the pilot's specs), the maker replaced by "Sample" so no
+  file names the datasheet its values come from.
 
 - `ds2panond cec search|export`: import modules and inverters from the CEC
   equipment lists (NREL SAM library CSVs, downloaded and cached), with bulk
