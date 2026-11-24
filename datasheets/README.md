@@ -29,6 +29,22 @@ ratings and 14 inverter models.
 | `solis` | S6-GU3P 275K and 350K string | 2 |
 | `sma` | Sunny Central 4000, 4200, 4400 and 4600 UP | 4 |
 
+### Samples for SolarLayout Desktop
+
+SolarLayout Desktop offers a few of these as **samples** for draft layouts, named by what they are and never by
+the maker ("Sample 630 Wp bifacial module", "Sample 320 kW string inverter"). The manufacturers' own PAN and OND
+files will replace them when they arrive.
+
+- `samples.yaml` names the spec each sample's values come from.
+- `build_samples.py` writes `samples/`: one PAN or OND file per sample, plus `index.json` (id, kind, file, SHA-256).
+  It replaces the manufacturer with "Sample", the model with the sample's name and the data source with "Typical
+  values from published datasheets", and drops the sheet's notes.
+- The app copies `samples/` as it is. Its tests fail if a maker's name, a model code or a URL appears in a sample.
+
+There are 8 modules (550 to 720 Wp in three sizes, all bifacial) and 9 inverters: 4 string inverters (275 to 350 kW)
+and 5 central inverters (3,125 to 4,600 kW). No two samples share a power, kind and size. Which datasheet a sample
+comes from (`samples.yaml`) is for the team only; it never ships.
+
 ### How they were checked
 
 Every figure is checked against its PDF by `build_specs.py --check`:
