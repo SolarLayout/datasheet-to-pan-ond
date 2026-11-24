@@ -18,6 +18,10 @@ manufacturer datasheet values.
   [`datasheets/`](datasheets/): Waaree's current modules (159 power bins from
   22 datasheets) and on-grid inverters (38 models from its catalogue), each
   traced to its source, with every assumption stated.
+  Also a pilot of 18 ground-mount datasheets from 15 more makers (81 module and
+  14 inverter specs, string and central) for SolarLayout Desktop, transcribed
+  into `sheets.yaml` files and checked figure by figure against the PDFs
+  ([`datasheets/README.md`](datasheets/README.md)).
 - Writes files in the same layout as PVsyst's own exports. Every assumed
   value is recorded in the file's `Remarks` and in a fit report.
 

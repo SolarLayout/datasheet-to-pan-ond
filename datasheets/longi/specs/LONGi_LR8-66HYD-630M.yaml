@@ -1,0 +1,29 @@
+# LONGi Hi-MO 9: https://static.longi.com/LR_8_66_HYD_625_660_M_30_30_and_15_V3_0_EN_2ce01313ee.pdf
+manufacturer: LONGi
+model: LR8-66HYD-630M
+data_source: LONGi datasheet 20240902V3.0
+year: 2024
+provenance_notes:
+- 'Cell layout: the sheet prints 132 cells (6 x 22) but not that they are half cells; taken as 66 in series
+  x 2 in parallel, as a Voc of 49.5-50.2 V is about 0.75-0.76 V a cell for 66 cells in series and could
+  not come from 132.'
+technology: mtSiMono
+cells_in_series: 66
+cells_in_parallel: 2
+bypass_diodes: 3
+half_cell: true
+p_nom: 630.0
+isc: 16.17
+voc: 49.61
+imp: 15.45
+vmp: 40.8
+temp_coeff_isc_pct: 0.05
+temp_coeff_voc_pct: -0.2
+temp_coeff_pmax_pct: -0.26
+v_max_iec: 1500.0
+dimensions:
+  width_m: 1.134
+  height_m: 2.382
+  depth_m: 0.03
+  weight_kg: 33.5
+bifaciality: 0.7

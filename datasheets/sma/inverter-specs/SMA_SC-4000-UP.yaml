@@ -1,0 +1,32 @@
+# SMA Sunny Central UP: https://files.sma.de/downloads/SC4xxxUP-DS-en-33.pdf
+manufacturer: SMA
+model: SC 4000 UP
+data_source: SMA datasheet SC4xxxUP-DS-en-33
+provenance_notes:
+- 'Nominal AC power: the sheet''s nominal AC power at cos phi = 1 and 35 °C ambient, printed in kVA, taken
+  as kW at cos phi = 1; the sheet gives 90 % of it at 50 °C.'
+- 'Nominal AC current: the sheet''s figure at 35 °C ambient.'
+- 'MPPT range: the sheet''s MPP voltage range at 25 °C ambient. At 50 °C the sheet gives its upper end
+  as 1050 V, and nominal AC power at 35 °C is achievable only up to 1050 V DC.'
+- 'MPP trackers: 1. The sheet does not state the number; a central inverter tracks one MPP.'
+- 'DC inputs: 24 double-pole fused (the sheet also offers 32 single-pole fused).'
+- 'Weight: the sheet gives it as < 3700 kg.'
+- 'Efficiencies: maximum and European efficiency, both measured without the internal power supply. The
+  sheet''s CEC efficiency (98.5 %) is measured with it, a different basis, and is left out.'
+p_nom_ac_kw: 4000.0
+v_ac: 600.0
+phases: three
+i_nom_ac: 3850.0
+v_mpp_min: 880.0
+v_mpp_max: 1325.0
+v_dc_max: 1500.0
+i_max_dc: 4750.0
+n_mppt: 1
+n_inputs: 24
+eff_max_pct: 98.8
+eff_euro_pct: 98.6
+dimensions:
+  width_m: 2.815
+  height_m: 2.318
+  depth_m: 1.588
+  weight_kg: 3700.0

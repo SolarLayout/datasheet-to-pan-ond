@@ -55,6 +55,7 @@ library/verify.py: independent checks (pvlib re-read + physics), used per file a
 
 datasheets/<maker>/make_specs.py: datasheet text (pdftotext) ──> spec dicts ──> io.dump_spec ──> specs/*.yaml
 datasheets/<maker>/make_inverter_specs.py: transcribed tables ──> spec dicts ──> inverter-specs/*.yaml
+datasheets/<maker>/sheets.yaml ──> datasheets/build_specs.py (--check: every figure against the PDF) ──> specs, sources.csv
 ```
 
 - **models.py**: pydantic v2, `extra="forbid"`, frozen. Datasheet units
@@ -119,7 +120,8 @@ datasheets/<maker>/make_inverter_specs.py: transcribed tables ──> spec dicts
 ## The committed `datasheets/` folder
 
 - Specs read from real makers' datasheets, one folder per maker. The specs are
-  **output of the maker's `make_specs.py` / `make_inverter_specs.py`**: never
+  **output of the maker's `make_specs.py` / `make_inverter_specs.py`, or of `build_specs.py` from its
+  `sheets.yaml`**: never
   edit them by hand. Every
   figure is the datasheet's; every assumed one is in `provenance_notes`.
 - Rules, the folder's files and how to add a maker: `docs/datasheets.md`.
