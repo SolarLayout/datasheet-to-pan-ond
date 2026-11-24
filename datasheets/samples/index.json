@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "samples": [
+    {
+      "id": "module-550",
+      "kind": "module",
+      "file": "module-550.PAN",
+      "sha256": "bdee1929fadab34a7975bf5f72244239f5dd8c0b0fad7239ca5f9e78457c8bdb"
+    },
+    {
+      "id": "module-580",
+      "kind": "module",
+      "file": "module-580.PAN",
+      "sha256": "a053518327fd82838d050345e830cb7652d51f027a16ed9bff93237ff8cad4dd"
+    },
+    {
+      "id": "module-610",
+      "kind": "module",
+      "file": "module-610.PAN",
+      "sha256": "d7d382f39f3642b6500970eaa4a77f25c961847de0d4b59aeec3e3603ea66781"
+    },
+    {
+      "id": "module-630",
+      "kind": "module",
+      "file": "module-630.PAN",
+      "sha256": "37965652646dbeb8d71f82ade1a8b5244934b6acfcf30f0701d91ca88be5912c"
+    },
+    {
+      "id": "module-650",
+      "kind": "module",
+      "file": "module-650.PAN",
+      "sha256": "b6b191e56ac97703b2fc4c53d76501184a1f8550a60b5021c3538335aa5bd2ee"
+    },
+    {
+      "id": "module-670",
+      "kind": "module",
+      "file": "module-670.PAN",
+      "sha256": "7a5322490966736738c55b8442c179571ad66b3e3f0e1519e7dc63d01c9bbd2a"
+    },
+    {
+      "id": "module-700",
+      "kind": "module",
+      "file": "module-700.PAN",
+      "sha256": "6cb6f6317f47cad1961092336959b5201dbf62097f9d84d45e82d560df77e72e"
+    },
+    {
+      "id": "module-720",
+      "kind": "module",
+      "file": "module-720.PAN",
+      "sha256": "986031bc8e5f9f085eb00235a5377b42d092996c6559e7ce59e2b6bd140b1c73"
+    },
+    {
+      "id": "string-275",
+      "kind": "string",
+      "file": "string-275.OND",
+      "sha256": "3cf514507fe6cb79ecde1773bdec75a9b0bc56426af51d59d31493d2c62567dc"
+    },
+    {
+      "id": "string-300",
+      "kind": "string",
+      "file": "string-300.OND",
+      "sha256": "e2c791a4638281dfba46cee7d9c4d35df4624168eb368d7426e45a911ddc7b39"
+    },
+    {
+      "id": "string-320",
+      "kind": "string",
+      "file": "string-320.OND",
+      "sha256": "e4b1851602fb525ac547e13aaa7f1435f95d52ac6d5425012eb741c9c346026b"
+    },
+    {
+      "id": "string-350",
+      "kind": "string",
+      "file": "string-350.OND",
+      "sha256": "0060ed4f206cf01d6f68729e3cc37f787b15df1e733888356715d375a137514c"
+    },
+    {
+      "id": "central-3125",
+      "kind": "central",
+      "file": "central-3125.OND",
+      "sha256": "f02309cbef762e0f39886dfe1fe19d1bd03babd4b43233b2d56e2d5f313370eb"
+    },
+    {
+      "id": "central-3300",
+      "kind": "central",
+      "file": "central-3300.OND",
+      "sha256": "ebd8d933e77a4617d29ca95be4ea762e47c553464bededbe0720c423ca94299c"
+    },
+    {
+      "id": "central-4000",
+      "kind": "central",
+      "file": "central-4000.OND",
+      "sha256": "e0f809ae1a05d9f3359c5176d6e771facbc926e2e7aab92e77355766cdb0c300"
+    },
+    {
+      "id": "central-4400",
+      "kind": "central",
+      "file": "central-4400.OND",
+      "sha256": "f7d7239d6b14058b499b51dda81df5ceb2f02bf7310b271f7f5e36c4be81f787"
+    },
+    {
+      "id": "central-4600",
+      "kind": "central",
+      "file": "central-4600.OND",
+      "sha256": "38b135df72f792f29db1e1abc217777955c5fd5aa2b3e5e1f87efc87271d0866"
+    }
+  ]
+}
